@@ -12,8 +12,8 @@
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-5 mb-5 mb-lg-0">
                     <h1 class="text-white font-weight-light">Mission</h1>
-                    <p class="lead text-white mt-4">Infinite Technology ∞ is a non-profit based, non-commercial open-source software foundation established in 2018.</p>
-                    <p class="lead text-white mt-4">Our mission is to streamline Web and Mobile app development by standardizing and systemizing the primary infrastructure components</p>
+                    <p class="lead text-white mt-4"><b>Infinite Technology ∞</b> is an open-source software foundation established in 2018.</p>
+                    <p class="lead text-white mt-4">Our mission is to streamline Web and Mobile app development by standardizing and systemizing the primary infrastructure components.</p>
                     <a href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
                        class="btn btn-white mt-4">See more</a>
                 </div>
@@ -28,6 +28,8 @@
                             <b-carousel-slide img-src="img/theme/Bobbin.png"></b-carousel-slide>
                             <b-carousel-slide img-src="img/theme/COBOL.png"></b-carousel-slide>
                             <b-carousel-slide img-src="img/theme/David.png"></b-carousel-slide>
+                            <b-carousel-slide img-src="img/theme/Ascend.png"></b-carousel-slide>
+                            <b-carousel-slide img-src="img/theme/Orbit.png"></b-carousel-slide>
                         </b-carousel>
                     </div>
                 </div>

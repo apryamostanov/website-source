@@ -39,7 +39,7 @@
                 <div class="row align-items-center justify-content-around stars-and-coded">
                     <div class="col-sm-4">
                         <span class="text-white alpha-7 ml-3">Star us on</span>
-                        <a href="https://github.com/creativetimofficial/argon-design-system" target="_blank" title="Support us on Github">
+                        <a href="https://github.com/INFINITE-TECHNOLOGY" target="_blank" title="Support us on Github">
                             <img src="img/brand/github-white-slim.png" style="height: 22px; margin-top: -3px">
                         </a>
                     </div>

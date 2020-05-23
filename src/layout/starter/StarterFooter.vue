@@ -40,7 +40,7 @@
                        data-original-title="Follow us">
                         <i class="fa fa-dribbble"></i>
                     </a>
-                    <a target="_blank" href="https://github.com/creativetimofficial"
+                    <a target="_blank" href="https://github.com/INFINITE-TECHNOLOGY"
                        class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" data-toggle="tooltip"
                        data-original-title="Star on Github">
                         <i class="fa fa-github"></i>
