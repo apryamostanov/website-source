@@ -51,7 +51,7 @@
             <typography></typography>
             <!-- Images -->
             <h2 class="mt-lg mb-5">
-                <span>Images</span>
+                <span>Team</span>
             </h2>
             <images></images>
             <h2 class="mt-lg mb-5">
