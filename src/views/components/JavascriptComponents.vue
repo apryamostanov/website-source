@@ -1,6 +1,10 @@
 <template>
-    <section class="section section-components">
+    <section class="section section-components pb-0">
         <div class="container">
+            <h2 class="mb-5">
+                <span>Team</span>
+            </h2>
+            <team></team>
             <h3 class="h4 text-success font-weight-bold mb-4">Tabs</h3>
             <tabs-section></tabs-section>
             <progress-section></progress-section>
@@ -51,16 +55,12 @@
             <typography></typography>
             <!-- Images -->
             <h2 class="mt-lg mb-5">
-                <span>Team</span>
-            </h2>
-            <images></images>
-            <h2 class="mt-lg mb-5">
                 <span>Javascript Components</span>
             </h2>
             <h3 class="h4 text-success font-weight-bold mb-4">Modals</h3>
             <!-- Modals -->
             <modals></modals>
-             Datepicker
+            Datepicker
             <h3 class="h4 text-success font-weight-bold mt-md mb-4">Datepicker</h3>
             <date-pickers></date-pickers>
             <!-- Tooltips and Popovers -->
@@ -70,29 +70,30 @@
     </section>
 </template>
 <script>
-import Tabs from "@/components/Tabs/Tabs.vue";
-import TabPane from "@/components/Tabs/TabPane.vue";
-import Modals from "./JavascriptComponents/Modals";
-const Tooltips = () => import("./JavascriptComponents/Tooltips");
-const DatePickers = () => import("./JavascriptComponents/DatePickers");
-import Images from "./JavascriptComponents/Images";
-import TabsSection from "./JavascriptComponents/TabsSection";
-import ProgressSection from "./JavascriptComponents/ProgressPagination";
-import Typography from "./JavascriptComponents/Typography";
+    import Tabs from "@/components/Tabs/Tabs.vue";
+    import TabPane from "@/components/Tabs/TabPane.vue";
+    import Modals from "./JavascriptComponents/Modals";
 
-export default {
-  components: {
-    DatePickers,
-    Images,
-    Modals,
-    TabPane,
-    Tabs,
-    TabsSection,
-    ProgressSection,
-    Typography,
-    Tooltips
-  }
-};
+    const Tooltips = () => import("./JavascriptComponents/Tooltips");
+    const DatePickers = () => import("./JavascriptComponents/DatePickers");
+    import Team from "./JavascriptComponents/Team";
+    import TabsSection from "./JavascriptComponents/TabsSection";
+    import ProgressSection from "./JavascriptComponents/ProgressPagination";
+    import Typography from "./JavascriptComponents/Typography";
+
+    export default {
+        components: {
+            Team,
+            DatePickers,
+            Modals,
+            TabPane,
+            Tabs,
+            TabsSection,
+            ProgressSection,
+            Typography,
+            Tooltips
+        }
+    };
 </script>
 <style>
 </style>

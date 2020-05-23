@@ -9,7 +9,7 @@
     </section>
 </template>
 <script>
-    import Images from "./JavascriptComponents/Images";
+    import Images from "./JavascriptComponents/Team";
 
     export default {
         components: {
