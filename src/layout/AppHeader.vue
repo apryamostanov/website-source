@@ -8,7 +8,7 @@
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
                 <div class="col-6 collapse-brand">
                     <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/">
-                        <img src="img/brand/white.png">
+                        <img src="img/brand/blue.png">
                     </a>
                 </div>
                 <div class="col-6 collapse-close">
@@ -101,17 +101,17 @@
     </header>
 </template>
 <script>
-import BaseNav from "@/components/BaseNav";
-import BaseDropdown from "@/components/BaseDropdown";
-import CloseButton from "@/components/CloseButton";
+    import BaseNav from "@/components/BaseNav";
+    import BaseDropdown from "@/components/BaseDropdown";
+    import CloseButton from "@/components/CloseButton";
 
-export default {
-  components: {
-    BaseNav,
-    CloseButton,
-    BaseDropdown
-  }
-};
+    export default {
+        components: {
+            BaseNav,
+            CloseButton,
+            BaseDropdown
+        }
+    };
 </script>
 <style>
 </style>

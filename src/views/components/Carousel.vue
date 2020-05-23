@@ -23,8 +23,11 @@
                                     controls
                                     indicators>
                             <!-- Text slides with image -->
+                            <b-carousel-slide img-src="img/theme/Pigeon.png"></b-carousel-slide>
                             <b-carousel-slide img-src="img/theme/BlackBox.png"></b-carousel-slide>
                             <b-carousel-slide img-src="img/theme/Bobbin.png"></b-carousel-slide>
+                            <b-carousel-slide img-src="img/theme/COBOL.png"></b-carousel-slide>
+                            <b-carousel-slide img-src="img/theme/David.png"></b-carousel-slide>
                         </b-carousel>
                     </div>
                 </div>

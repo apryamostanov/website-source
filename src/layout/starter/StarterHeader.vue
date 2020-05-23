@@ -8,7 +8,7 @@
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
                 <div class="col-6 collapse-brand">
                     <a href="../index.html">
-                        <img src="img/brand/white.png">
+                        <img src="img/brand/blue.png">
                     </a>
                 </div>
                 <div class="col-6 collapse-close">
@@ -105,15 +105,15 @@
     </header>
 </template>
 <script>
-import BaseNav from "@/components/BaseNav";
-import CloseButton from "@/components/CloseButton";
+    import BaseNav from "@/components/BaseNav";
+    import CloseButton from "@/components/CloseButton";
 
-export default {
-  components: {
-    BaseNav,
-    CloseButton
-  }
-};
+    export default {
+        components: {
+            BaseNav,
+            CloseButton
+        }
+    };
 </script>
 <style>
 </style>
