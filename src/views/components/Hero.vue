@@ -1,5 +1,5 @@
 <template>
-    <section class="section-hero section-shaped my-0" style="height: 100vh;min-height: 650px">
+    <section class="section-hero section-shaped my-0" style="height: 100vh; ">
         <div class="shape shape-style-1 shape-primary">
             <span class="span-150"></span>
             <span class="span-50"></span>
@@ -12,10 +12,10 @@
             <span class="span-50"></span>
             <span class="span-100"></span>
         </div>
-        <div class="container shape-container d-flex align-items-center">
-            <div class="col px-0" style="position: absolute;top: 20%">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-lg-9 text-center pt-lg">
+        <div class="container shape-container d-flex align-items-center" >
+            <div class="col px-0" >
+                <div class="row justify-content-center align-items-center" >
+                    <div class="col-lg-9 text-center ">
                         <img src="img/brand/white.png" style="width: 200px;" class="img-fluid">
                         <p class="lead text-white mt-4 mb-5">Open-source software organization</p>
                         <div class="btn-wrapper ">
