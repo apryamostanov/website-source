@@ -1,5 +1,5 @@
 <template>
-    <section class="section-hero section-shaped my-0" style="height: 100vh;">
+    <section class="section-hero section-shaped my-0" style="height: 100vh;min-height: 650px">
         <div class="shape shape-style-1 shape-primary">
             <span class="span-150"></span>
             <span class="span-50"></span>
@@ -15,36 +15,36 @@
         <div class="container shape-container d-flex align-items-center">
             <div class="col px-0" style="position: absolute;top: 20%">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-lg-7 text-center pt-lg">
+                    <div class="col-lg-9 text-center pt-lg">
                         <img src="img/brand/white.png" style="width: 200px;" class="img-fluid">
                         <p class="lead text-white mt-4 mb-5">Open-source software organization</p>
-                        <div class="btn-wrapper">
+                        <div class="btn-wrapper ">
                             <base-button tag="a"
                                          href="https://demos.creative-tim.com/vue-argon-design-system/documentation"
                                          class="mb-3 mb-sm-0"
                                          type="primary"
-                                         icon="fa fa-code">
-                                Home
+                                         icon="ni ni-single-02">
+                                Team
                             </base-button>
                             <base-button tag="a"
                                          href="https://demos.creative-tim.com/vue-argon-design-system/documentation"
                                          class="mb-3 mb-sm-0"
                                          type="primary"
-                                         icon="fa fa-code">
+                                         icon="ni ni-settings">
                                 Tools
                             </base-button>
                             <base-button tag="a"
                                          href="https://demos.creative-tim.com/vue-argon-design-system/documentation"
                                          class="mb-3 mb-sm-0"
                                          type="primary"
-                                         icon="fa fa-code">
-                                SaaS
+                                         icon="ni ni-cloud-upload-96">
+                                Services
                             </base-button>
                             <base-button tag="a"
                                          href="https://demos.creative-tim.com/vue-argon-design-system/documentation"
                                          class="mb-3 mb-sm-0"
                                          type="primary"
-                                         icon="fa fa-code">
+                                         icon="fa fa-github">
                                 Products
                             </base-button>
                         </div>
@@ -58,7 +58,7 @@
                     </div>
                 </div>
             </div>
-            <div  class="stars-and-coded" style="position: absolute;bottom: 7%;width: 93%;">
+            <div v-if="!isMobile()" class="stars-and-coded" style="position: absolute;bottom: 7%;width: 93%;">
                 <div class="col px-0">
                     <div class="row align-items-center justify-content-around">
                         <div class="col text-left">
@@ -84,11 +84,7 @@
     export default {
         methods: {
             isMobile() {
-                if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-                    return true
-                } else {
-                    return false
-                }
+                return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
             }
         }
     };
