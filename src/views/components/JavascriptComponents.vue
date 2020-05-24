@@ -1,12 +1,10 @@
 <template>
     <section class="section section-components pb-0">
         <div class="container">
-            <h2 class="mb-5">
-                <span>Team</span>
-            </h2>
+            <h3 class="h4 text-success font-weight-bold mb-4">Online Tools</h3>
+            <services></services>
+            <h3 class="mt-lg text-success font-weight-bold mb-4">Team</h3>
             <team></team>
-            <h3 class="h4 text-success font-weight-bold mb-4">Tabs</h3>
-            <tabs-section></tabs-section>
             <progress-section></progress-section>
             <div class="row row-grid justify-content-between">
                 <div class="col-lg-5">
@@ -77,7 +75,7 @@
     const Tooltips = () => import("./JavascriptComponents/Tooltips");
     const DatePickers = () => import("./JavascriptComponents/DatePickers");
     import Team from "./JavascriptComponents/Team";
-    import TabsSection from "./JavascriptComponents/TabsSection";
+    import services from "./JavascriptComponents/Services";
     import ProgressSection from "./JavascriptComponents/ProgressPagination";
     import Typography from "./JavascriptComponents/Typography";
 
@@ -88,7 +86,7 @@
             Modals,
             TabPane,
             Tabs,
-            TabsSection,
+            services,
             ProgressSection,
             Typography,
             Tooltips
