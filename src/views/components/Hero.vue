@@ -58,7 +58,7 @@
                     </div>
                 </div>
             </div>
-            <div v-if="!isMobile()" class="stars-and-coded" style="position: absolute;bottom: 7%;width: 93%;">
+            <div v-if="true" class="stars-and-coded" style="position: absolute;bottom: 1%;width: 93%;">
                 <div class="col px-0">
                     <div class="row align-items-center justify-content-around">
                         <div class="col text-left">
@@ -83,8 +83,8 @@
 <script>
     export default {
         methods: {
-            isMobile() {
-                return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+            showFooterIcons() {
+                return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)&&this.$screen.landscape;
             }
         }
     };
