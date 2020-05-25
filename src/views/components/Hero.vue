@@ -18,36 +18,34 @@
                     <div class="col-lg-9 text-center ">
                         <img src="img/brand/white.png" style="width: 200px;" class="img-fluid">
                         <p class="lead text-white mt-4 mb-5">Open-source software organization</p>
-                        <div class="btn-wrapper ">
                             <base-button tag="a"
                                          href="https://demos.creative-tim.com/vue-argon-design-system/documentation"
-                                         class="mb-3 mb-sm-0"
+                                         class="mb-3 mb-sm-3"
                                          type="primary"
                                          icon="ni ni-single-02">
                                 Team
                             </base-button>
                             <base-button tag="a"
                                          href="https://demos.creative-tim.com/vue-argon-design-system/documentation"
-                                         class="mb-3 mb-sm-0"
+                                         class="mb-3 mb-sm-3"
                                          type="primary"
                                          icon="ni ni-settings">
                                 Tools
                             </base-button>
                             <base-button tag="a"
                                          href="https://demos.creative-tim.com/vue-argon-design-system/documentation"
-                                         class="mb-3 mb-sm-0"
+                                         class="mb-3 mb-sm-3"
                                          type="primary"
                                          icon="ni ni-cloud-upload-96">
                                 Services
                             </base-button>
                             <base-button tag="a"
                                          href="https://demos.creative-tim.com/vue-argon-design-system/documentation"
-                                         class="mb-3 mb-sm-0"
+                                         class="mb-3 mb-sm-3"
                                          type="primary"
                                          icon="fa fa-github">
                                 Products
                             </base-button>
-                        </div>
                     </div>
                 </div>
 
@@ -58,7 +56,7 @@
                     </div>
                 </div>
             </div>
-            <div v-if="true" class="stars-and-coded" style="position: absolute;bottom: 1%;width: 93%;">
+            <div v-if="!skipFooterIcons()" class="stars-and-coded" style="position: absolute;bottom: 1%;width: 93%;">
                 <div class="col px-0">
                     <div class="row align-items-center justify-content-around">
                         <div class="col text-left">
@@ -83,8 +81,8 @@
 <script>
     export default {
         methods: {
-            showFooterIcons() {
-                return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)&&this.$screen.landscape;
+            skipFooterIcons() {
+                return (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)&&this.$screen.landscape);
             }
         }
     };
