@@ -1,7 +1,6 @@
 <template>
     <section class="section section-components pb-0">
         <div class="container">
-            <h3 class="h4 text-success font-weight-bold mb-4">Online Tools</h3>
             <services></services>
             <h3 class="mt-lg text-success font-weight-bold mb-4">Team</h3>
             <team></team>
