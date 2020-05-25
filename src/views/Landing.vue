@@ -94,6 +94,8 @@
                                     <h6 class="text-warning text-uppercase">Prepare Launch</h6>
                                     <p class="description mt-3">Argon is a great free UI package based on Bootstrap
                                         4 that includes the most important components and features.</p>
+                                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap
+                                        4 that includes the most important components and features.</p>
                                     <div>
                                         <badge type="warning" rounded>marketing</badge>
                                         <badge type="warning" rounded>product</badge>
