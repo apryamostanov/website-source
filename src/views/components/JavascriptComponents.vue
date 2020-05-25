@@ -2,7 +2,6 @@
     <section class="section section-components pb-0">
         <div class="container">
             <services></services>
-            <h3 class="mt-lg text-success font-weight-bold mb-4">Team</h3>
             <team></team>
             <progress-section></progress-section>
             <div class="row row-grid justify-content-between">
@@ -73,7 +72,7 @@
 
     const Tooltips = () => import("./JavascriptComponents/Tooltips");
     const DatePickers = () => import("./JavascriptComponents/DatePickers");
-    import Team from "./JavascriptComponents/Team";
+    import Team from "./Team";
     import services from "./JavascriptComponents/Services";
     import ProgressSection from "./JavascriptComponents/ProgressPagination";
     import Typography from "./JavascriptComponents/Typography";
