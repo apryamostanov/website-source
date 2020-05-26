@@ -25,8 +25,8 @@
                 </div>
                 <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
                     <div class="px-4">
-                        <router-link to="/Anton" title="Anton">
-                            <img v-lazy="'img/theme/team-2-800x800.jpg'"
+                        <router-link to="/Mayo" title="Mayo">
+                            <img v-lazy="'img/theme/team-Mayo.jpg'"
                                  class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
                                  style="width: 200px;">
                             <div class="pt-4 text-center">

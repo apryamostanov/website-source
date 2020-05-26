@@ -7,6 +7,9 @@ import Landing from "./views/Landing.vue";
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import Anton from "./views/Anton.vue";
+import Mayo from "./views/Mayo.vue";
+import PrivacyPolicy from "./views/PrivacyPolicy";
+import TermsAndConditions from "./views/TermsAndConditions";
 
 Vue.use(Router);
 
@@ -55,6 +58,33 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Anton,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/Mayo",
+      name: "Mayo",
+      components: {
+        header: AppHeader,
+        default: Mayo,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/PrivacyPolicy",
+      name: "PrivacyPolicy",
+      components: {
+        header: AppHeader,
+        default: PrivacyPolicy,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/TermsAndConditions",
+      name: "TermsAndConditions",
+      components: {
+        header: AppHeader,
+        default: TermsAndConditions,
         footer: AppFooter
       }
     }
