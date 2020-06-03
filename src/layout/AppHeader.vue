@@ -27,18 +27,19 @@
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle text-white" style=" padding: 0">
                                 <img v-lazy="'img/theme/Bobbin_small.png'" alt="Circle image"
-                                     class="img-fluid rounded-circle " >
+                                     class="img-fluid rounded-circle ">
                             </div>
                             <div class="media-body ml-3">
                                 <h6 class="heading text-primary mb-md-1">Bobbin</h6>
-                                <p class="description d-none d-md-inline-block mb-0">Revolutionary SLF4J Java Logger.</p>
+                                <p class="description d-none d-md-inline-block mb-0">Revolutionary SLF4J Java
+                                    Logger.</p>
                             </div>
                         </a>
                         <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle text-white" style=" padding: 0">
                                 <img v-lazy="'img/theme/BlackBox_small.png'" alt="Circle image"
-                                     class="img-fluid rounded-circle " >
+                                     class="img-fluid rounded-circle ">
                             </div>
                             <div class="media-body ml-3">
                                 <h6 class="heading text-primary mb-md-1">BlackBox</h6>
@@ -49,7 +50,7 @@
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle text-white" style=" padding: 0">
                                 <img v-lazy="'img/theme/Pigeon_small.png'" alt="Circle image"
-                                     class="img-fluid rounded-circle " >
+                                     class="img-fluid rounded-circle ">
                             </div>
                             <div class="media-body ml-3">
                                 <h6 class="heading text-primary mb-md-1">Pigeon</h6>
@@ -60,7 +61,7 @@
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle text-white" style=" padding: 0">
                                 <img v-lazy="'img/theme/David_small.png'" alt="Circle image"
-                                     class="img-fluid rounded-circle " >
+                                     class="img-fluid rounded-circle ">
                             </div>
                             <div class="media-body ml-3">
                                 <h6 class="heading text-primary mb-md-1">David</h6>
@@ -71,18 +72,19 @@
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle" style=" padding: 0">
                                 <img v-lazy="'img/theme/COBOL_small.png'" alt="Circle image"
-                                     class="img-fluid rounded-circle" >
+                                     class="img-fluid rounded-circle">
                             </div>
                             <div class="media-body ml-3">
                                 <h6 class="heading text-primary mb-md-1">COBOL ETL</h6>
-                                <p class="description d-none d-md-inline-block mb-0">Java COBOL Transpiler & ETL API.</p>
+                                <p class="description d-none d-md-inline-block mb-0">Java COBOL Transpiler & ETL
+                                    API.</p>
                             </div>
                         </a>
                         <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle" style=" padding: 0">
                                 <img v-lazy="'img/theme/Orbit_small.png'" alt="Circle image"
-                                     class="img-fluid rounded-circle" >
+                                     class="img-fluid rounded-circle">
                             </div>
                             <div class="media-body ml-3">
                                 <h6 class="heading text-primary mb-md-1">Orbit</h6>
@@ -93,7 +95,7 @@
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle" style=" padding: 0">
                                 <img v-lazy="'img/theme/Ascend_small.png'" alt="Circle image"
-                                     class="img-fluid rounded-circle" >
+                                     class="img-fluid rounded-circle">
                             </div>
                             <div class="media-body ml-3">
                                 <h6 class="heading text-primary mb-md-1">Ascend</h6>
@@ -107,10 +109,20 @@
                         <i class="ni ni-collection d-lg-none"></i>
                         <span class="nav-link-inner--text">Tools</span>
                     </a>
-                    <router-link to="/landing" class="dropdown-item">Landing</router-link>
-                    <router-link to="/profile" class="dropdown-item">Profile</router-link>
-                    <router-link to="/login" class="dropdown-item">Login</router-link>
-                    <router-link to="/register" class="dropdown-item">Register</router-link>
+                    <router-link to="/landing" class="dropdown-item">COBOL to XML</router-link>
+                    <router-link to="/profile" class="dropdown-item">Re-encode</router-link>
+                    <router-link to="/login" class="dropdown-item">JSON Analyzer</router-link>
+                    <router-link to="/login" class="dropdown-item">JSON Formatter</router-link>
+                </base-dropdown>
+                <base-dropdown tag="li" class="nav-item">
+                    <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
+                        <i class="ni ni-collection d-lg-none"></i>
+                        <span class="nav-link-inner--text">Company</span>
+                    </a>
+                    <router-link to="/landing" class="dropdown-item">Our Story</router-link>
+                    <router-link to="/landing" class="dropdown-item">Partners</router-link>
+                    <router-link to="/profile" class="dropdown-item">Team</router-link>
+                    <router-link to="/login" class="dropdown-item">Blog</router-link>
                 </base-dropdown>
             </ul>
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
@@ -149,9 +161,9 @@
                        rel="noopener"
                        class="btn btn-neutral btn-icon">
                 <span class="btn-inner--icon">
-                  <i class="fa fa-cloud-download mr-2"></i>
+                  <i class="ni ni-chat-round mr-2"></i>
                 </span>
-                        <span class="nav-link-inner--text">Download</span>
+                        <span class="nav-link-inner--text">Contact us</span>
                     </a>
                 </li>
             </ul>

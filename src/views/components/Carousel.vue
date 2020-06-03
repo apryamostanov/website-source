@@ -25,10 +25,8 @@
 
                     <div class="d-flex px-3">
                         <div class="pl-0">
-                            <p class="lead text-white mt-4"><b>Infinite Technology ∞</b> is an open-source software
-                                foundation established in 2018.</p>
-                            <p class="lead text-white mt-4">Our mission is to streamline Web and Mobile app development
-                                by standardizing and systemizing the primary infrastructure components.</p>
+                            <p class="lead text-white mt-4"><b>Infinite TECH</b> is a software consulting company established in 2018.</p>
+                            <p class="lead text-white mt-4">Our mission is to deliver efficient software products based on extensive knowledge and technology stack.</p>
                             <a href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
                                class="btn btn-white mt-4">See more</a>
                         </div>
