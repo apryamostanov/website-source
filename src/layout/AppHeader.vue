@@ -19,14 +19,14 @@
             <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
                 <base-dropdown class="nav-item" menu-classes="dropdown-menu-xl">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
-                        <i class="ni ni-ui-04 d-lg-none"></i>
+                        <i class="ni ni-cart d-lg-none"></i>
                         <span class="nav-link-inner--text">Products</span>
                     </a>
                     <div class="dropdown-menu-inner">
                         <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle text-white" style=" padding: 0">
-                                <img v-lazy="'img/theme/Bobbin_small.png'" alt="Circle image"
+                                <img src="img/theme/Bobbin_small.png" alt="Circle image"
                                      class="img-fluid rounded-circle ">
                             </div>
                             <div class="media-body ml-3">
@@ -38,7 +38,7 @@
                         <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle text-white" style=" padding: 0">
-                                <img v-lazy="'img/theme/BlackBox_small.png'" alt="Circle image"
+                                <img src="img/theme/BlackBox_small.png" alt="Circle image"
                                      class="img-fluid rounded-circle ">
                             </div>
                             <div class="media-body ml-3">
@@ -49,7 +49,7 @@
                         <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle text-white" style=" padding: 0">
-                                <img v-lazy="'img/theme/Pigeon_small.png'" alt="Circle image"
+                                <img src="img/theme/Pigeon_small.png" alt="Circle image"
                                      class="img-fluid rounded-circle ">
                             </div>
                             <div class="media-body ml-3">
@@ -60,7 +60,7 @@
                         <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle text-white" style=" padding: 0">
-                                <img v-lazy="'img/theme/David_small.png'" alt="Circle image"
+                                <img src="img/theme/David_small.png" alt="Circle image"
                                      class="img-fluid rounded-circle ">
                             </div>
                             <div class="media-body ml-3">
@@ -71,7 +71,7 @@
                         <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle" style=" padding: 0">
-                                <img v-lazy="'img/theme/COBOL_small.png'" alt="Circle image"
+                                <img src="img/theme/COBOL_small.png" alt="Circle image"
                                      class="img-fluid rounded-circle">
                             </div>
                             <div class="media-body ml-3">
@@ -83,7 +83,7 @@
                         <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle" style=" padding: 0">
-                                <img v-lazy="'img/theme/Orbit_small.png'" alt="Circle image"
+                                <img src="img/theme/Orbit_small.png" alt="Circle image"
                                      class="img-fluid rounded-circle">
                             </div>
                             <div class="media-body ml-3">
@@ -106,7 +106,7 @@
                 </base-dropdown>
                 <base-dropdown tag="li" class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
-                        <i class="ni ni-collection d-lg-none"></i>
+                        <i class="ni ni-settings d-lg-none"></i>
                         <span class="nav-link-inner--text">Tools</span>
                     </a>
                     <router-link to="/landing" class="dropdown-item">COBOL to XML</router-link>
@@ -116,7 +116,7 @@
                 </base-dropdown>
                 <base-dropdown tag="li" class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
-                        <i class="ni ni-collection d-lg-none"></i>
+                        <i class="ni ni-single-02 d-lg-none"></i>
                         <span class="nav-link-inner--text">Company</span>
                     </a>
                     <router-link to="/landing" class="dropdown-item">Our Story</router-link>

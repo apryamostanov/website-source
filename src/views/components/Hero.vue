@@ -22,7 +22,7 @@
                                          href="https://demos.creative-tim.com/vue-argon-design-system/documentation"
                                          class="mb-3 mb-sm-3"
                                          type="primary"
-                                         icon="ni ni-briefcase-24">
+                                         icon="ni ni-bold-right">
                                 Start new project
                             </base-button>
                            <!--
