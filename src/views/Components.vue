@@ -1,8 +1,7 @@
 <template>
     <div>
         <hero></hero>
-        <carousel></carousel>
-        <services></services>
+        <mission></mission>
         <products></products>
     </div>
 </template>
@@ -19,6 +18,7 @@
     import Examples from "./components/Examples";
     import DownloadSection from "./components/DownloadSection";
     import Services from "./components/JavascriptComponents/Services";
+    import Mission from "./components/JavascriptComponents/Mission";
 
     export default {
         name: "components",
@@ -26,6 +26,7 @@
             Services,
             Hero,
             Products,
+            Mission,
             JavascriptComponents,
             BasicElements,
             Inputs,

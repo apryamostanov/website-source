@@ -19,7 +19,7 @@
             <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
                 <base-dropdown class="nav-item" menu-classes="dropdown-menu-xl">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
-                        <i class="ni ni-cart d-lg-none"></i>
+                        <i class="fa fa-cubes d-lg-none"></i>
                         <span class="nav-link-inner--text">Products</span>
                     </a>
                     <div class="dropdown-menu-inner">

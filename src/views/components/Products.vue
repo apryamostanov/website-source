@@ -11,20 +11,19 @@
         <div class="container py-0">
             <div class="row row-grid align-items-center">
                 <div class="col-md-6 order-lg-2 ml-lg-auto">
-                    <div class="position-relative pl-md-5">
-                        <img src="img/ill/ill-2.svg" class="img-center img-fluid">
+                    <div class="position-relative pl-md-1">
+                        <img src="img/theme/ProductsMac.png" class="img-center img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-1">
                     <div class="d-flex px-3">
                         <div>
-                            <icon name="ni ni-building" size="lg" class="bg-gradient-white" color="primary" shadow
+                            <icon name="fa fa-cubes" size="lg" class="bg-gradient-white" color="primary" shadow
                                   rounded></icon>
                         </div>
                         <div class="pl-4">
-                            <h4 class="display-3 text-white">Modern Interface</h4>
-                            <p class="text-white">The Arctic Ocean freezes every winter and much of the sea-ice then
-                                thaws every summer, and that process will continue whatever happens.</p>
+                            <h4 class="display-3 text-white">Products</h4>
+                            <p class="text-white">Our range of advanced Open Source Products combines into a comprehensive enterprise technological stack.</p>
                         </div>
                     </div>
                     <card shadow class="shadow-lg--hover mt-5">
