@@ -2,14 +2,8 @@
     <div>
         <hero></hero>
         <carousel></carousel>
-        <javascript-components></javascript-components>
-        <basic-elements></basic-elements>
-        <inputs></inputs>
-        <custom-controls></custom-controls>
-        <navigation></navigation>
-        <icons></icons>
-        <examples></examples>
-        <download-section></download-section>
+        <services></services>
+        <products></products>
     </div>
 </template>
 <script>
@@ -19,15 +13,19 @@
     import CustomControls from "./components/CustomControls";
     import Navigation from "./components/Navigation";
     import JavascriptComponents from "./components/JavascriptComponents";
+    import Products from "./components/Products";
     import Carousel from "./components/Carousel";
     import Icons from "./components/Icons";
     import Examples from "./components/Examples";
     import DownloadSection from "./components/DownloadSection";
+    import Services from "./components/JavascriptComponents/Services";
 
     export default {
         name: "components",
         components: {
+            Services,
             Hero,
+            Products,
             JavascriptComponents,
             BasicElements,
             Inputs,

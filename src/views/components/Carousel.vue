@@ -1,6 +1,6 @@
 <template>
     <section class="section section-lg section-shaped overflow-hidden my-0">
-        <div class="shape shape-style-1 shape-default shape-skew">
+        <div class="shape shape-style-1 shape-default ">
             <span></span>
             <span></span>
             <span></span>
