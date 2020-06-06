@@ -30,9 +30,9 @@
                                     established in 2018.</p>
                                 <p class="lead text-white mt-4">Our mission is to deliver efficient software products
                                     based on extensive knowledge and technology stack.</p>
-                                <a v-if="skipIcons()"
-                                   href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
-                                   class="btn btn-white mt-4">See more</a>
+                                <a
+                                        href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
+                                        class="btn btn-white mt-4">See more</a>
                             </div>
                         </div>
                     </div>
@@ -54,89 +54,78 @@
                     </div>
 
                 </div>
-                <div v-if="!skipIcons()" class="section section-sm section-nucleo-icons pb-0">
-                    <div class="container" @mouseleave="showIconsAnimation = true"
-                         @mouseenter="showIconsAnimation = false">
-                        <div class="blur--hover">
-                            <a href="https://demos.creative-tim.com/argon-design-system/docs/foundation/icons.html">
-                                <div class="icons-container blur-item mt-5" :class="{'on-screen': showIconsAnimation}">
-                                    <!-- Center -->
-                                    <i style="background: transparent"><img src="img/theme/InfiniteTECH_small.png"
-                                                                            alt="Circle image" class="img-fluid"></i>
-                                    <!-- Right 1 -->
-                                    <i>
-                                        <base-button text-color="dark" size="md" type="z">
-                                            ETL
-                                        </base-button>
-                                    </i>
-                                    <i>
-                                        <base-button text-color="dark" size="md" type="z">
-                                            ERP
-                                        </base-button>
-                                    </i>
-                                    <i>
-                                        <base-button text-color="dark" size="md" type="z">
-                                            OLAP
-                                        </base-button>
-                                    </i>
-                                    <!-- Right 2 -->
-                                    <i>
-                                        <base-button text-color="dark" size="md" type="z">
-                                            Android
-                                        </base-button>
-                                    </i>
-                                    <i>
-                                        <base-button text-color="dark" size="md" type="z">
-                                            Web
-                                        </base-button>
-                                    </i>
-                                    <i>
-                                        <base-button text-color="dark" size="md" type="z">
-                                            iOS
-                                        </base-button>
-                                    </i>
-                                    <!-- Left 1 -->
-                                    <i>
-                                        <base-button text-color="dark" size="md" type="z">
-                                            OLTP
-                                        </base-button>
-                                    </i>
-                                    <i>
-                                        <base-button text-color="dark" size="md" type="z">
-                                            BI
-                                        </base-button>
-                                    </i>
-                                    <i>
-                                        <base-button text-color="dark" size="md" type="z">
-                                            CRM
-                                        </base-button>
-                                    </i>
-                                    <!-- Left 2 -->
-                                    <i>
-                                        <base-button text-color="dark" size="md" type="z">
-                                            CBS
-                                        </base-button>
-                                    </i>
-                                    <i>
-                                        <base-button text-color="dark" size="md" type="z">
-                                            DWH
-                                        </base-button>
-                                    </i>
-                                    <i>
-                                        <base-button text-color="dark" size="md" type="z">
-                                            EDMS
-                                        </base-button>
-                                    </i>
-                                </div>
-                                <div class="blur-hidden h5 text-black text-uppercase">
-                                    <i style="background: transparent">
-                                            <img src="img/theme/InfiniteTECH_small.png" alt="Circle image"
-                                                 class="img-fluid"><br/>
-                                    </i>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+                <div class="pt-100">
+                    <tabs fill class="flex-column flex-md-row">
+                        <card shadow>
+                            <tab-pane title="FinTech">
+                                <p class="description"><b>Infinite TECH</b> owns the leading innovation stack in the
+                                    FinTech Industry,
+                                    which is being actively used by our partners and has been proven by processing very
+                                    high financial volumes:</p>
+                                <ul>
+                                    <li>Mobile Banking</li>
+                                    <li>Financial API</li>
+                                    <li>Security</li>
+                                    <li>Chat Bots</li>
+                                    <li>Visa, MC</li>
+                                    <li>Payment Processing</li>
+                                    <li>Authorization, Clearing, Settlement</li>
+                                    <li>COBOL</li>
+                                    <li>Crypto</li>
+                                </ul>
+                                <p class="description">We can help your organization either by adapting our existing
+                                    products - or creating a new customized solution for your business.</p>
+                                <badge type="primary">ETL</badge>
+                                <badge type="success">OLAP</badge>
+                                <badge type="danger">OLTP</badge>
+                                <badge type="warning">CRM</badge>
+                                <badge type="info">API</badge>
+                            </tab-pane>
+
+                            <tab-pane title="Banking">
+                                <p class="description">Banking is in our DNA as naturally as the FinTech.</p>
+                                <p class="description"><b>Infinite TECH Banking Team</b> includes some of the Banking Industry top professionals - experts who have been trusted by multiple banks around the world - and who can be trusted by you.</p>
+                                <ul>
+                                    <li>Core Banking</li>
+                                    <li>General Ledger, Accounting and Finance</li>
+                                    <li>Credit Cards, Revolving Credit, Interests</li>
+                                    <li>Internet banking</li>
+                                    <li>Clearing, SWIFT, ACH, RTGS</li>
+                                </ul>
+                                <p class="description">Let us share our knowledge with your bank and help to complete your next milestone.</p>
+                                <badge type="primary">CBS</badge>
+                                <badge type="success">ESB</badge>
+                                <badge type="danger">BI</badge>
+                                <badge type="warning">CRM</badge>
+                                <badge type="info">DWH</badge>
+                            </tab-pane>
+
+                            <tab-pane title="Industrial">
+                                <p class="description">Versatility - this is what matters when it comes to sustainable business.</p>
+                                <p class="description"><b>Infinite TECH Industrial Team</b> is here to help you complete your next project, prototype - or to expand your software ecosystem.</p>
+                                <ul>
+                                    <li>Geological Mining - ERP</li>
+                                    <li>Construction - Drone RTK surveying</li>
+                                    <li>Agriculture spraying drones</li>
+                                    <li>Logistics and supply chain</li>
+                                </ul>
+                                <badge type="primary">ERP</badge>
+                                <badge type="success">RTK</badge>
+                                <badge type="danger">SAP</badge>
+                            </tab-pane>
+                            <tab-pane title="Government">
+                                <p class="description">Quality is the key element making <b>Infinite TECH State Contractual</b> the trusted partner for Government Tenders.</p>
+                                <p class="description">Taking the advantage of our innovative technological stack, we can offer a variety of services:</p>
+                                <ul>
+                                    <li>Document management systems</li>
+                                    <li>System Integration</li>
+                                    <li>E-Government services and portals</li>
+                                    <li>Identity services and Security</li>
+                                </ul>
+                                <badge type="primary">EDMS</badge><badge type="success">IAM</badge>
+                            </tab-pane>
+                        </card>
+                    </tabs>
                 </div>
             </div>
         </div>
