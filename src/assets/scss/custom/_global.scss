@@ -12,7 +12,7 @@
 
     --icon-size: 5rem;
     --icon-sm-size: 3.75rem;
-    --gutter: 7rem;
+    --gutter: 5rem;
 
     .icons-container {
         i {
@@ -21,7 +21,7 @@
             align-items: center;
             justify-content: center;
             border-radius: 50%;
-            background: $white;
+            background: #A8B3F3;
             z-index: 1;
             transform: translate(-50%, -50%);
             @include box-shadow($box-shadow);
@@ -54,7 +54,7 @@
 
                 &:not(:nth-child(1)) {
                     opacity: 0;
-                } 
+                }
             }
         }
 

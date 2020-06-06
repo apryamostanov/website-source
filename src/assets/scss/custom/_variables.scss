@@ -23,6 +23,7 @@ $gray-700: #525f7f !default;   // Line p color
 $gray-800: #32325d !default;   // Line heading color
 $gray-900: #212529 !default;
 $black:    #000 !default;
+$z: #A8B3F3 !default;
 
 $grays: () !default;
 $grays: map-merge((
@@ -77,6 +78,8 @@ $danger:        $red !default;
 $light:         $gray-500 !default;
 $dark:          $gray-900 !default;
 $darker:        darken($gray-900, 15%) !default;
+$z: #A8B3F3 !default;
+$q: #1072EF !default;
 
 $facebook:      #3b5999 !default;
 $twitter:       #1da1f2 !default;
@@ -100,7 +103,9 @@ $theme-colors: map-merge((
   "white":        $white,
   "neutral":      $white,
   "dark":         $dark,
-  "darker":       $darker
+  "darker":       $darker,
+  "z":       $z,
+        "q": $q
 ), $theme-colors);
 
 $brand-colors: () !default;

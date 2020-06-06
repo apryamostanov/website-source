@@ -18,12 +18,12 @@
                 <div class="col-lg-6 order-lg-1">
                     <div class="d-flex px-3">
                         <div>
-                            <icon name="fa fa-cubes" size="lg" class="bg-gradient-white" color="primary" shadow
+                            <icon name="fa fa-cubes" size="lg" type="white" color="q" shadow
                                   rounded></icon>
                         </div>
                         <div class="pl-4">
                             <h4 class="display-3 text-white">Products</h4>
-                            <p class="text-white">Our range of advanced Open Source Products combines into a comprehensive enterprise technological stack.</p>
+                            <p class="text-white">Our range of innovative Open Source Products combines into a comprehensive advanced technological stack.</p>
                         </div>
                     </div>
                     <card shadow class="shadow-lg--hover mt-5">

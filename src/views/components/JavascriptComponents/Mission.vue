@@ -9,13 +9,13 @@
                 <span></span>
                 <span></span>
             </div>
-            <div class="container py-0 pb-lg">
+            <div class="container pt-0">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-lg-5 mb-5 mb-lg-0">
 
                         <div class="d-flex px-3">
                             <div>
-                                <icon name="ni ni-world-2" type="info" rounded class="mb-4 text-white-50 shadow ">
+                                <icon name="ni ni-world-2" type="z" color="primary" rounded class="mb-4 shadow ">
                                 </icon>
                             </div>
 
@@ -26,15 +26,18 @@
 
                         <div class="d-flex px-3">
                             <div class="pl-0">
-                                <p class="lead text-white mt-4"><b>Infinite TECH</b> is a software consulting company established in 2018.</p>
-                                <p class="lead text-white mt-4">Our mission is to deliver efficient software products based on extensive knowledge and technology stack.</p>
-                                <a href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
+                                <p class="lead text-white mt-4"><b>Infinite TECH</b> is a software consulting company
+                                    established in 2018.</p>
+                                <p class="lead text-white mt-4">Our mission is to deliver efficient software products
+                                    based on extensive knowledge and technology stack.</p>
+                                <a v-if="skipIcons()"
+                                   href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
                                    class="btn btn-white mt-4">See more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 mb-lg-auto">
-                        <div class="rounded shadow-lg overflow-hidden transform-perspective-right">
+                        <div class="rounded shadow-lg overflow-hidden ">
                             <b-carousel id="carousel1"
                                         controls
                                         indicators>
@@ -49,61 +52,89 @@
                             </b-carousel>
                         </div>
                     </div>
+
                 </div>
-            </div>
-        </div>
-        <div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="row row-grid">
-                            <div class="col-lg-4">
-                                <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="fa fa-file-code-o" type="primary" rounded class="mb-4">
-                                    </icon>
-                                    <h6 class="text-primary text-uppercase">COBOL to XML</h6>
-                                    <p class="description mt-3">Online COBOL data file converter.</p>
-                                    <p class="description mt-3">Convert COBOL data file online to XML using
-                                        copybook.</p>
-                                    <div>
-                                        <badge type="primary" rounded>ETL</badge>
-                                    </div>
-                                    <base-button tag="a" href="#" type="primary" class="mt-4">
-                                        Try it now
-                                    </base-button>
-                                </card>
-                            </div>
-                            <div class="col-lg-4">
-                                <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="fa fa-file-text-o" type="success" rounded class="mb-4">
-                                    </icon>
-                                    <h6 class="text-success text-uppercase">Re-encode</h6>
-                                    <p class="description mt-3">Online encoding converter.</p>
-                                    <p class="description mt-3">Convert file from any character encoding to any other
-                                        character encoding.</p>
-                                    <div>
-                                        <badge type="success" rounded>ETL</badge>
-                                    </div>
-                                    <base-button tag="a" href="#" type="success" class="mt-4">
-                                        Try it now
-                                    </base-button>
-                                </card>
-                            </div>
-                            <div class="col-lg-4">
-                                <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-chart-bar-32" type="warning" rounded class="mb-4">
-                                    </icon>
-                                    <h6 class="text-warning text-uppercase">JSON Analyzer</h6>
-                                    <p class="description mt-3">Online JSON Statistics.</p>
-                                    <p class="description mt-3">Analyze contents of any JSON data file.</p>
-                                    <div>
-                                        <badge type="warning" rounded>OLAP</badge>
-                                    </div>
-                                    <base-button tag="a" href="#" type="warning" class="mt-4">
-                                        Try it now
-                                    </base-button>
-                                </card>
-                            </div>
+                <div v-if="!skipIcons()" class="section section-sm section-nucleo-icons pb-0">
+                    <div class="container" @mouseleave="showIconsAnimation = true"
+                         @mouseenter="showIconsAnimation = false">
+                        <div class="blur--hover">
+                            <a href="https://demos.creative-tim.com/argon-design-system/docs/foundation/icons.html">
+                                <div class="icons-container blur-item mt-5" :class="{'on-screen': showIconsAnimation}">
+                                    <!-- Center -->
+                                    <i style="background: transparent"><img src="img/theme/InfiniteTECH_small.png"
+                                                                            alt="Circle image" class="img-fluid"></i>
+                                    <!-- Right 1 -->
+                                    <i>
+                                        <base-button text-color="dark" size="md" type="z">
+                                            ETL
+                                        </base-button>
+                                    </i>
+                                    <i>
+                                        <base-button text-color="dark" size="md" type="z">
+                                            ERP
+                                        </base-button>
+                                    </i>
+                                    <i>
+                                        <base-button text-color="dark" size="md" type="z">
+                                            OLAP
+                                        </base-button>
+                                    </i>
+                                    <!-- Right 2 -->
+                                    <i>
+                                        <base-button text-color="dark" size="md" type="z">
+                                            Android
+                                        </base-button>
+                                    </i>
+                                    <i>
+                                        <base-button text-color="dark" size="md" type="z">
+                                            Web
+                                        </base-button>
+                                    </i>
+                                    <i>
+                                        <base-button text-color="dark" size="md" type="z">
+                                            iOS
+                                        </base-button>
+                                    </i>
+                                    <!-- Left 1 -->
+                                    <i>
+                                        <base-button text-color="dark" size="md" type="z">
+                                            OLTP
+                                        </base-button>
+                                    </i>
+                                    <i>
+                                        <base-button text-color="dark" size="md" type="z">
+                                            BI
+                                        </base-button>
+                                    </i>
+                                    <i>
+                                        <base-button text-color="dark" size="md" type="z">
+                                            CRM
+                                        </base-button>
+                                    </i>
+                                    <!-- Left 2 -->
+                                    <i>
+                                        <base-button text-color="dark" size="md" type="z">
+                                            CBS
+                                        </base-button>
+                                    </i>
+                                    <i>
+                                        <base-button text-color="dark" size="md" type="z">
+                                            DWH
+                                        </base-button>
+                                    </i>
+                                    <i>
+                                        <base-button text-color="dark" size="md" type="z">
+                                            EDMS
+                                        </base-button>
+                                    </i>
+                                </div>
+                                <div class="blur-hidden h5 text-black text-uppercase">
+                                    <i style="background: transparent">
+                                            <img src="img/theme/InfiniteTECH_small.png" alt="Circle image"
+                                                 class="img-fluid"><br/>
+                                    </i>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -118,6 +149,19 @@
     import {BCarouselSlide} from "bootstrap-vue/esm/components/carousel/carousel-slide";
 
     export default {
+        data() {
+            return {
+                showIconsAnimation: true
+            };
+        },
+        methods: {
+            onScroll(evt) {
+                console.log(evt);
+            },
+            skipIcons() {
+                return ["Android", "webOS", "iPhone", "iPad", "iPod", "BlackBerry", "IEMobile", "Opera Mini"].includes(navigator.userAgent) && this.$screen.portrait;
+            }
+        },
         components: {
             Tabs,
             TabPane,
@@ -125,6 +169,8 @@
             BCarouselSlide
         }
     };
+
+
 </script>
 <style>
 </style>
