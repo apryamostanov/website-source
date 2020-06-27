@@ -29,14 +29,16 @@
                     <card shadow class="shadow-lg--hover mt-5">
                         <div class="d-flex px-3">
                             <div>
-                                <icon name="ni ni-satisfied" gradient="success" color="white" shadow
-                                      rounded></icon>
+
+                                <div class="icon icon-shape bg-transparent rounded-circle text-white" style=" padding: 0">
+                                    <img src="img/theme/Bobbin_small.png" alt="Circle image"
+                                         class="img-fluid rounded-circle ">
+                                </div>
                             </div>
                             <div class="pl-4">
-                                <h5 class="title text-success">Awesome Support</h5>
-                                <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws
-                                    every summer, and that process will continue whatever happens.</p>
-                                <a href="#" class="text-success">Learn more</a>
+                                <h5 class="title text-success">Bobbin</h5>
+                                <p>Revolutionary high-performance Groovy/Java Slf4j logger.</p>
+                                <a href="#" class="text-success">See more</a>
                             </div>
                         </div>
                     </card>

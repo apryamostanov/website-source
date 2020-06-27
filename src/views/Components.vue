@@ -3,6 +3,7 @@
         <hero></hero>
         <mission></mission>
         <products></products>
+        <tools></tools>
     </div>
 </template>
 <script>
@@ -19,6 +20,7 @@
     import DownloadSection from "./components/DownloadSection";
     import Services from "./components/JavascriptComponents/Services";
     import Mission from "./components/JavascriptComponents/Mission";
+    import Tools from "./Tools";
 
     export default {
         name: "components",
@@ -27,6 +29,7 @@
             Hero,
             Products,
             Mission,
+            Tools,
             JavascriptComponents,
             BasicElements,
             Inputs,

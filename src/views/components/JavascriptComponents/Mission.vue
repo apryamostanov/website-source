@@ -106,6 +106,7 @@
                                 <ul>
                                     <li>Geological Mining - ERP</li>
                                     <li>Construction - Drone RTK surveying</li>
+                                    <li>Oil and Gas - Drone pipeline monitoring</li>
                                     <li>Agriculture spraying drones</li>
                                     <li>Logistics and supply chain</li>
                                 </ul>
