@@ -10,38 +10,54 @@
                 <span></span>
             </div>
             <div class="container pt-0">
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-lg-5 mb-5 mb-lg-0">
-
-                        <div class="d-flex px-3">
-                            <div>
-                                <icon name="ni ni-world-2" type="z" color="primary" rounded class="mb-4 shadow ">
-                                </icon>
-                            </div>
-
-                            <div class="pl-4">
-                                <h4 class="display-3 text-white">Mission</h4>
-                            </div>
-                        </div>
-
-                        <div class="d-flex px-3">
-                            <div class="pl-0">
-                                <p class="lead text-white mt-4"><b>Infinite TECH</b> is a software consulting company
-                                    established in 2018.</p>
-                                <p class="lead text-white mt-4">Our mission is to deliver efficient software products
-                                    based on extensive knowledge and technology stack.</p>
-                                <a
-                                        href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
-                                        class="btn btn-white mt-4">See more</a>
-                            </div>
+                <div class="row justify-content-center text-center mb-lg">
+                    <div class="col-lg-8">
+                        <h2 class="display-3 text-white">Efficient Software Products</h2>
+                        <p class="lead text-white">Based on extensive business knowledge and breakthrough
+                            technology.</p>
+                    </div>
+                </div>
+                <div class="row row-grid  ">
+                    <div class="col-md-6 order-lg-2 ml-lg-auto">
+                        <div class="position-relative pl-md-1">
+                            <img src="img/theme/iPhone2007.png" class="img-center img-fluid">
                         </div>
                     </div>
-                    <div class="col-lg-6 mb-lg-auto">
+                    <div class="col-md-6 order-md-1">
+                        <div class="pr-md-5">
+                            <h3 class="text-white">Our Mission</h3>
+                            <p class="text-white">To expand your tech:</p>
+                            <ul class="list-unstyled mt-3">
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge type="z" color="primary" circle class="mr-3">1</badge>
+                                        <h6 class="mb-0 text-white">Start using our Open Source Products</h6>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge type="z" color="primary" circle class="mr-3">2</badge>
+                                        <h6 class="mb-0 text-white">Get our support</h6>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge type="z" color="primary" circle class="mr-3">3</badge>
+                                        <h6 class="mb-0 text-white">Create new projects with us</h6>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
+                               class="btn btn-white mt-4">Begin</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between">
+                    <!--<div class="col-lg-6 mb-lg-auto">
                         <div class="rounded shadow-lg overflow-hidden ">
                             <b-carousel id="carousel1"
                                         controls
                                         indicators>
-                                <!-- Text slides with image -->
                                 <b-carousel-slide img-src="img/theme/Pigeon.png"></b-carousel-slide>
                                 <b-carousel-slide img-src="img/theme/BlackBox.png"></b-carousel-slide>
                                 <b-carousel-slide img-src="img/theme/Bobbin.png"></b-carousel-slide>
@@ -51,7 +67,7 @@
                                 <b-carousel-slide img-src="img/theme/Orbit.png"></b-carousel-slide>
                             </b-carousel>
                         </div>
-                    </div>
+                    </div>-->
 
                 </div>
                 <div class="pt-100">
@@ -65,7 +81,7 @@
                                 <ul>
                                     <li>Mobile Banking</li>
                                     <li>Financial API</li>
-                                    <li>Security</li>
+                                    <li>Web Security</li>
                                     <li>Chat Bots</li>
                                     <li>Visa, MC</li>
                                     <li>Payment Processing</li>
@@ -84,7 +100,9 @@
 
                             <tab-pane title="Banking">
                                 <p class="description">Banking is in our DNA as naturally as the FinTech.</p>
-                                <p class="description"><b>Infinite TECH Banking Team</b> includes some of the Banking Industry top professionals - experts who have been trusted by multiple banks around the world - and who can be trusted by you.</p>
+                                <p class="description"><b>Infinite TECH Banking Team</b> includes some of the Banking
+                                    Industry top professionals - experts who have been trusted by multiple banks around
+                                    the world - and who can be trusted by you.</p>
                                 <ul>
                                     <li>Core Banking</li>
                                     <li>General Ledger, Accounting and Finance</li>
@@ -92,7 +110,8 @@
                                     <li>Internet banking</li>
                                     <li>Clearing, SWIFT, ACH, RTGS</li>
                                 </ul>
-                                <p class="description">Let us share our knowledge with your bank and help to complete your next milestone.</p>
+                                <p class="description">Let us share our knowledge with your bank and help to complete
+                                    your next milestone.</p>
                                 <badge type="primary">CBS</badge>
                                 <badge type="success">ESB</badge>
                                 <badge type="danger">BI</badge>
@@ -100,31 +119,6 @@
                                 <badge type="info">DWH</badge>
                             </tab-pane>
 
-                            <tab-pane title="Industrial">
-                                <p class="description">Versatility - this is what matters when it comes to sustainable business.</p>
-                                <p class="description"><b>Infinite TECH Industrial Team</b> is here to help you complete your next project, prototype - or to expand your software ecosystem.</p>
-                                <ul>
-                                    <li>Geological Mining - ERP</li>
-                                    <li>Construction - Drone RTK surveying</li>
-                                    <li>Oil and Gas - Drone pipeline monitoring</li>
-                                    <li>Agriculture spraying drones</li>
-                                    <li>Logistics and supply chain</li>
-                                </ul>
-                                <badge type="primary">ERP</badge>
-                                <badge type="success">RTK</badge>
-                                <badge type="danger">SAP</badge>
-                            </tab-pane>
-                            <tab-pane title="Government">
-                                <p class="description">Quality is the key element making <b>Infinite TECH State Contractual</b> the trusted partner for Government Tenders.</p>
-                                <p class="description">Taking the advantage of our innovative technological stack, we can offer a variety of services:</p>
-                                <ul>
-                                    <li>Document management systems</li>
-                                    <li>System Integration</li>
-                                    <li>E-Government services and portals</li>
-                                    <li>Identity services and Security</li>
-                                </ul>
-                                <badge type="primary">EDMS</badge><badge type="success">IAM</badge>
-                            </tab-pane>
                         </card>
                     </tabs>
                 </div>

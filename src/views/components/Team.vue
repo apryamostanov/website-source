@@ -4,7 +4,7 @@
             <div class="row justify-content-center text-center mb-lg">
                 <div class="col-lg-8">
                     <h2 class="display-3">Team</h2>
-                    <p class="lead text-muted">Infinite Technology ∞ Team</p>
+                    <p class="lead text-muted">Infinite TECH Team</p>
                 </div>
             </div>
 
