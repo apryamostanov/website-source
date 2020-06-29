@@ -88,7 +88,7 @@
                             </div>
                             <div class="media-body ml-3">
                                 <h6 class="heading text-primary mb-md-1">Orbit</h6>
-                                <p class="description d-none d-md-inline-block mb-0">REST API & CRM.</p>
+                                <p class="description d-none d-md-inline-block mb-0">REST API Frontend.</p>
                             </div>
                         </a>
                         <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"

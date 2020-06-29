@@ -9,50 +9,119 @@
             <span></span>
         </div>
         <div class="container py-0">
-            <div class="row row-grid align-items-center">
-                <div class="col-md-6 order-lg-2 ml-lg-auto">
-                    <div class="position-relative pl-md-1">
-                        <img src="img/theme/ProductsMac.png" class="img-center img-fluid">
-                    </div>
+            <div class="d-flex px-3">
+                <div>
+                    <icon name="fa fa-cubes" size="lg" type="white" color="q" shadow
+                          rounded></icon>
                 </div>
+                <div class="pl-4">
+                    <h4 class="display-3 text-white">Products</h4>
+                    <p class="text-white">Open Source. Free. Financial grade.</p>
+                </div>
+            </div>
+            <div class="row row-grid-1 align-items-center">
                 <div class="col-lg-6 order-lg-1">
-                    <div class="d-flex px-3">
-                        <div>
-                            <icon name="fa fa-cubes" size="lg" type="white" color="q" shadow
-                                  rounded></icon>
-                        </div>
-                        <div class="pl-4">
-                            <h4 class="display-3 text-white">Products</h4>
-                            <p class="text-white">Our range of innovative Open Source Products combines into a comprehensive advanced technological stack.</p>
-                        </div>
-                    </div>
                     <card shadow class="shadow-lg--hover mt-5">
                         <div class="d-flex px-3">
                             <div>
 
-                                <div class="icon icon-shape bg-transparent rounded-circle text-white" style=" padding: 0">
+                                <div class="icon icon-shape bg-transparent rounded-circle text-white"
+                                     style=" padding: 0">
                                     <img src="img/theme/Bobbin_small.png" alt="Circle image"
                                          class="img-fluid rounded-circle ">
                                 </div>
                             </div>
                             <div class="pl-4">
                                 <h5 class="title text-success">Bobbin</h5>
-                                <p>Revolutionary high-performance Groovy/Java Slf4j logger.</p>
-                                <a href="#" class="text-success">See more</a>
+                                <p>Revolutionary high-performance SLF4J logger.</p>
+                                <base-button class="btn-1" outline type="success">See More</base-button>
                             </div>
                         </div>
                     </card>
                     <card shadow class="shadow-lg--hover mt-5">
                         <div class="d-flex px-3">
                             <div>
-                                <icon name="ni ni-active-40" gradient="warning" color="white" shadow
-                                      rounded></icon>
+
+                                <div class="icon icon-shape bg-transparent rounded-circle text-white"
+                                     style=" padding: 0">
+                                    <img src="img/theme/Pigeon_small.png" alt="Circle image"
+                                         class="img-fluid rounded-circle ">
+                                </div>
                             </div>
                             <div class="pl-4">
-                                <h5 class="title text-warning">Modular Components</h5>
-                                <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws
-                                    every summer, and that process will continue whatever happens.</p>
-                                <a href="#" class="text-warning">Learn more</a>
+                                <h5 class="title text-success">Pigeon</h5>
+                                <p>HTTP Message Broker.</p>
+                                <base-button class="btn-1" outline type="success">See More</base-button>
+                            </div>
+                        </div>
+                    </card>
+                    <card shadow class="shadow-lg--hover mt-5">
+                        <div class="d-flex px-3">
+                            <div>
+
+                                <div class="icon icon-shape bg-transparent rounded-circle text-white"
+                                     style=" padding: 0">
+                                    <img src="img/theme/COBOL_small.png" alt="Circle image"
+                                         class="img-fluid rounded-circle ">
+                                </div>
+                            </div>
+                            <div class="pl-4">
+                                <h5 class="title text-success">COBOL ETL</h5>
+                                <p>Java COBOL Transpiler and ETL API.</p>
+                                <base-button class="btn-1" outline type="success">See More</base-button>
+                            </div>
+                        </div>
+                    </card>
+                </div>
+                <div class="col-lg-6 order-lg-2">
+                    <card shadow class="shadow-lg--hover mt-5">
+                        <div class="d-flex px-3">
+                            <div>
+
+                                <div class="icon icon-shape bg-transparent rounded-circle text-white"
+                                     style=" padding: 0">
+                                    <img src="img/theme/BlackBox_small.png" alt="Circle image"
+                                         class="img-fluid rounded-circle ">
+                                </div>
+                            </div>
+                            <div class="pl-4">
+                                <h5 class="title text-success">BlackBox</h5>
+                                <p>Groovy logging AST.</p>
+                                <base-button class="btn-1" outline type="success">See More</base-button>
+                            </div>
+                        </div>
+                    </card>
+                    <card shadow class="shadow-lg--hover mt-5">
+                        <div class="d-flex px-3">
+                            <div>
+
+                                <div class="icon icon-shape bg-transparent rounded-circle text-white"
+                                     style=" padding: 0">
+                                    <img src="img/theme/David_small.png" alt="Circle image"
+                                         class="img-fluid rounded-circle ">
+                                </div>
+                            </div>
+                            <div class="pl-4">
+                                <h5 class="title text-success">David</h5>
+                                <p>Telegram Chat Bot</p>
+                                <base-button class="btn-1" outline type="success">See More</base-button>
+                            </div>
+                        </div>
+                    </card>
+                    <card shadow class="shadow-lg--hover mt-5">
+                        <div class="d-flex px-3">
+                            <div>
+
+                                <div class="icon icon-shape bg-transparent rounded-circle text-white"
+                                     style=" padding: 0">
+                                    <img src="img/theme/Ascend_small.png" alt="Circle image"
+                                         class="img-fluid rounded-circle ">
+                                </div>
+                            </div>
+                            <div class="pl-4">
+                                <h5 class="title text-success">Ascend</h5>
+                                <p>Web Security IAM and SECaaS.</p>
+                                <base-button class="btn-1" outline type="success">See More</base-button>
                             </div>
                         </div>
                     </card>
