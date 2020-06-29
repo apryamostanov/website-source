@@ -10,7 +10,7 @@
                 <span></span>
             </div>
             <div class="container pt-0">
-                <div class="row justify-content-center text-center mb-lg">
+                <div class="row justify-content-center text-center mb-sm">
                     <div class="col-lg-8">
                         <h2 class="display-3 text-white">Efficient Software Products</h2>
                         <p class="lead text-white">Based on extensive business knowledge and breakthrough
@@ -18,13 +18,8 @@
                     </div>
                 </div>
                 <div class="row row-grid  ">
-                    <div class="col-md-6 order-lg-2 ml-lg-auto">
-                        <div class="position-relative pl-md-1">
-                            <img src="img/theme/iPhone2007.png" class="img-center img-fluid">
-                        </div>
-                    </div>
                     <div class="col-md-6 order-md-1">
-                        <div class="pr-md-5">
+                        <div>
                             <h3 class="text-white">Our Mission</h3>
                             <p class="text-white">To expand your tech:</p>
                             <ul class="list-unstyled mt-3">
@@ -51,6 +46,10 @@
                                class="btn btn-white mt-4">Begin</a>
                         </div>
                     </div>
+
+                    <div class="col-md-6 order-md-2 ml-lg-auto">
+                        <img src="img/theme/iPhone2007.png" class="img-center img-fluid">
+                    </div>
                 </div>
                 <div class="row justify-content-between">
                     <!--<div class="col-lg-6 mb-lg-auto">
@@ -70,58 +69,74 @@
                     </div>-->
 
                 </div>
-                <div class="pt-100">
+
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-8">
+                        <h2 class="display-3 text-white">Pioneers of Mobile Banking</h2>
+                        <p class="lead text-white">Over more than a decade of FinTech Innovation.</p>
+                    </div>
+                </div>
+                <div>
                     <tabs fill class="flex-column flex-md-row">
                         <card shadow>
                             <tab-pane title="FinTech">
-                                <p class="description"><b>Infinite TECH</b> owns the leading innovation stack in the
+                                <p class="text-lead"><b>Infinite TECH</b> created the leading innovation stack in the
                                     FinTech Industry,
                                     which is being actively used by our partners and has been proven by processing very
-                                    high financial volumes:</p>
+                                    high financial volumes.</p>
                                 <ul>
-                                    <li>Mobile Banking</li>
-                                    <li>Financial API</li>
-                                    <li>Web Security</li>
-                                    <li>Chat Bots</li>
-                                    <li>Visa, MC</li>
-                                    <li>Payment Processing</li>
-                                    <li>Authorization, Clearing, Settlement</li>
-                                    <li>COBOL</li>
-                                    <li>Crypto</li>
+                                    <li class="py-2">
+                                        <h6 class="mb-0">Mobile Banking</h6>
+                                    </li>
+                                    <li class="py-2">
+                                        <h6 class="mb-0">Financiap API</h6>
+                                    </li>
+                                    <li class="py-2">
+                                        <h6 class="mb-0">Web Security</h6>
+                                    </li>
+                                    <li class="py-2">
+                                        <h6 class="mb-0">Chat Bots</h6>
+                                    </li>
+                                    <li class="py-2">
+                                        <h6 class="mb-0">Visa, MC</h6>
+                                    </li>
+                                    <li class="py-2">
+                                        <h6 class="mb-0">Crypto</h6>
+                                    </li>
                                 </ul>
-                                <p class="description">We can help your organization either by adapting our existing
-                                    products - or creating a new customized solution for your business.</p>
-                                <badge type="primary">ETL</badge>
-                                <badge type="success">OLAP</badge>
-                                <badge type="danger">OLTP</badge>
-                                <badge type="warning">CRM</badge>
-                                <badge type="info">API</badge>
                             </tab-pane>
 
                             <tab-pane title="Banking">
-                                <p class="description">Banking is in our DNA as naturally as the FinTech.</p>
-                                <p class="description"><b>Infinite TECH Banking Team</b> includes some of the Banking
-                                    Industry top professionals - experts who have been trusted by multiple banks around
-                                    the world - and who can be trusted by you.</p>
+                                <p class="text-lead">Coming from a banking background, <b>Infinite TECH</b> includes
+                                    some of the Industry top professionals - experts who have been trusted by multiple
+                                    banks around
+                                    the world.</p>
                                 <ul>
-                                    <li>Core Banking</li>
-                                    <li>General Ledger, Accounting and Finance</li>
-                                    <li>Credit Cards, Revolving Credit, Interests</li>
-                                    <li>Internet banking</li>
-                                    <li>Clearing, SWIFT, ACH, RTGS</li>
+                                    <li class="py-2">
+                                        <h6 class="mb-0">CBS</h6>
+                                    </li>
+                                    <li class="py-2">
+                                        <h6 class="mb-0">GL</h6>
+                                    </li>
+                                    <li class="py-2">
+                                        <h6 class="mb-0">Credit Cards</h6>
+                                    </li>
+                                    <li class="py-2">
+                                        <h6 class="mb-0">Internet Banking</h6>
+                                    </li>
+                                    <li class="py-2">
+                                        <h6 class="mb-0">COBOL</h6>
+                                    </li>
+                                    <li class="py-2">
+                                        <h6 class="mb-0">SWIFT, ACH, RTGS</h6>
+                                    </li>
                                 </ul>
-                                <p class="description">Let us share our knowledge with your bank and help to complete
-                                    your next milestone.</p>
-                                <badge type="primary">CBS</badge>
-                                <badge type="success">ESB</badge>
-                                <badge type="danger">BI</badge>
-                                <badge type="warning">CRM</badge>
-                                <badge type="info">DWH</badge>
                             </tab-pane>
 
                         </card>
                     </tabs>
                 </div>
+
             </div>
         </div>
     </div>
