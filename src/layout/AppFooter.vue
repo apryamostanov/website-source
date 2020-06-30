@@ -4,8 +4,10 @@
             <div class="row row-grid align-items-center my-md">
                 <div class="col-lg-6">
                     <h3 class="text-primary font-weight-light mb-2">Our Humanitarian mission:</h3>
-                    <base-button class="btn-1" outline type="warning">Bangladesh
-                        Corona Virus Relief</base-button>
+
+                    <a href="https://www.facebook.com/groups/518671105515699/"
+                       class="nav-link" target="_blank" rel="noopener"><base-button class="btn-1" outline type="warning">Bangladesh
+                        Corona Virus Relief</base-button></a>
                 </div>
                 <div class="col-lg-6 text-lg-center btn-wrapper">
                     <h3 class="text-primary font-weight-light mb-2">Follow us on social media:</h3>
@@ -36,22 +38,17 @@
                 <div class="col-md-6">
                     <div class="copyright">
                         &copy; {{year}}
-                        <a href="https://www.creative-tim.com" target="_blank" rel="noopener">Infinite TECH</a>
+                        <a href="" target="_blank" rel="noopener">Infinite TECH</a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <ul class="nav nav-footer justify-content-end">
                         <li class="nav-item">
-                            <a href="https://www.creative-tim.com" class="nav-link" target="_blank" rel="noopener">Fundraising</a>
+                            <a href="Fundraising" class="nav-link" target="_blank" rel="noopener">Fundraising</a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank"
-                               rel="noopener">About
-                                Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="http://blog.creative-tim.com" class="nav-link" target="_blank"
-                               rel="noopener">Blog</a>
+                            <a href="PrivacyPolicy" class="nav-link" target="_blank"
+                               rel="noopener">Privacy Policy</a>
                         </li>
                         <li class="nav-item">
                             <a href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"

@@ -19,7 +19,7 @@
                         <img src="img/brand/white.png" style="width: 200px;" class="img-fluid">
                         <p class="lead text-white mt-4 mb-5">Software Consulting</p>
                             <base-button tag="a"
-                                         href="https://demos.creative-tim.com/vue-argon-design-system/documentation"
+                                         href="Projects"
                                          class="mb-3 mb-sm-3"
                                          type="primary"
                                          icon="ni ni-bold-right">

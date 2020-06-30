@@ -29,7 +29,7 @@
                 <div class="row row-grid-1">
                     <div class="col-lg-6 order-lg-1">
                         <div class="pb-5">
-                            <card class="border-0" hover shadow body-classes="py-4">
+                            <card class="border-0"  shadow body-classes="py-4">
                                 <div class="d-flex align-items-center">
                                     <div>
                                         <icon name="fa fa-file-code-o" type="info" shadow rounded></icon>
@@ -51,7 +51,7 @@
                         </div>
 
                         <div class="pb-5">
-                            <card class="border-0" hover shadow body-classes="py-4">
+                            <card class="border-0"  shadow body-classes="py-4">
                                 <div class="d-flex align-items-center">
                                     <div>
                                         <icon name="fa fa-file-code-o" type="success" shadow rounded></icon>
@@ -73,7 +73,7 @@
                     </div>
                     <div class="col-lg-6  order-lg-2">
                         <div class="pb-5">
-                            <card class="border-0" hover shadow body-classes="py-4">
+                            <card class="border-0"  shadow body-classes="py-4">
                                 <div class="d-flex align-items-center">
                                     <div>
                                         <icon name="fa fa-file-code-o" type="warning" shadow rounded></icon>
@@ -93,7 +93,7 @@
                             </card>
                         </div>
                         <div class="pb-5">
-                            <card class="border-0" hover shadow body-classes="py-4">
+                            <card class="border-0"  shadow body-classes="py-4">
                                 <div class="d-flex align-items-center">
                                     <div>
                                         <icon name="fa fa-file-code-o" type="danger" shadow rounded></icon>

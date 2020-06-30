@@ -157,13 +157,13 @@
                     </a>
                 </li>
                 <li class="nav-item d-none d-lg-block ml-lg-4">
-                    <a href="https://www.creative-tim.com/product/vue-argon-design-system" target="_blank"
+                    <a href="https://web.telegram.org/#/im?p=@david_it_bot" target="_blank"
                        rel="noopener"
                        class="btn btn-neutral btn-icon">
                 <span class="btn-inner--icon">
-                  <i class="ni ni-chat-round mr-2"></i>
+                  <i class="fa fa-telegram mr-2"></i>
                 </span>
-                        <span class="nav-link-inner--text">Contact us</span>
+                        <span class="nav-link-inner--text">Chat Bot</span>
                     </a>
                 </li>
             </ul>
