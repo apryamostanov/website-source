@@ -2,14 +2,15 @@ import Vue from "vue";
 import Router from "vue-router";
 import AppHeader from "./layout/AppHeader";
 import AppFooter from "./layout/AppFooter";
-import Components from "./views/Components.vue";
-import Landing from "./views/Landing.vue";
+import Components from "./views/Landing.vue";
+import Landing from "./views/OldLanding.vue";
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import Anton from "./views/Anton.vue";
 import Mayo from "./views/Mayo.vue";
 import PrivacyPolicy from "./views/PrivacyPolicy";
 import TermsAndConditions from "./views/TermsAndConditions";
+import Team from "./views/Team";
 
 Vue.use(Router);
 
@@ -63,11 +64,11 @@ export default new Router({
       }
     },
     {
-      path: "/Mayo",
-      name: "Mayo",
+      path: "/Team",
+      name: "Team",
       components: {
         header: AppHeader,
-        default: Mayo,
+        default: Team,
         footer: AppFooter
       }
     },
