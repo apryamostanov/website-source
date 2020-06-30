@@ -73,7 +73,7 @@
                 <div class="row justify-content-center text-center">
                     <div class="col-lg-8">
                         <h2 class="display-3 text-white">Pioneers of Mobile Banking</h2>
-                        <p class="lead text-white">Over more than a decade of FinTech Innovation.</p>
+                        <p class="lead text-white">More than a decade of FinTech Innovation.</p>
                     </div>
                 </div>
                 <div>

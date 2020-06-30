@@ -23,7 +23,7 @@
                         <span class="nav-link-inner--text">Products</span>
                     </a>
                     <div class="dropdown-menu-inner">
-                        <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
+                        <a href="Bobbin"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle text-white" style=" padding: 0">
                                 <img src="img/theme/Bobbin_small.png" alt="Circle image"
@@ -35,7 +35,7 @@
                                     Logger.</p>
                             </div>
                         </a>
-                        <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
+                        <a href="BlackBox"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle text-white" style=" padding: 0">
                                 <img src="img/theme/BlackBox_small.png" alt="Circle image"
@@ -46,7 +46,7 @@
                                 <p class="description d-none d-md-inline-block mb-0">Groovy Logging AST.</p>
                             </div>
                         </a>
-                        <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
+                        <a href="Pigeon"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle text-white" style=" padding: 0">
                                 <img src="img/theme/Pigeon_small.png" alt="Circle image"
@@ -57,7 +57,7 @@
                                 <p class="description d-none d-md-inline-block mb-0">HTTP Message Broker.</p>
                             </div>
                         </a>
-                        <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
+                        <a href="David"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle text-white" style=" padding: 0">
                                 <img src="img/theme/David_small.png" alt="Circle image"
@@ -68,7 +68,7 @@
                                 <p class="description d-none d-md-inline-block mb-0">Telegram Chat Bot.</p>
                             </div>
                         </a>
-                        <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
+                        <a href="Cobol"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle" style=" padding: 0">
                                 <img src="img/theme/COBOL_small.png" alt="Circle image"
@@ -80,7 +80,7 @@
                                     API.</p>
                             </div>
                         </a>
-                        <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
+                        <a href="Orbit"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle" style=" padding: 0">
                                 <img src="img/theme/Orbit_small.png" alt="Circle image"
@@ -91,7 +91,7 @@
                                 <p class="description d-none d-md-inline-block mb-0">REST API Frontend.</p>
                             </div>
                         </a>
-                        <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
+                        <a href="Ascend"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle" style=" padding: 0">
                                 <img v-lazy="'img/theme/Ascend_small.png'" alt="Circle image"
@@ -109,25 +109,25 @@
                         <i class="ni ni-settings d-lg-none"></i>
                         <span class="nav-link-inner--text">Tools</span>
                     </a>
-                    <router-link to="/landing" class="dropdown-item">COBOL to XML</router-link>
-                    <router-link to="/profile" class="dropdown-item">Re-encode</router-link>
-                    <router-link to="/login" class="dropdown-item">JSON Analyzer</router-link>
-                    <router-link to="/login" class="dropdown-item">JSON Formatter</router-link>
+                    <router-link to="/CobolXML" class="dropdown-item">COBOL to XML</router-link>
+                    <router-link to="/Re-encode" class="dropdown-item">Re-encode</router-link>
+                    <router-link to="/AnalyzeJSON" class="dropdown-item">JSON Analyzer</router-link>
+                    <router-link to="/FormatJSON" class="dropdown-item">JSON Formatter</router-link>
                 </base-dropdown>
                 <base-dropdown tag="li" class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-single-02 d-lg-none"></i>
                         <span class="nav-link-inner--text">Company</span>
                     </a>
-                    <router-link to="/landing" class="dropdown-item">Our Story</router-link>
-                    <router-link to="/landing" class="dropdown-item">Partners</router-link>
-                    <router-link to="/profile" class="dropdown-item">Team</router-link>
-                    <router-link to="/login" class="dropdown-item">Blog</router-link>
+                    <router-link to="/Story" class="dropdown-item">Our Story</router-link>
+                    <router-link to="/Partners" class="dropdown-item">Partners</router-link>
+                    <router-link to="/Team" class="dropdown-item">Team</router-link>
+                    <router-link to="/Blog" class="dropdown-item">Blog</router-link>
                 </base-dropdown>
             </ul>
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="https://www.facebook.com/creativetim" target="_blank"
+                    <a class="nav-link nav-link-icon" href="https://www.facebook.com/infinitetech" target="_blank"
                        rel="noopener"
                        data-toggle="tooltip" title="Like us on Facebook">
                         <i class="fa fa-facebook-square"></i>
@@ -137,12 +137,12 @@
                 <li class="nav-item">
                     <a class="nav-link nav-link-icon" href="https://www.instagram.com/creativetimofficial"
                        target="_blank" rel="noopener" data-toggle="tooltip" title="Follow us on Instagram">
-                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-linkedin"></i>
                         <span class="nav-link-inner--text d-lg-none">Instagram</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="https://twitter.com/creativetim" target="_blank"
+                    <a class="nav-link nav-link-icon" href="https://twitter.com/infinitetech" target="_blank"
                        rel="noopener"
                        data-toggle="tooltip" title="Follow us on Twitter">
                         <i class="fa fa-twitter-square"></i>
