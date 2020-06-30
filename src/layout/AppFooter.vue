@@ -3,10 +3,12 @@
         <div class="container">
             <div class="row row-grid align-items-center my-md">
                 <div class="col-lg-6">
-                    <h3 class="text-primary font-weight-light mb-2">Thank you for supporting us!</h3>
-                    <h4 class="mb-0 font-weight-light">Let's get in touch on any of these platforms.</h4>
+                    <h3 class="text-primary font-weight-light mb-2">Our Humanitarian mission:</h3>
+                    <base-button class="btn-1" outline type="warning">Bangladesh
+                        Corona Virus Relief</base-button>
                 </div>
                 <div class="col-lg-6 text-lg-center btn-wrapper">
+                    <h3 class="text-primary font-weight-light mb-2">Follow us on social media:</h3>
                     <a target="_blank" rel="noopener" href="https://twitter.com/creativetim"
                        class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip"
                        data-original-title="Follow us">
@@ -18,9 +20,9 @@
                         <i class="fa fa-facebook-square"></i>
                     </a>
                     <a target="_blank" rel="noopener" href="https://dribbble.com/creativetim"
-                       class="btn btn-neutral btn-icon-only btn-dribbble btn-lg btn-round" data-toggle="tooltip"
+                       class="btn btn-primary btn-icon-only btn-lg btn-round" data-toggle="tooltip"
                        data-original-title="Follow us">
-                        <i class="fa fa-dribbble"></i>
+                        <i class="fa fa-linkedin"></i>
                     </a>
                     <a target="_blank" rel="noopener" href="https://github.com/INFINITE-TECHNOLOGY"
                        class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" data-toggle="tooltip"
@@ -34,20 +36,22 @@
                 <div class="col-md-6">
                     <div class="copyright">
                         &copy; {{year}}
-                        <a href="https://www.creative-tim.com" target="_blank" rel="noopener">Creative Tim</a> & <a href="https://www.binarcode.com" target="_blank" rel="noopener">Binar Code</a>
+                        <a href="https://www.creative-tim.com" target="_blank" rel="noopener">Infinite TECH</a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <ul class="nav nav-footer justify-content-end">
                         <li class="nav-item">
-                            <a href="https://www.creative-tim.com" class="nav-link" target="_blank" rel="noopener">Creative Tim</a>
+                            <a href="https://www.creative-tim.com" class="nav-link" target="_blank" rel="noopener">Fundraising</a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank" rel="noopener">About
+                            <a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank"
+                               rel="noopener">About
                                 Us</a>
                         </li>
                         <li class="nav-item">
-                            <a href="http://blog.creative-tim.com" class="nav-link" target="_blank" rel="noopener">Blog</a>
+                            <a href="http://blog.creative-tim.com" class="nav-link" target="_blank"
+                               rel="noopener">Blog</a>
                         </li>
                         <li class="nav-item">
                             <a href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
@@ -60,14 +64,14 @@
     </footer>
 </template>
 <script>
-export default {
-  name: 'app-footer',
-  data() {
-    return {
-      year: new Date().getFullYear()
-    }
-  }
-};
+    export default {
+        name: 'app-footer',
+        data() {
+            return {
+                year: new Date().getFullYear()
+            }
+        }
+    };
 </script>
 <style>
 </style>
