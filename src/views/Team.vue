@@ -41,8 +41,7 @@
                                     </div>
                                 </li>
                             </ul>
-                            <a href="/Anton"
-                               class="btn btn-white mt-4">Profile</a>
+                            <router-link to="/Anton" class="btn btn-white mt-4">Profile</router-link>
                         </div>
                     </div>
 
