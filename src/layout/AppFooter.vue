@@ -38,16 +38,16 @@
                 <div class="col-md-6">
                     <div class="copyright">
                         &copy; {{year}}
-                        <a href="" target="_blank" rel="noopener">Infinite TECH</a>
+                        <a href="/" target="_blank" rel="noopener">Infinite TECH</a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <ul class="nav nav-footer justify-content-end">
                         <li class="nav-item">
-                            <a href="Fundraising" class="nav-link" target="_blank" rel="noopener">Fundraising</a>
+                            <a href="/Fundraising" class="nav-link" target="_blank" rel="noopener">Fundraising</a>
                         </li>
                         <li class="nav-item">
-                            <a href="PrivacyPolicy" class="nav-link" target="_blank"
+                            <a href="/PrivacyPolicy" class="nav-link" target="_blank"
                                rel="noopener">Privacy Policy</a>
                         </li>
                         <li class="nav-item">

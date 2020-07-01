@@ -18,7 +18,7 @@
                     </div>
                 </div>
                 <div class="row row-grid  ">
-                    <div class="col-md-6 order-md-1">
+                    <div class="col-md-6 order-1">
                         <div>
                             <h3 class="text-white">Our Mission</h3>
                             <p class="text-white">To expand your tech:</p>
@@ -42,12 +42,12 @@
                                     </div>
                                 </li>
                             </ul>
-                            <a href="ContactModal"
+                            <a href="/ContactModal"
                                class="btn btn-white mt-4">Begin</a>
                         </div>
                     </div>
 
-                    <div class="col-md-6 order-md-2 ml-lg-auto">
+                    <div class="col-md-6 order-2 ml-lg-auto">
                         <img src="img/theme/iPhone2007.png" class="img-center img-fluid">
                     </div>
                 </div>

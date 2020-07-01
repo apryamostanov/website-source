@@ -7,7 +7,7 @@
 
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
                 <div class="col-6 collapse-brand">
-                    <a href="">
+                    <a href="/">
                         <img src="img/brand/blue.png">
                     </a>
                 </div>
@@ -23,7 +23,7 @@
                         <span class="nav-link-inner--text">Products</span>
                     </a>
                     <div class="dropdown-menu-inner">
-                        <a href="Bobbin"
+                        <a href="/Bobbin"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle text-white" style=" padding: 0">
                                 <img src="img/theme/Bobbin_small.png" alt="Circle image"
@@ -35,7 +35,7 @@
                                     Logger.</p>
                             </div>
                         </a>
-                        <a href="BlackBox"
+                        <a href="/BlackBox"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle text-white" style=" padding: 0">
                                 <img src="img/theme/BlackBox_small.png" alt="Circle image"
@@ -46,7 +46,7 @@
                                 <p class="description d-none d-md-inline-block mb-0">Groovy Logging AST.</p>
                             </div>
                         </a>
-                        <a href="Pigeon"
+                        <a href="/Pigeon"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle text-white" style=" padding: 0">
                                 <img src="img/theme/Pigeon_small.png" alt="Circle image"
@@ -57,7 +57,7 @@
                                 <p class="description d-none d-md-inline-block mb-0">HTTP Message Broker.</p>
                             </div>
                         </a>
-                        <a href="David"
+                        <a href="/David"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle text-white" style=" padding: 0">
                                 <img src="img/theme/David_small.png" alt="Circle image"
@@ -68,7 +68,7 @@
                                 <p class="description d-none d-md-inline-block mb-0">Telegram Chat Bot.</p>
                             </div>
                         </a>
-                        <a href="Cobol"
+                        <a href="/Cobol"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle" style=" padding: 0">
                                 <img src="img/theme/COBOL_small.png" alt="Circle image"
@@ -80,7 +80,7 @@
                                     API.</p>
                             </div>
                         </a>
-                        <a href="Orbit"
+                        <a href="/Orbit"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle" style=" padding: 0">
                                 <img src="img/theme/Orbit_small.png" alt="Circle image"
@@ -91,7 +91,7 @@
                                 <p class="description d-none d-md-inline-block mb-0">REST API Frontend.</p>
                             </div>
                         </a>
-                        <a href="Ascend"
+                        <a href="/Ascend"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle" style=" padding: 0">
                                 <img v-lazy="'img/theme/Ascend_small.png'" alt="Circle image"
