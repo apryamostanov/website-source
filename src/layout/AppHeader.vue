@@ -7,9 +7,9 @@
 
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
                 <div class="col-6 collapse-brand">
-                    <a href="/">
+                    <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
                         <img src="img/brand/blue.png">
-                    </a>
+                    </router-link>
                 </div>
                 <div class="col-6 collapse-close">
                     <close-button @click="closeMenu"></close-button>
