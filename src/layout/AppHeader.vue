@@ -7,7 +7,7 @@
 
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
                 <div class="col-6 collapse-brand">
-                    <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/">
+                    <a href="">
                         <img src="img/brand/blue.png">
                     </a>
                 </div>
@@ -154,6 +154,13 @@
                        target="_blank" rel="noopener" data-toggle="tooltip" title="Star us on Github">
                         <i class="fa fa-github"></i>
                         <span class="nav-link-inner--text d-lg-none">Github</span>
+                    </a>
+                </li>
+                <li class="nav-item d-lg-none">
+                    <a class="nav-link nav-link-icon" href="https://t.me/david_it_bot"
+                       target="_blank" rel="noopener" data-toggle="tooltip" title="Chat Bot">
+                        <i class="fa fa-telegram"></i>
+                        <span class="nav-link-inner--text ">Chat Bot</span>
                     </a>
                 </li>
                 <li class="nav-item d-none d-lg-block ml-lg-4">

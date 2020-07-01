@@ -6,7 +6,7 @@
                     <h3 class="text-primary font-weight-light mb-2">Our Humanitarian mission:</h3>
 
                     <a href="https://www.facebook.com/groups/518671105515699/"
-                       class="nav-link" target="_blank" rel="noopener"><base-button class="btn-1" outline type="warning">Bangladesh
+                       class="nav-link pl-0" target="_blank" rel="noopener"><base-button class="btn-1" outline type="warning">Bangladesh
                         Corona Virus Relief</base-button></a>
                 </div>
                 <div class="col-lg-6 text-lg-center btn-wrapper">

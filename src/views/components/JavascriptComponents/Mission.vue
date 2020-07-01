@@ -42,7 +42,7 @@
                                     </div>
                                 </li>
                             </ul>
-                            <a href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
+                            <a href="ContactModal"
                                class="btn btn-white mt-4">Begin</a>
                         </div>
                     </div>
@@ -51,25 +51,6 @@
                         <img src="img/theme/iPhone2007.png" class="img-center img-fluid">
                     </div>
                 </div>
-                <div class="row justify-content-between">
-                    <!--<div class="col-lg-6 mb-lg-auto">
-                        <div class="rounded shadow-lg overflow-hidden ">
-                            <b-carousel id="carousel1"
-                                        controls
-                                        indicators>
-                                <b-carousel-slide img-src="img/theme/Pigeon.png"></b-carousel-slide>
-                                <b-carousel-slide img-src="img/theme/BlackBox.png"></b-carousel-slide>
-                                <b-carousel-slide img-src="img/theme/Bobbin.png"></b-carousel-slide>
-                                <b-carousel-slide img-src="img/theme/COBOL.png"></b-carousel-slide>
-                                <b-carousel-slide img-src="img/theme/David.png"></b-carousel-slide>
-                                <b-carousel-slide img-src="img/theme/Ascend.png"></b-carousel-slide>
-                                <b-carousel-slide img-src="img/theme/Orbit.png"></b-carousel-slide>
-                            </b-carousel>
-                        </div>
-                    </div>-->
-
-                </div>
-
                 <div class="row justify-content-center text-center">
                     <div class="col-lg-8">
                         <h2 class="display-3 text-white">Pioneers of Mobile Banking</h2>
