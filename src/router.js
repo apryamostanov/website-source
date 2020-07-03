@@ -11,6 +11,7 @@ import Mayo from "./views/Mayo.vue";
 import PrivacyPolicy from "./views/PrivacyPolicy";
 import TermsAndConditions from "./views/TermsAndConditions";
 import Team from "./views/Team";
+import Partners from "./views/Partners";
 
 Vue.use(Router);
 
@@ -69,6 +70,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Team,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/Partners",
+      name: "Partners",
+      components: {
+        header: AppHeader,
+        default: Partners,
         footer: AppFooter
       }
     },

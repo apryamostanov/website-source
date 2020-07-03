@@ -6,17 +6,20 @@
                     <h3 class="text-primary font-weight-light mb-2">Our Humanitarian mission:</h3>
 
                     <a href="https://www.facebook.com/groups/518671105515699/"
-                       class="nav-link pl-0" target="_blank" rel="noopener"><base-button class="btn-1" outline type="warning">Bangladesh
-                        Corona Virus Relief</base-button></a>
+                       class="nav-link pl-0" target="_blank" rel="noopener">
+                        <base-button class="btn-1" outline type="warning">Bangladesh
+                            Corona Virus Relief
+                        </base-button>
+                    </a>
                 </div>
                 <div class="col-lg-6 text-lg-center btn-wrapper">
                     <h3 class="text-primary font-weight-light mb-2">Follow us on social media:</h3>
-                    <a target="_blank" rel="noopener" href="https://twitter.com/creativetim"
+                    <a target="_blank" rel="noopener" href="https://twitter.com/infinitetech"
                        class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip"
                        data-original-title="Follow us">
                         <i class="fa fa-twitter"></i>
                     </a>
-                    <a target="_blank" rel="noopener" href="https://www.facebook.com/creativetim"
+                    <a target="_blank" rel="noopener" href="https://www.facebook.com/infinitetech"
                        class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg" data-toggle="tooltip"
                        data-original-title="Like us">
                         <i class="fa fa-facebook-square"></i>
@@ -38,17 +41,16 @@
                 <div class="col-md-6">
                     <div class="copyright">
                         &copy; {{year}}
-                        <a href="/" target="_blank" rel="noopener">Infinite TECH</a>
+                        <router-link to="/">Infinite TECH</router-link>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <ul class="nav nav-footer justify-content-end">
                         <li class="nav-item">
-                            <a href="/Fundraising" class="nav-link" target="_blank" rel="noopener">Fundraising</a>
+                            <router-link class="nav-link" to="/Fundraising">Fundraising</router-link>
                         </li>
                         <li class="nav-item">
-                            <a href="/PrivacyPolicy" class="nav-link" target="_blank"
-                               rel="noopener">Privacy Policy</a>
+                            <router-link class="nav-link" to="/PrivacyPolicy">Privacy Policy</router-link>
                         </li>
                         <li class="nav-item">
                             <a href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"

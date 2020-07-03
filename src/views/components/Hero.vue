@@ -17,7 +17,7 @@
                 <div class="row justify-content-center align-items-center" >
                     <div class="col-lg-9 text-center ">
                         <img src="img/brand/white.png" style="width: 200px;" class="img-fluid">
-                        <p class="lead text-white mt-4 mb-5">Software Consulting</p>
+                        <p class="lead text-white mt-4 mb-5">Fintech Consulting</p>
                             <base-button tag="a"
                                          href="/Projects"
                                          class="mb-3 mb-sm-3"
