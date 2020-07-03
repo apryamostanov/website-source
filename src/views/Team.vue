@@ -12,12 +12,15 @@
             <div class="container pt-100">
                 <div class="row justify-content-center text-center mb-sm">
                     <div class="col-lg-8">
-                        <h2 class="display-3 text-white">Our Team</h2>
+                        <h2 class="display-3 text-white">Team</h2>
                         <p class="lead text-white">Experienced banking professionals.</p>
                     </div>
                 </div>
                 <div class="row row-grid  ">
-                    <div class="col-md-6 order-sm-1">
+                    <div class="col-md-4 order-md-2 ml-lg-auto">
+                        <img src="img/theme/team-Anton-Pryamostanov.jpg" class="img-center img-fluid shadow">
+                    </div>
+                    <div class="col-md-6 order-md-1">
                         <div>
                             <h3 class="text-white">Anton Pryamostanov</h3>
                             <p class="text-white">Managing Consultant</p>
@@ -45,9 +48,6 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 order-sm-2 ml-lg-auto">
-                        <img src="img/theme/team-Anton-Pryamostanov.jpg" class="img-center img-fluid shadow">
-                    </div>
                 </div>
 
             </div>
