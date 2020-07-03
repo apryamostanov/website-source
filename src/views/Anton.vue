@@ -27,11 +27,11 @@
                                                  href="https://www.linkedin.com/in/anton-pryamostanov-99571224/">
                                         Connect
                                     </base-button>
-                                    <base-button v-if="!skipFooterIcons()" icon="fa fa-telegram" type="default" size="sm" class="mr-4  " tag="a" target="_blank"
+                                    <base-button v-if="!skipFooterIcons()" icon="fa fa-telegram" type="default" size="sm" class="float-right" tag="a" target="_blank"
                                                  href="https://web.telegram.org/#/im?p=@anton_pryamostanov">
                                         Message
                                     </base-button>
-                                    <base-button v-if="skipFooterIcons()" icon="fa fa-telegram" type="default" size="sm" class="mr-4  " tag="a" target="_blank"
+                                    <base-button v-if="skipFooterIcons()" icon="fa fa-telegram" type="default" size="sm" class="float-right" tag="a" target="_blank"
                                                  href="https://t.me/anton_pryamostanov">
                                         Message
                                     </base-button>
@@ -41,15 +41,15 @@
                                 <div class="card-profile-stats d-flex justify-content-center">
                                     <div>
                                         <span class="heading">15</span>
-                                        <span class="description">years in Banking</span>
+                                        <span class="description">years Banking</span>
                                     </div>
                                     <div>
                                         <span class="heading">10</span>
-                                        <span class="description">years in FinTech</span>
+                                        <span class="description">years FinTech</span>
                                     </div>
                                     <div>
                                         <span class="heading">10</span>
-                                        <span class="description">years in Payments</span>
+                                        <span class="description">years Payments</span>
                                     </div>
                                 </div>
                             </div>
