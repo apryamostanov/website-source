@@ -7,11 +7,11 @@ import Landing from "./views/OldLanding.vue";
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import Anton from "./views/Anton.vue";
-import Mayo from "./views/Mayo.vue";
 import PrivacyPolicy from "./views/PrivacyPolicy";
 import TermsAndConditions from "./views/TermsAndConditions";
 import Team from "./views/Team";
 import Partners from "./views/Partners";
+import Story from "./views/Story";
 
 Vue.use(Router);
 
@@ -70,6 +70,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Team,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/Story",
+      name: "Story",
+      components: {
+        header: AppHeader,
+        default: Story,
         footer: AppFooter
       }
     },
