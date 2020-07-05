@@ -44,131 +44,71 @@
                                     </div>
                                 </li>
                             </ul>
-                            <router-link to="/Timetravel" class="btn btn-warning mt-4">Timetravel</router-link>
+                            <router-link to="/2009" class="btn btn-warning mt-4">Timetravel</router-link>
                         </div>
                     </div>
                 </card>
                 <card shadow class="shadow-lg--hover mt-5">
                     <div class="row row-grid-1 align-items-center">
-                        <div class="col-md-3 order-md-2 ml-lg-auto">
-                            <img src="img/theme/2010.png" class="img-center img-fluid">
+                        <div class="col-md-4 order-md-2 ml-lg-auto">
+                            <img src="img/theme/2018.png" class="img-center img-fluid">
                         </div>
-                        <div class="col-md-9 order-md-1">
-                            <h3>2010</h3>
-                            <p>Spin up</p>
+                        <div class="col-md-6 order-md-1">
+                            <h3>2018</h3>
+                            <p>Open Source</p>
                             <ul class="list-unstyled mt-3">
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
-                                        <h6 class="mb-0 text-uppercase">Acquiring portfolio migration</h6>
+                                        <h6 class="mb-0 text-uppercase">Infinite Technology ∞</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
-                                        <h6 class="mb-0 text-uppercase">Merchant management system</h6>
+                                        <h6 class="mb-0 text-uppercase">Innovation Stack released</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
-                                        <h6 class="mb-0 text-uppercase">Moscow Credit Bank</h6>
+                                        <h6 class="mb-0 text-uppercase">Partnership with Wirecard</h6>
                                     </div>
                                 </li>
                             </ul>
+                            <router-link to="/2018" class="btn btn-warning mt-4">Timetravel</router-link>
                         </div>
                     </div>
                 </card>
                 <card shadow class="shadow-lg--hover mt-5">
                     <div class="row row-grid-1 align-items-center">
-                        <div class="col-md-3 order-md-2 ml-lg-auto">
-                            <img src="img/theme/2011.png" class="img-center img-fluid">
+                        <div class="col-md-4 order-md-2 ml-lg-auto">
+                            <img src="img/theme/2020.png" class="img-center img-fluid">
                         </div>
-                        <div class="col-md-9 order-md-1">
-                            <h3>2011</h3>
-                            <p>Takeoff</p>
+                        <div class="col-md-6 order-md-1">
+                            <h3>2020</h3>
+                            <p>New Age</p>
                             <ul class="list-unstyled mt-3">
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
-                                        <h6 class="mb-0 text-uppercase">QMR consulting</h6>
+                                        <h6 class="mb-0 text-uppercase">Infinite TECH</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
-                                        <h6 class="mb-0 text-uppercase">PCI DSS consulting</h6>
+                                        <h6 class="mb-0 text-uppercase">Fintech Consulting</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
-                                        <h6 class="mb-0 text-uppercase">ATM-CAT integration</h6>
+                                        <h6 class="mb-0 text-uppercase">Commercial Operation</h6>
                                     </div>
                                 </li>
                             </ul>
-                        </div>
-                    </div>
-                </card>
-                <card shadow class="shadow-lg--hover mt-5">
-                    <div class="row row-grid-1 align-items-center">
-                        <div class="col-md-3 order-md-2 ml-lg-auto">
-                            <img src="img/theme/2012.png" class="img-center img-fluid">
-                        </div>
-                        <div class="col-md-9 order-md-1">
-                            <h3>2012</h3>
-                            <p>Cruising</p>
-                            <ul class="list-unstyled mt-3">
-                                <li class="py-2">
-                                    <div class="d-flex align-items-center">
-                                        <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
-                                        <h6 class="mb-0 text-uppercase">Prepaid card project consulting</h6>
-                                    </div>
-                                </li>
-                                <li class="py-2">
-                                    <div class="d-flex align-items-center">
-                                        <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
-                                        <h6 class="mb-0 text-uppercase">Visa Base II VSDC certification</h6>
-                                    </div>
-                                </li>
-                                <li class="py-2">
-                                    <div class="d-flex align-items-center">
-                                        <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
-                                        <h6 class="mb-0 text-uppercase">Datacard personalization setup</h6>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </card>
-                <card shadow class="shadow-lg--hover mt-5">
-                    <div class="row row-grid-1 align-items-center">
-                        <div class="col-md-3 order-md-2 ml-lg-auto">
-                            <img src="img/theme/2012.png" class="img-center img-fluid">
-                        </div>
-                        <div class="col-md-9 order-md-1">
-                            <h3>2013</h3>
-                            <p>Cruising</p>
-                            <ul class="list-unstyled mt-3">
-                                <li class="py-2">
-                                    <div class="d-flex align-items-center">
-                                        <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
-                                        <h6 class="mb-0 text-uppercase">ATM DCC Acquiring project</h6>
-                                    </div>
-                                </li>
-                                <li class="py-2">
-                                    <div class="d-flex align-items-center">
-                                        <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
-                                        <h6 class="mb-0 text-uppercase">Bobbin Logger - Oracle</h6>
-                                    </div>
-                                </li>
-                                <li class="py-2">
-                                    <div class="d-flex align-items-center">
-                                        <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
-                                        <h6 class="mb-0 text-uppercase">Czech Republic, Slovakia, Croatia</h6>
-                                    </div>
-                                </li>
-                            </ul>
+                            <router-link to="/Projects" class="btn btn-warning mt-4">Make the future</router-link>
                         </div>
                     </div>
                 </card>
