@@ -134,7 +134,38 @@
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
-                                        <h6 class="mb-0 text-uppercase">Datacard In-house personalization setup</h6>
+                                        <h6 class="mb-0 text-uppercase">Datacard personalization setup</h6>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </card>
+                <card shadow class="shadow-lg--hover mt-5">
+                    <div class="row row-grid-1 align-items-center">
+                        <div class="col-md-3 order-md-2 ml-lg-auto">
+                            <img src="img/theme/2012.png" class="img-center img-fluid">
+                        </div>
+                        <div class="col-md-9 order-md-1">
+                            <h3>2013</h3>
+                            <p>Cruising</p>
+                            <ul class="list-unstyled mt-3">
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
+                                        <h6 class="mb-0 text-uppercase">ATM DCC Acquiring project</h6>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
+                                        <h6 class="mb-0 text-uppercase">Bobbin Logger - Oracle</h6>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
+                                        <h6 class="mb-0 text-uppercase">Czech Republic, Slovakia, Croatia</h6>
                                     </div>
                                 </li>
                             </ul>
