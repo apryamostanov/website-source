@@ -23,12 +23,12 @@
                         </div>
                         <div class="col-md-6 order-md-1">
                             <h3>2009</h3>
-                            <p>The Foundation</p>
+                            <p>Global First</p>
                             <ul class="list-unstyled mt-3">
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
-                                        <h6 class="mb-0 text-uppercase">Global First Startup</h6>
+                                        <h6 class="mb-0 text-uppercase">The Foundation</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
@@ -55,12 +55,12 @@
                         </div>
                         <div class="col-md-6 order-md-1">
                             <h3>2018</h3>
-                            <p>Open Source</p>
+                            <p>Infinite Technology ∞</p>
                             <ul class="list-unstyled mt-3">
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
-                                        <h6 class="mb-0 text-uppercase">Infinite Technology ∞</h6>
+                                        <h6 class="mb-0 text-uppercase">Open Source</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
@@ -87,12 +87,12 @@
                         </div>
                         <div class="col-md-6 order-md-1">
                             <h3>2020</h3>
-                            <p>New Age</p>
+                            <p>Infinite TECH</p>
                             <ul class="list-unstyled mt-3">
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
-                                        <h6 class="mb-0 text-uppercase">Infinite TECH</h6>
+                                        <h6 class="mb-0 text-uppercase">Branding update</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">

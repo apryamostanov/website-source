@@ -59,10 +59,10 @@
                 </div>
                 <div>
                     <tabs fill class="flex-column flex-md-row">
-                        <card shadow>
-                            <tab-pane title="FinTech">
+                        <card shadow >
+                            <tab-pane title="Fintech">
                                 <p class="text-lead"><b>Infinite TECH</b> created the leading innovation stack in the
-                                    FinTech Industry,
+                                    Fintech Industry,
                                     which is being actively used by our partners and has been proven by processing very
                                     high financial volumes.</p>
                                 <ul>

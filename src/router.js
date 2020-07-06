@@ -12,6 +12,8 @@ import TermsAndConditions from "./views/TermsAndConditions";
 import Team from "./views/Team";
 import Partners from "./views/Partners";
 import Story from "./views/Story";
+import Year2009 from "./views/2009";
+import Year2018 from "./views/2018";
 
 Vue.use(Router);
 
@@ -61,6 +63,24 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Anton,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/2009",
+      name: "2009",
+      components: {
+        header: AppHeader,
+        default: Year2009,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/2018",
+      name: "2018",
+      components: {
+        header: AppHeader,
+        default: Year2018,
         footer: AppFooter
       }
     },

@@ -1,1 +1,6 @@
 // Bootstrap carousel
+.carousel-indicators,
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
