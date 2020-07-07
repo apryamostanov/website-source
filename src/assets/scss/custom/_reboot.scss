@@ -29,3 +29,25 @@ main {
 main {
 	overflow: hidden;
 }
+blockquote {
+    padding: 0 1rem;
+    margin-left: 0;
+    color: $dark;
+    background-color: $gray-200;
+    border-left: 0.3rem solid $gray-400;
+
+    > :first-child {
+        margin-top: 0;
+    }
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+pre {
+    color: $dark;
+    background-color: $gray-200;
+    border: solid 1px $gray-400;
+
+    padding: 0.8rem;
+}

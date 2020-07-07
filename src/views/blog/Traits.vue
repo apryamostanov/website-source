@@ -17,10 +17,11 @@
                     </div>
                 </div>
                 <card shadow class="shadow-lg--hover mt-5">
-                    <vue-markdown>
-**2018-11-17**
+                    <p class="text-right"><strong>17th November, 2018</strong></p>
+                    <p class="text-right">Anton Pryamostanov</p>
+                    <vue-markdown>Dear Readers,
 
-This is our first post!
+A warm welcome to the very first post of our Blog.
 
 Today we will show an example of a new useful **Groovy Traits** feature:
 - Multiple inheritance of static and instance init blocks

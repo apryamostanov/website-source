@@ -33,7 +33,7 @@
                             </div>
                             <div class="pl-4">
                                 <h5 class="title text-success">Bobbin</h5>
-                                <p>Revolutionary high-performance SLF4J logger.</p>
+                                <p>Revolutionary SLF4J logger.</p>
                                 <base-button class="btn-1" outline type="success">See More</base-button>
                             </div>
                         </div>
