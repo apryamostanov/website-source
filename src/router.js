@@ -14,6 +14,7 @@ import Partners from "./views/Partners";
 import Story from "./views/Story";
 import Year2009 from "./views/2009";
 import Year2018 from "./views/2018";
+import Blog from "./views/Blog";
 
 Vue.use(Router);
 
@@ -90,6 +91,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Team,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/Blog",
+      name: "Blog",
+      components: {
+        header: AppHeader,
+        default: Blog,
         footer: AppFooter
       }
     },

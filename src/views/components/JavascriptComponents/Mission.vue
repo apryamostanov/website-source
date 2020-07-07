@@ -26,13 +26,13 @@
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="z" color="primary" circle class="mr-3">1</badge>
-                                        <h6 class="mb-0 text-white">Start using our Open Source Products</h6>
+                                        <h6 class="mb-0 text-white">Consult with us</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="z" color="primary" circle class="mr-3">2</badge>
-                                        <h6 class="mb-0 text-white">Get our support</h6>
+                                        <h6 class="mb-0 text-white">Use our Open Source Products</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
@@ -42,7 +42,7 @@
                                     </div>
                                 </li>
                             </ul>
-                            <a href="/ContactModal"
+                            <a href="/BeginModal"
                                class="btn btn-white mt-4">Begin</a>
                         </div>
                     </div>
@@ -54,7 +54,7 @@
                 <div class="row justify-content-center text-center">
                     <div class="col-lg-8">
                         <h2 class="display-3 text-white">Pioneers of Mobile Banking</h2>
-                        <p class="lead text-white">More than a decade of FinTech Innovation.</p>
+                        <p class="lead text-white">More than a decade of Fintech Innovation.</p>
                     </div>
                 </div>
                 <div>

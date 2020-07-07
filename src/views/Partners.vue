@@ -29,8 +29,8 @@
                                     </div>
                                 </div>
                                 <div class="pl-4">
-                                    <h5 class="title text-dark text-uppercase">Wirecard Processing</h5>
-                                    <p>Our forever beloved partner and mothership company.</p>
+                                    <h5 class="title text-dark text-uppercase">Wirecard</h5>
+                                    <p>Our primary partner and mothership company.</p>
                                     <p>Wirecard is benefiting from the entire Infinite TECH Ecosystem.</p>
                                     <div>
                                         <badge type="success" rounded>Bobbin</badge>

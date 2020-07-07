@@ -2,7 +2,6 @@
     <section class="section section-components pb-0">
         <div class="container">
             <services></services>
-            <team></team>
             <progress-section></progress-section>
             <div class="row row-grid justify-content-between">
                 <div class="col-lg-5">
@@ -72,14 +71,12 @@
 
     const Tooltips = () => import("./JavascriptComponents/Tooltips");
     const DatePickers = () => import("./JavascriptComponents/DatePickers");
-    import Team from "./Team";
     import services from "./JavascriptComponents/Services";
     import ProgressSection from "./JavascriptComponents/ProgressPagination";
     import Typography from "./JavascriptComponents/Typography";
 
     export default {
         components: {
-            Team,
             DatePickers,
             Modals,
             TabPane,
