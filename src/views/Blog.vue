@@ -1,7 +1,7 @@
 <template>
     <div class="section section section-shaped my-0 overflow-hidden">
         <div>
-            <div class="shape shape-style-1 shape-primary bg-gradient-blue">
+            <div class="shape shape-style-1 shape-primary bg-gradient-indigo">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -13,6 +13,7 @@
                 <div class="row justify-content-center text-center mb-sm">
                     <div class="col-lg-8">
                         <h2 class="display-3 text-white">Blog</h2>
+                        <p class="lead text-white">Exclusive content written by our authors.</p>
                     </div>
                 </div>
                 <card shadow class="shadow-lg--hover mt-5">
@@ -25,7 +26,7 @@
                             <p class="text-dark">17th November, 2018</p>
                             <p class="text-lead">Today we will show an example of a new useful Groovy Traits feature:</p>
                             <p class="text-lead ml-3">- Multiple inheritance of static and instance init blocks</p>
-                            <router-link to="/Anton" class="btn btn-primary mt-4">Read</router-link>
+                            <router-link to="/Blog/Traits" class="btn btn-primary mt-4">Read</router-link>
                         </div>
                     </div>
                 </card>

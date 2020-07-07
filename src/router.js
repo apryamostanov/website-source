@@ -15,6 +15,7 @@ import Story from "./views/Story";
 import Year2009 from "./views/2009";
 import Year2018 from "./views/2018";
 import Blog from "./views/Blog";
+import Traits from "./views/blog/Traits";
 
 Vue.use(Router);
 
@@ -73,6 +74,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Year2009,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/Blog/Traits",
+      name: "Traits",
+      components: {
+        header: AppHeader,
+        default: Traits,
         footer: AppFooter
       }
     },
