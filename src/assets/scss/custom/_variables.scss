@@ -80,6 +80,7 @@ $dark:          $gray-900 !default;
 $darker:        darken($gray-900, 15%) !default;
 $z: #A8B3F3 !default;
 $q: #1072EF !default;
+$w: #169e5f !default;
 
 $facebook:      #3b5999 !default;
 $twitter:       #1da1f2 !default;
@@ -105,7 +106,8 @@ $theme-colors: map-merge((
   "dark":         $dark,
   "darker":       $darker,
   "z":       $z,
-        "q": $q
+        "q": $q,
+        "w": $w
 ), $theme-colors);
 
 $brand-colors: () !default;

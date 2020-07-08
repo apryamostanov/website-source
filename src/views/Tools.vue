@@ -1,6 +1,6 @@
 <template>
     <section class="section section section-shaped my-0 overflow-hidden">
-        <div class="shape shape-style-1 bg-gradient-success">
+        <div class="shape shape-style-1 bg-gradient-green">
             <span></span>
             <span></span>
             <span></span>
@@ -13,7 +13,7 @@
                 <div class="col-lg-6 order-lg-1">
                     <div class="d-flex px-3">
                         <div>
-                            <icon name="ni ni-settings" size="lg" type="info" shadow rounded></icon>
+                            <icon name="ni ni-settings" size="lg" type="white" color="w" shadow rounded></icon>
                         </div>
                         <div class="pl-4">
                             <h4 class="display-3 text-white">Online Tools</h4>

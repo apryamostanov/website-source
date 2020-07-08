@@ -1,6 +1,6 @@
 <template>
     <section class="section-hero section-shaped my-0" style="height: 100vh; ">
-        <div class="shape shape-style-1 shape-primary">
+        <div class="shape shape-style-1 shape-primary bg-gradient-indigo">
             <span class="span-150"></span>
             <span class="span-50"></span>
             <span class="span-50"></span>
