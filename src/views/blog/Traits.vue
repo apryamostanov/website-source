@@ -17,18 +17,18 @@
                     </div>
                 </div>
                 <card shadow class="shadow-lg--hover mt-5">
-                    <p class="text-right"><strong>17th November, 2018</strong></p>
-                    <p class="text-right">Anton Pryamostanov</p>
-                    <vue-markdown>Dear Readers,
+                    <p class="text-center"><strong>17th November, 2018</strong></p>
+                    <vue-markdown>Dear Readers :) ,
 
 A warm welcome to the very first post of our Blog.
 
-Today we will show an example of a new useful **Groovy Traits** feature:
+Today we will show an example of a useful **Groovy Traits** feature:
 - Multiple inheritance of static and instance init blocks
 
-Note: it seems that this is first post about this feature as it was implemented just a few days back thanks to Groovy Team and [paulk_asert](https://groovy-community.slack.com/team/U2P6GPHHC).
-
 Let's consider below use case:
+
+<img src="img/theme/Bobbin_small.png" alt="Circle image" class="img-fluid rounded-circle ">
+
 * Several classes extend **same ancestor class** (e.g. java.lang.Thread) and are instantiated into a **limited number of instances**
 * These classes are **not within same inheritance hierarchy** except for the above common ancestor
 * However these classes share certain traits:
@@ -46,10 +46,12 @@ That is where **Groovy** comes to our help - with the awesome **"traits"** conce
 
 And starting from Groovy version 2.5.5 - the "traits" can support init blocks - allowing multiple inheritance of initialization traits.
 
-> Note: If class implements more than 1 trait containing static init block - all the static init blocks are invoked.
+> If class implements more than 1 trait containing static init block - all the static init blocks are invoked.
 To illustrate this we added "InitLoggingTrait".
 
 Let's try it out!
+
+- InitLoggingTrait
 
 ```groovy
 trait InitLoggingTrait {
@@ -60,6 +62,8 @@ trait InitLoggingTrait {
         System.out.println(String.format("%s : %s : %s", Thread.currentThread().getName().padRight(30), getMetaClass().getTheClass().getSimpleName().padRight(30), string))
     }
 }
+```
+```groovy
 trait InstanceCounterTrait {
     static private Integer instanceCounter //immutable, non-shareable
     static {
@@ -70,16 +74,22 @@ trait InstanceCounterTrait {
         setName(getClass().getSimpleName() + instanceCounter)
     }
 }
+```
+```groovy
 class SenderThread extends Thread implements InstanceCounterTrait, InitLoggingTrait {
     void run() {
         printlnFormatted "Run (Sending)"
     }
 }
+```
+```groovy
 class ReceiverThread extends Thread implements InstanceCounterTrait, InitLoggingTrait {
     void run() {
         printlnFormatted "Run (Receiving)"
     }
 }
+```
+```groovy
 Thread.currentThread().setName("Main")
 System.out.println("Thread Name".padRight(30) + " : " + "Class Name".padRight(30) + " : Message")
 System.out.println("---------------------------------------------------------------------------")
@@ -119,14 +129,20 @@ Happy hacking!
 </template>
 <script>
     import VueMarkdown from 'vue-markdown' // production
+    import Prism from 'prismjs'
+    import 'prismjs/themes/prism-twilight.css'
+    import 'prismjs/components/prism-groovy.js';  // language
     export default {
-        methods: {
-            skipFooterIcons() {
-                return (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && this.$screen.landscape);
-            }
+        options: {
+            html: true
         },
-        components: {
+            components: {
             VueMarkdown
+        },
+        mounted() {
+            this.$nextTick(() => {
+                Prism.highlightAll()
+            });
         }
     };
 

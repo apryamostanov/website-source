@@ -17,6 +17,7 @@
     "vue-lazyload": "^1.2.6",
     "vue-markdown": "^2.2.4",
     "vue-markdown-loader": "^2.4.1",
+    "vue-prismjs": "^1.2.0",
     "vue-router": "^3.0.2",
     "vue-screen": "^1.4.3",
     "vue2-transitions": "^0.2.3",
