@@ -27,7 +27,7 @@ Today we will show an example of a useful **Groovy Traits** feature:
 
 Let's consider below use case:
 
-<img src="img/theme/Bobbin_small.png" alt="Circle image" class="img-fluid rounded-circle ">
+<a href="">a</a>
 
 * Several classes extend **same ancestor class** (e.g. java.lang.Thread) and are instantiated into a **limited number of instances**
 * These classes are **not within same inheritance hierarchy** except for the above common ancestor
@@ -134,9 +134,12 @@ Happy hacking!
     import 'prismjs/components/prism-groovy.js';
     export default {
         options: {
-            html: true
+            html: true,
+            markdownIt: {
+                html: true
+            },
         },
-            components: {
+        components: {
             VueMarkdown
         },
         mounted() {
