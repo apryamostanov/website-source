@@ -18,7 +18,7 @@
                 </div>
                 <card shadow class="shadow-lg--hover mt-5">
                     <p class="text-center"><strong>17th November, 2018</strong></p>
-                    <vue-markdown>Dear Readers :) ,
+                    <vue-markdown>Dear Readers,
 
 A warm welcome to the very first post of our Blog.
 
@@ -131,7 +131,7 @@ Happy hacking!
     import VueMarkdown from 'vue-markdown' // production
     import Prism from 'prismjs'
     import 'prismjs/themes/prism-twilight.css'
-    import 'prismjs/components/prism-groovy.js';  // language
+    import 'prismjs/components/prism-groovy.js';
     export default {
         options: {
             html: true
