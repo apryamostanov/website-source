@@ -21,8 +21,12 @@ import router from "./router";
 import Argon from "./plugins/argon-kit";
 import './registerServiceWorker'
 import VueScreen from 'vue-screen';
+import VueDisqus from 'vue-disqus'
 
 Vue.use(VueScreen, 'bootstrap');
+Vue.use(VueDisqus, {
+  shortname: 'your-shortname-disqus'
+})
 
 Vue.config.productionTip = false;
 Vue.use(Argon);

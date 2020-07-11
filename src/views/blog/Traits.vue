@@ -20,6 +20,11 @@
                     <p class="text-center"><strong>17th November, 2018</strong></p>
                     <md-content/>
                 </card>
+                <card shadow class="shadow-lg--hover mt-3">
+                    <div class='comments'>
+                        <Disqus shortname='i-t'/>
+                    </div>
+                </card>
             </div>
         </div>
     </div>
@@ -27,6 +32,7 @@
 <script>
     import 'prismjs/themes/prism-twilight.css'
     import MdContent from '../md/Traits.md'
+
     export default {
         components: {
             MdContent
