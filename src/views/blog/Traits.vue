@@ -25,18 +25,11 @@
     </div>
 </template>
 <script>
-    import Prism from 'markdown-it-prism'
     import 'prismjs/themes/prism-twilight.css'
-    import 'prismjs/components/prism-groovy.js';
     import MdContent from '../md/Traits.md'
     export default {
         components: {
             MdContent
-        },
-        mounted() {
-            this.$nextTick(() => {
-                Prism.highlightAll()
-            });
         }
     };
 

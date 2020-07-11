@@ -13,7 +13,10 @@ module.exports = {
             .use('vue-markdown-loader')
             .loader('vue-markdown-loader/lib/markdown-compiler')
             .options({
-                raw: true
+                raw: true,
+                use: [
+                    require('markdown-it-prism')
+                ]
             })
     },
     configureWebpack: {
