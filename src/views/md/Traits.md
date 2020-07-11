@@ -2,7 +2,7 @@ Dear Readers,
 
 A warm welcome to the very first post of our Blog 🎈🎆✨!
 
-Today we will show an example of a useful **Groovy Traits** feature:
+Today we will show an example of a useful `Groovy Traits` feature:
 - Multiple inheritance of static and instance init blocks
 
 Let's consider below use case:
@@ -10,30 +10,30 @@ Let's consider below use case:
 <img src="img/theme/TraitsUML.jpg" alt="Circle image" class="img-fluid">
 
 
-* Several classes extend **same ancestor class** (e.g. java.lang.Thread) and are instantiated into a **limited number of instances**
-* These classes are **not within same inheritance hierarchy** except for the above common ancestor
+* Several classes extend `same ancestor class` (e.g. java.lang.Thread) and are instantiated into a `limited number of instances`
+* These classes are `not within same inheritance hierarchy` except for the above common ancestor
 * However these classes share certain traits:
-    * Every instantiation increments a static counter (**"instanceCounter"**)
+    * Every instantiation increments a static counter (`"instanceCounter"`)
     * Upon instantiation, it is needed to automatically set thread name to Simple Class Name + instance #, e.g.:
-        - **SenderThread1, SenderThread2, ReceiverThread1, ReceiverThread2, etc...**
+        - `SenderThread1, SenderThread2, ReceiverThread1, ReceiverThread2, etc...`
 
-This is a classical example when **multiple inheritance** can be applied.
+This is a good example when `multiple inheritance` can be applied.
 
-Moreover - this is the case when static and instance **[init blocks](https://stackoverflow.com/a/3987586/7727700)** can be used.
+Moreover - this is the case when static and instance [init blocks](https://stackoverflow.com/a/3987586/7727700) can be used.
 
 Java does not support multiple inheritance except for the interfaces.
 
-That is where **Groovy** comes to our help - with the awesome **"traits"** concept.
+That is where `Groovy Traits` come to our help.
 
-And starting from Groovy version 2.5.5 - the "traits" can support init blocks - allowing multiple inheritance of initialization traits.
+For those who don't know it yet, Groovy Trait is like an Interface with members (fields, methods).
+And starting from Groovy version 2.5.5 - the Traits can support init blocks - allowing multiple inheritance of initialization traits.
 
 > If class implements more than 1 trait containing static init block - all the static init blocks are invoked.
 To illustrate this we added "InitLoggingTrait".
 
 Let's try it out!
 
-- InitLoggingTrait
-
+InitLoggingTrait:
 ```groovy
 trait InitLoggingTrait {
     static {
@@ -44,6 +44,7 @@ trait InitLoggingTrait {
     }
 }
 ```
+InstanceCounterTrait:
 ```groovy
 trait InstanceCounterTrait {
     static private Integer instanceCounter //immutable, non-shareable
@@ -56,6 +57,7 @@ trait InstanceCounterTrait {
     }
 }
 ```
+SenderThread:
 ```groovy
 class SenderThread extends Thread implements InstanceCounterTrait, InitLoggingTrait {
     void run() {
@@ -63,6 +65,7 @@ class SenderThread extends Thread implements InstanceCounterTrait, InitLoggingTr
     }
 }
 ```
+ReceiverThread:
 ```groovy
 class ReceiverThread extends Thread implements InstanceCounterTrait, InitLoggingTrait {
     void run() {
@@ -70,6 +73,7 @@ class ReceiverThread extends Thread implements InstanceCounterTrait, InitLogging
     }
 }
 ```
+Let's test the code:
 ```groovy
 Thread.currentThread().setName("Main")
 System.out.println("Thread Name".padRight(30) + " : " + "Class Name".padRight(30) + " : Message")
@@ -101,4 +105,4 @@ ReceiverThread4                : ReceiverThread                 : Run (Receiving
 
 Happy hacking!
 
-***Live Groovy. Code Groovy.***
+`Live Groovy. Code Groovy.`
