@@ -22,7 +22,7 @@
                 </card>
                 <card shadow class="shadow-lg--hover mt-3">
                     <div class='comments'>
-                        <Disqus shortname='i-t'/>
+                        <Disqus :pageConfig="pageConfig" shortname='i-t'/>
                     </div>
                 </card>
             </div>
@@ -36,7 +36,13 @@
     export default {
         components: {
             MdContent
-        }
+        },
+        data: () => ({
+            pageConfig: {
+                url: "https://i-t.io/blog/2018-11-17-Groovy-Traits-static-and-instance-init-blocks.html",
+                identifier: "/blog/2018-11-17-Groovy-Traits-static-and-instance-init-blocks.html"
+            }
+        })
     };
 
 </script>
