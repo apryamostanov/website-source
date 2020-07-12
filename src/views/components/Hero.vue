@@ -35,20 +35,18 @@
                     </div>
                 </div>
             </div>
-            <div v-if="!skipFooterIcons()" class="stars-and-coded" style="position: absolute;bottom: 1%;width: 93%;">
+            <div  class="stars-and-coded" style="position: absolute;bottom: 1%;width: 93%;">
                 <div class="col px-0">
                     <div class="row align-items-center justify-content-around">
-                        <div class="col text-left">
-                            <span class="text-white alpha-7 ml-3">Star us on</span>
+                        <div class="col text-left " >
                             <a href="https://github.com/INFINITE-TECHNOLOGY" target="_blank"
-                               title="Support us on Github">
-                                <img src="img/brand/github-white-slim.png" style="height: 22px; margin-top: -3px">
+                               title="Star us on Github">
+                                <img src="img/brand/github-white-slim.png" style="height: 22px;">
                             </a>
                         </div>
-                        <div class="col  text-right">
-                            <span class="text-white alpha-7 ml-3">Powered by</span>
+                        <div class="col  text-right ">
                             <a href="https://groovy-lang.org/" target="_blank" title="Powered by Apache Groovy">
-                                <img src="img/theme/Groovy.png" class="ml-3" style="height: 90px;">
+                                <img src="img/theme/Groovy.png" style="height: 90px;">
                             </a>
                         </div>
                     </div>

@@ -19,6 +19,20 @@
                 <card shadow class="shadow-lg--hover mt-5">
                     <div class="row row-grid-1 align-items-center">
                         <div class="col-md-3 order-md-2 ml-lg-auto">
+                            <img src="img/theme/Heroku.png" class="img-center img-fluid">
+                        </div>
+                        <div class="col-md-9 order-md-1">
+                            <h3>Heroku Java Client Certificate Authentication</h3>
+                            <p class="text-dark">20th September, 2019</p>
+                            <p class="text-lead">Let’s say our Java application is deployed on Heroku platform and needs
+                                to connect to server using client certificate authentication.</p>
+                            <router-link to="/Blog/HerokuAuthentication" class="btn btn-primary mt-4">Read</router-link>
+                        </div>
+                    </div>
+                </card>
+                <card shadow class="shadow-lg--hover mt-5">
+                    <div class="row row-grid-1 align-items-center">
+                        <div class="col-md-3 order-md-2 ml-lg-auto">
                             <img src="img/theme/Spring.png" class="img-center img-fluid">
                         </div>
                         <div class="col-md-9 order-md-1">

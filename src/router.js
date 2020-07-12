@@ -17,6 +17,7 @@ import Year2018 from "./views/2018";
 import Blog from "./views/Blog";
 import Traits from "./views/blog/Traits";
 import LoggingSpringBoot from "./views/blog/LoggingSpringBoot";
+import HerokuAuthentication from "./views/blog/HerokuAuthentication";
 
 Vue.use(Router);
 
@@ -84,6 +85,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: LoggingSpringBoot,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/Blog/HerokuAuthentication",
+      name: "HerokuAuthentication",
+      components: {
+        header: AppHeader,
+        default: HerokuAuthentication,
         footer: AppFooter
       }
     },

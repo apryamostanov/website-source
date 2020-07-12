@@ -1,7 +1,7 @@
 <template>
     <div class="section section section-shaped my-0 overflow-hidden">
         <div>
-            <div class="shape shape-style-1 shape-default bg-gradient-blue">
+            <div class="shape shape-style-1 shape-default bg-gradient-teal">
                 <span></span>
                 <span></span>
                 <span></span>
