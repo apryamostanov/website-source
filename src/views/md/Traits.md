@@ -1,6 +1,6 @@
 Dear Readers,
 
-A warm welcome to the very first post of our Blog 🎈🎆✨!
+Greetings and a warm welcome to the very first post of our Blog 🎈🎆✨!
 
 Today we will show an example of a useful `Groovy Traits` feature:
 - Multiple inheritance of static and instance init blocks

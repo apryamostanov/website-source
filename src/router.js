@@ -16,6 +16,7 @@ import Year2009 from "./views/2009";
 import Year2018 from "./views/2018";
 import Blog from "./views/Blog";
 import Traits from "./views/blog/Traits";
+import LoggingSpringBoot from "./views/blog/LoggingSpringBoot";
 
 Vue.use(Router);
 
@@ -74,6 +75,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Year2009,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/Blog/LoggingSpringBoot",
+      name: "LoggingSpringBoot",
+      components: {
+        header: AppHeader,
+        default: LoggingSpringBoot,
         footer: AppFooter
       }
     },

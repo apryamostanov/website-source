@@ -19,12 +19,30 @@
                 <card shadow class="shadow-lg--hover mt-5">
                     <div class="row row-grid-1 align-items-center">
                         <div class="col-md-3 order-md-2 ml-lg-auto">
+                            <img src="img/theme/Spring.png" class="img-center img-fluid">
+                        </div>
+                        <div class="col-md-9 order-md-1">
+                            <h3>Logging Spring Boot HTTP with Bobbin</h3>
+                            <p class="text-dark">23rd March, 2019</p>
+                            <p class="text-lead">Today we will demonstrate an amazing example of how
+                                <router-link to="/Bobbin">Bobbin</router-link>
+                                Slf4j Logger can help in a very common use case:
+                            </p>
+                            <p class="text-lead ml-3">- logging Spring Boot HTTP requests and responses</p>
+                            <router-link to="/Blog/LoggingSpringBoot" class="btn btn-primary mt-4">Read</router-link>
+                        </div>
+                    </div>
+                </card>
+                <card shadow class="shadow-lg--hover mt-5">
+                    <div class="row row-grid-1 align-items-center">
+                        <div class="col-md-3 order-md-2 ml-lg-auto">
                             <img src="img/theme/Groovy500.png" class="img-center img-fluid">
                         </div>
                         <div class="col-md-9 order-md-1">
                             <h3>Groovy Traits - static and instance init blocks</h3>
                             <p class="text-dark">17th November, 2018</p>
-                            <p class="text-lead">Today we will show an example of a new useful Groovy Traits feature:</p>
+                            <p class="text-lead">Today we will show an example of a new useful Groovy Traits
+                                feature:</p>
                             <p class="text-lead ml-3">- Multiple inheritance of static and instance init blocks</p>
                             <router-link to="/Blog/Traits" class="btn btn-primary mt-4">Read</router-link>
                         </div>
