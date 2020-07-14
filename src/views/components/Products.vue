@@ -16,7 +16,7 @@
                 </div>
                 <div class="pl-4">
                     <h4 class="display-3 text-white">Products</h4>
-                    <p class="text-white">Open Source. Free. Financial grade.</p>
+                    <p class="lead text-white">Open Source. Free. Financial grade.</p>
                 </div>
             </div>
             <card shadow class="shadow-lg--hover mt-5">
