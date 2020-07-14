@@ -41,9 +41,12 @@
 [class*="btn-outline-"] {
     border-width: 1px;
 }
+
 .btn-outline-secondary {
     color: darken(theme-color("secondary"), 50%);
 }
+
+
 
 .btn-inner--icon {
     i:not(.fa) {

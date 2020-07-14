@@ -1,5 +1,5 @@
 <template>
-    <section class="section section section-shaped my-0 overflow-hidden">
+    <section class="section section section-shaped my-0 overflow-hidden  ">
         <div class="shape shape-style-1 peach-gradient">
             <span></span>
             <span></span>
@@ -15,8 +15,8 @@
                           rounded></icon>
                 </div>
                 <div class="pl-4">
-                    <h4 class="display-3 text-white">Fintech</h4>
-                    <p class="text-white">Leading innovation stack. Proven by financial volumes.</p>
+                    <h4 class="display-3 text-white">Fintech Projects</h4>
+                    <p class="lead text-white">Leading innovation stack. What's your case?</p>
                 </div>
             </div>
             <div class="pt-5">
@@ -27,19 +27,19 @@
                                 <div class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3  " icon="ni ni-mobile-button"></badge>
-                                        <h6 class="mb-0">Mobile Banking</h6>
+                                        <router-link to="/cases/MobileBanking" class="btn text-black-100 text-left  w-100">Mobile Banking</router-link>
                                     </div>
                                 </div>
                                 <div class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3  " icon="fa fa-exchange"></badge>
-                                        <h6 class="mb-0">Financial API</h6>
+                                        <router-link to="/cases/FinancialAPI" class="btn text-black-100 text-left  w-100">Financial API</router-link>
                                     </div>
                                 </div>
                                 <div class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3  " icon="fa fa-lock"></badge>
-                                        <h6 class="mb-0">API Security</h6>
+                                        <router-link to="/cases/Security" class="btn text-black-100 text-left  w-100">API Security</router-link>
                                     </div>
                                 </div>
                             </div>
@@ -49,19 +49,19 @@
                                 <div class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3  " icon="ni ni-send"></badge>
-                                        <h6 class="mb-0">Chat Bots</h6>
+                                        <router-link to="/cases/ChatBots" class="btn text-black-100 text-left  w-100">Chat Bots</router-link>
                                     </div>
                                 </div>
                                 <div class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3  " icon="fa fa-cc-visa"></badge>
-                                        <h6 class="mb-0">Payment Systems</h6>
+                                        <router-link to="/cases/PaymentSystems" class="btn text-black-100 text-left  w-100">Payment Systems</router-link>
                                     </div>
                                 </div>
                                 <div class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3  " icon="fa fa-btc"></badge>
-                                        <h6 class="mb-0">Crypto</h6>
+                                        <router-link to="/cases/Crypto" class="btn text-black-100  text-left w-100">Crypto</router-link>
                                     </div>
                                 </div>
                             </div>
@@ -77,19 +77,19 @@
                                 <div class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3  " icon="fa fa-bank"></badge>
-                                        <h6 class="mb-0">Core Banking</h6>
+                                        <router-link to="/cases/CoreBanking" class="btn text-black-100 text-left  w-100">Core Banking</router-link>
                                     </div>
                                 </div>
                                 <div class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3  " icon="ni ni-book-bookmark"></badge>
-                                        <h6 class="mb-0">General Ledger</h6>
+                                        <router-link to="/cases/GeneralLedger" class="btn text-black-100 text-left w-100">General Ledger</router-link>
                                     </div>
                                 </div>
                                 <div class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3  " icon="fa fa-lock"></badge>
-                                        <h6 class="mb-0">Credit Cards</h6>
+                                        <router-link to="/cases/CreditCards" class="btn text-black-100 text-left  w-100">Credit Cards</router-link>
                                     </div>
                                 </div>
                             </div>
@@ -99,19 +99,19 @@
                                 <div class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3  " icon="ni ni-tv-2"></badge>
-                                        <h6 class="mb-0">Internet Banking</h6>
+                                        <router-link to="/cases/InternetBanking" class="btn text-black-100 text-left  w-100">Internet Banking</router-link>
                                     </div>
                                 </div>
                                 <div class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3  " icon="fa fa-database"></badge>
-                                        <h6 class="mb-0">COBOL Integration</h6>
+                                        <router-link to="/cases/COBOL" class="btn text-black-100 text-left  w-100">COBOL Integration</router-link>
                                     </div>
                                 </div>
                                 <div class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3  " icon="ni ni-money-coins"></badge>
-                                        <h6 class="mb-0">SWIFT, ACH, RTGS</h6>
+                                        <router-link to="/cases/SWIFT" class="btn text-black-100 text-left  w-100">SWIFT, ACH, RTGS</router-link>
                                     </div>
                                 </div>
                             </div>
@@ -119,6 +119,7 @@
                     </div>
                 </card>
             </div>
+
         </div>
     </section>
 </template>
