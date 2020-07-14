@@ -2,6 +2,7 @@
     <div>
         <hero></hero>
         <mission></mission>
+        <fintech></fintech>
         <products></products>
         <tools></tools>
     </div>
@@ -21,10 +22,12 @@
     import Services from "./components/JavascriptComponents/Services";
     import Mission from "./components/JavascriptComponents/Mission";
     import Tools from "./Tools";
+    import Fintech from "./components/Fintech";
 
     export default {
         name: "landing",
         components: {
+            Fintech,
             Services,
             Hero,
             Products,
