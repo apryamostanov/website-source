@@ -22,7 +22,7 @@
     import Services from "./components/JavascriptComponents/Services";
     import Mission from "./components/JavascriptComponents/Mission";
     import Tools from "./Tools";
-    import Fintech from "./components/Fintech";
+    import Fintech from "./components/Projects";
 
     export default {
         name: "landing",
