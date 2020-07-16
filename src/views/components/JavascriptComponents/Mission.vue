@@ -13,7 +13,7 @@
                 <div class="row justify-content-center text-center mb-sm">
                     <div class="col-lg-8">
                         <h2 class="display-3 text-white">Efficient Software</h2>
-                        <p class="lead text-white">Business insight. Breakthrough technology.</p>
+                        <p class="lead text-white">Business expertise. Breakthrough technology.</p>
                     </div>
                 </div>
                 <div class="row row-grid  ">

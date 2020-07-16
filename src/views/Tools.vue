@@ -1,6 +1,6 @@
 <template>
     <section class="section section section-shaped my-0 overflow-hidden">
-        <div class="shape shape-style-1 bg-gradient-blue">
+        <div class="shape shape-style-1 aqua-gradient">
             <span></span>
             <span></span>
             <span></span>
@@ -17,58 +17,103 @@
                         </div>
                         <div class="pl-4">
                             <h4 class="display-3 text-white">Online Tools</h4>
-                            <p class="text-white">An exclusive collection of free online services based on <b>Infinite
-                                TECH</b> stack.</p>
+                            <p class="lead text-white">Exclusive free online services.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <card shadow class="shadow-lg--hover mt-5">
-                <div class="row row-grid-1 align-items-center">
-                    <div class="col-md-3 order-md-2 ml-lg-auto">
-                        <img src="img/theme/Bobbin_small.png" class="img-center img-fluid">
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row row-grid-1">
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="pb-5">
+                            <card class="border-0"  shadow body-classes="py-4">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <icon name="fa fa-file-code-o" type="info" shadow rounded></icon>
+                                    </div>
+                                    <div class="pl-2 ">
+                                        <h6 class="text-info text-uppercase mb-0">COBOL to XML</h6>
+                                    </div>
+                                </div>
+                                <p class="description mt-3">Online COBOL data file converter.</p>
+                                <p class="description mt-3">Convert COBOL data file online to XML using
+                                    copybook.</p>
+                                <div>
+                                    <badge type="info" rounded>ETL</badge>
+                                </div>
+                                <base-button tag="a" href="#" type="info" class="mt-4">
+                                    Try it now
+                                </base-button>
+                            </card>
+                        </div>
+
+                        <div class="pb-5">
+                            <card class="border-0"  shadow body-classes="py-4">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <icon name="fa fa-file-code-o" type="success" shadow rounded></icon>
+                                    </div>
+                                    <div class="pl-2 ">
+                                        <h6 class="text-success text-uppercase mb-0">JSON Analyzer</h6>
+                                    </div>
+                                </div>
+                                <p class="description mt-3">Online JSON Statistics.</p>
+                                <p class="description mt-3">Analyze contents of any JSON data file.</p>
+                                <div>
+                                    <badge type="success" rounded>ETL</badge>
+                                </div>
+                                <base-button tag="a" href="#" type="success" class="mt-4">
+                                    Try it now
+                                </base-button>
+                            </card>
+                        </div>
                     </div>
-                    <div class="col-md-9 order-md-1">
-                        <h3>Heroku Java Client Certificate Authentication</h3>
-                        <p class="text-dark">20th September, 2019</p>
-                        <p class="text-lead">Let’s say our Java application is deployed on Heroku platform and needs
-                            to connect to server using client certificate authentication.</p>
-                        <router-link to="/Blog/HerokuAuthentication" class="btn btn-primary mt-4">Read</router-link>
+                    <div class="col-lg-6  order-lg-2">
+                        <div class="pb-5">
+                            <card class="border-0"  shadow body-classes="py-4">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <icon name="fa fa-file-code-o" type="warning" shadow rounded></icon>
+                                    </div>
+                                    <div class="pl-2 ">
+                                        <h6 class="text-warning text-uppercase mb-0">Re-encode</h6>
+                                    </div>
+                                </div>
+                                <p class="description mt-3">Online encoding converter.</p>
+                                <p class="description mt-3">Convert file from any character encoding to any other encoding.</p>
+                                <div>
+                                    <badge type="warning" rounded>ETL</badge>
+                                </div>
+                                <base-button tag="a" href="#" type="warning" class="mt-4">
+                                    Try it now
+                                </base-button>
+                            </card>
+                        </div>
+                        <div class="pb-5">
+                            <card class="border-0"  shadow body-classes="py-4">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <icon name="fa fa-file-code-o" type="danger" shadow rounded></icon>
+                                    </div>
+                                    <div class="pl-2 ">
+                                        <h6 class="text-danger text-uppercase mb-0">COBOL to XML</h6>
+                                    </div>
+                                </div>
+                                <p class="description mt-3">Online JSON Formatter.</p>
+                                <p class="description mt-3">Format JSON files of any size.</p>
+                                <div>
+                                    <badge type="danger" rounded>ETL</badge>
+                                </div>
+                                <base-button tag="a" href="#" type="danger" class="mt-4">
+                                    Try it now
+                                </base-button>
+                            </card>
+                        </div>
                     </div>
                 </div>
-            </card>
-            <card shadow class="shadow-lg--hover mt-5">
-                <div class="row row-grid-1 align-items-center">
-                    <div class="col-md-3 order-md-2 ml-lg-auto">
-                        <img src="img/theme/Spring.png" class="img-center img-fluid">
-                    </div>
-                    <div class="col-md-9 order-md-1">
-                        <h3>Logging Spring Boot HTTP with Bobbin</h3>
-                        <p class="text-dark">23rd March, 2019</p>
-                        <p class="text-lead">Today we will demonstrate an amazing example of how
-                            <router-link to="/Bobbin">Bobbin</router-link>
-                            Slf4j Logger can help in a very common use case:
-                        </p>
-                        <p class="text-lead ml-3">- logging Spring Boot HTTP requests and responses</p>
-                        <router-link to="/Blog/LoggingSpringBoot" class="btn btn-primary mt-4">Read</router-link>
-                    </div>
-                </div>
-            </card>
-            <card shadow class="shadow-lg--hover mt-5">
-                <div class="row row-grid-1 align-items-center">
-                    <div class="col-md-3 order-md-2 ml-lg-auto">
-                        <img src="img/theme/Groovy500.png" class="img-center img-fluid">
-                    </div>
-                    <div class="col-md-9 order-md-1">
-                        <h3>Groovy Traits - static and instance init blocks</h3>
-                        <p class="text-dark">17th November, 2018</p>
-                        <p class="text-lead">Today we will show an example of a new useful Groovy Traits
-                            feature:</p>
-                        <p class="text-lead ml-3">- Multiple inheritance of static and instance init blocks</p>
-                        <router-link to="/Blog/Traits" class="btn btn-primary mt-4">Read</router-link>
-                    </div>
-                </div>
-            </card>
+            </div>
         </div>
     </section>
 </template>
