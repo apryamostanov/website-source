@@ -2,6 +2,7 @@
   <SlideYUpTransition :duration="animationDuration">
     <div class="modal fade"
          @click.self="closeModal"
+         @keydown.esc="closeModal"
          :class="[{'show d-block': show}, {'d-none': !show}, {'modal-mini': type === 'mini'}]"
          v-show="show"
          tabindex="-1"
