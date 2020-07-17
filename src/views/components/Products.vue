@@ -36,7 +36,7 @@
                                 </div>
                             </div>
                             <p class="description mt-3">Revolutionary SLF4J logger.</p>
-                            <router-link to="/ZZZ" class="btn btn-info mt-2">See More</router-link>
+                            <router-link to="/Bobbin" class="btn btn-info mt-2">See More</router-link>
                         </card>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                                 </div>
                             </div>
                             <p class="description mt-3">Groovy logging AST.</p>
-                            <router-link to="/ZZZ" class="btn btn-info mt-2">See More</router-link>
+                            <router-link to="/BlackBox" class="btn btn-info mt-2">See More</router-link>
                         </card>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                                 </div>
                             </div>
                             <p class="description mt-3">HTTP Message Broker.</p>
-                            <router-link to="/ZZZ" class="btn btn-info mt-2">See More</router-link>
+                            <router-link to="/Pigeon" class="btn btn-info mt-2">See More</router-link>
                         </card>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                                 </div>
                             </div>
                             <p class="description mt-3">Telegram Chat Bot.</p>
-                            <router-link to="/ZZZ" class="btn btn-info mt-2">See More</router-link>
+                            <router-link to="/David" class="btn btn-info mt-2">See More</router-link>
                         </card>
                     </div>
                 </div>
@@ -112,7 +112,7 @@
                                 </div>
                             </div>
                             <p class="description mt-3">Java COBOL Transpiler and ETL API.</p>
-                            <router-link to="/ZZZ" class="btn btn-info mt-2">See More</router-link>
+                            <router-link to="/Cobol" class="btn btn-info mt-2">See More</router-link>
                         </card>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
                                 </div>
                             </div>
                             <p class="description mt-3">Identity and Access Management.</p>
-                            <router-link to="/ZZZ" class="btn btn-info mt-2">See More</router-link>
+                            <router-link to="/Ascend" class="btn btn-info mt-2">See More</router-link>
                         </card>
                     </div>
                 </div>
