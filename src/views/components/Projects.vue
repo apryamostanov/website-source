@@ -11,16 +11,17 @@
         <div class="container py-0">
             <div class="row  ">
                 <div class="col-md-7 order-lg-1">
-                    <div class="d-flex px-3">
+                    <div class="d-flex px-3 align-items-center">
                         <div>
                             <icon name="fa fa-btc" size="lg" type="white" color="warning" shadow
                                   rounded></icon>
                         </div>
-                        <div class="pl-4">
-                            <h4 class="display-3 text-white">Projects</h4>
-                            <p class="lead text-white">Leading innovation stack. What's your case?</p>
+                        <div class="pl-4 ">
+                            <h4 class="display-3 text-white mb-0">Projects</h4>
                         </div>
                     </div>
+                    <p class="lead text-white pl-3">Leading innovation stack.</p>
+                    <p class="lead text-white pl-3">What's your case?</p>
                 </div>
                 <div class="col-md-5 order-lg-1">
                     <img src="img/theme/blockchain.png" class="img-center img-fluid">
