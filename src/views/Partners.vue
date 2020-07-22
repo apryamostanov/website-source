@@ -56,9 +56,7 @@
                                         </div>
                                     </li>
                                 </ul>
-                                <base-button tag="a" href="https://wirecard.com" target="_blank" type="danger" class="mt-4">
-                                    website
-                                </base-button>
+                                <router-link to="/Anton" class="btn btn-success mt-4">Testimonials</router-link>
                             </div>
                         </div>
                     </div>
