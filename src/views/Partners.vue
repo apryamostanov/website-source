@@ -56,7 +56,7 @@
                                         </div>
                                     </li>
                                 </ul>
-                                <router-link to="/Anton" class="btn btn-success mt-4">Testimonials</router-link>
+                                <router-link to="/Reviews" class="btn btn-success mt-4">Reviews</router-link>
                             </div>
                         </div>
                     </div>
