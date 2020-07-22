@@ -11,42 +11,58 @@
             </div>
             <div class="container pt-100">
                 <div class="row justify-content-center text-center mb-sm">
-                    <div class="col-lg-8">
+                    <div class="col-lg-12">
                         <h2 class="display-3 text-white">Featured Partners</h2>
-                        <p class="lead text-white">A proven track of success delivery.</p>
+                        <p class="lead text-white">Proven success delivery.</p>
                     </div>
                 </div>
-                <div class="row row-grid-1 align-items-center">
-                    <div class="col-lg-12 order-lg-1">
-                        <card shadow class="shadow-lg--hover mt-5">
-                            <div class="d-flex px-3">
-                                <div>
-
-                                    <div class="icon icon-shape bg-transparent rounded-circle text-white"
-                                         style=" padding: 0">
-                                        <img src="img/theme/WirecardW.png" alt="Circle image"
-                                             class="img-fluid  ">
-                                    </div>
-                                </div>
-                                <div class="pl-4">
-                                    <h5 class="title text-dark text-uppercase">Wirecard</h5>
-                                    <p>Our primary partner and mothership company.</p>
-                                    <p>Wirecard is benefiting from the entire Infinite TECH Ecosystem.</p>
-                                    <div>
-                                        <badge type="success" rounded>Bobbin</badge>
-                                        <badge type="info" rounded>BlackBox</badge>
-                                        <badge type="warning" rounded>COBOL</badge>
-                                        <badge type="primary" rounded>Pigeon</badge>
-                                        <badge type="danger" rounded>David</badge>
-                                    </div>
-                                    <base-button tag="a" href="https://wirecard.com" target="_blank" type="danger" class="mt-4">
-                                        website
-                                    </base-button>
+                <card shadow class="shadow-lg--hover mt-5">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-auto">
+                                <div class="icon">
+                                    <img src="img/theme/WirecardW.png" alt="Circle image" class="img-fluid  ">
                                 </div>
                             </div>
-                        </card>
+                            <div class="col-auto px-0">
+                                <div class="h2 mb-0 text-uppercase">Wirecard</div>
+                            </div>
+                        </div>
+                        <div class="row align-items-center pt-3">
+                            <div class="col-auto">
+                                <badge type="info" rounded>Platinum Partner</badge>
+                            </div>
+                        </div>
+                        <div class="row pt-3">
+                            <div class="col-lg-12">
+                                <p class="lead mt-1">Wirecard is using our entire ecosystem.</p>
+                                <ul class="list-unstyled mt-3">
+                                    <li class="py-2">
+                                        <div class="d-flex align-items-center">
+                                            <badge type="dark" circle class="mr-3  ">3</badge>
+                                            <h6 class="mb-0 ">programs</h6>
+                                        </div>
+                                    </li>
+                                    <li class="py-2">
+                                        <div class="d-flex align-items-center">
+                                            <badge type="dark" color="primary" circle class="mr-3  ">5</badge>
+                                            <h6 class="mb-0 ">products</h6>
+                                        </div>
+                                    </li>
+                                    <li class="py-2">
+                                        <div class="d-flex align-items-center">
+                                            <badge type="dark" circle class="mr-3 ">10</badge>
+                                            <h6 class="mb-0 ">projects</h6>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <base-button tag="a" href="https://wirecard.com" target="_blank" type="danger" class="mt-4">
+                                    website
+                                </base-button>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                </card>
             </div>
         </div>
     </div>
