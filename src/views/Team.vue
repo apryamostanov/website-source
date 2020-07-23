@@ -19,11 +19,43 @@
                 <card shadow class="shadow-lg--hover mt-5">
                     <div class="row row-grid-1 align-items-center">
                         <div class="col-md-4 order-md-2 ml-lg-auto">
+                            <img src="img/theme/team-Rahul.jpg" class="rounded img-center img-fluid shadow">
+                        </div>
+                        <div class="col-md-6 order-md-1">
+                            <h3>Rahul Kanotra</h3>
+                            <p>CBDO, co-founder</p>
+                            <ul class="list-unstyled mt-3">
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
+                                        <h6 class="mb-0 ">Products</h6>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
+                                        <h6 class="mb-0 ">Open Banking</h6>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
+                                        <h6 class="mb-0 ">Blockchain</h6>
+                                    </div>
+                                </li>
+                            </ul>
+                            <router-link to="/Rahul" class="btn btn-warning mt-4">Profile</router-link>
+                        </div>
+                    </div>
+                </card>
+                <card shadow class="shadow-lg--hover mt-5">
+                    <div class="row row-grid-1 align-items-center">
+                        <div class="col-md-4 order-md-2 ml-lg-auto">
                             <img src="img/theme/team-Anton-Pryamostanov.jpg" class="rounded img-center img-fluid shadow">
                         </div>
                         <div class="col-md-6 order-md-1">
                             <h3>Anton Pryamostanov</h3>
-                            <p>Managing Consultant</p>
+                            <p>CTO, co-founder</p>
                             <ul class="list-unstyled mt-3">
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">

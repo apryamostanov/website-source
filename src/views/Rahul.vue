@@ -18,20 +18,23 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-3 order-lg-2">
                                 <div class="card-profile-image">
-                                    <img v-lazy="'img/theme/team-Anton-Pryamostanov.jpg'" class="rounded-circle">
+                                    <img v-lazy="'img/theme/team-Rahul.jpg'" class="rounded-circle">
                                 </div>
                             </div>
                             <div class="col-lg-4 order-lg-3 text-lg-right align-self-lg-center">
                                 <div class="card-profile-actions py-4 mt-lg-0">
-                                    <base-button icon="fa fa-linkedin" type="primary" size="sm" class="mr-4" tag="a" target="_blank"
+                                    <base-button icon="fa fa-linkedin" type="primary" size="sm" class="mr-4" tag="a"
+                                                 target="_blank"
                                                  href="https://www.linkedin.com/in/anton-pryamostanov-99571224/">
                                         Connect
                                     </base-button>
-                                    <base-button v-if="!skipFooterIcons()" icon="fa fa-telegram" type="default" size="sm" class="float-right" tag="a" target="_blank"
+                                    <base-button v-if="!skipFooterIcons()" icon="fa fa-telegram" type="default"
+                                                 size="sm" class="float-right" tag="a" target="_blank"
                                                  href="https://web.telegram.org/#/im?p=@anton_pryamostanov">
                                         Message
                                     </base-button>
-                                    <base-button v-if="skipFooterIcons()" icon="fa fa-telegram" type="default" size="sm" class="float-right" tag="a" target="_blank"
+                                    <base-button v-if="skipFooterIcons()" icon="fa fa-telegram" type="default" size="sm"
+                                                 class="float-right" tag="a" target="_blank"
                                                  href="https://t.me/anton_pryamostanov">
                                         Message
                                     </base-button>
@@ -55,13 +58,17 @@
                             </div>
                         </div>
                         <div class="text-center mt-5">
-                            <h3>Anton Pryamostanov
-                            </h3>
-                            <div class="h6 font-weight-300"><i class="ni location_pin mr-2"></i>Dubai, UAE</div>
-                            <div class="h6 mt-4"><i class="ni business_briefcase-24 mr-2"></i>Chief Technology Officer
+                            <h3>Rahul Kanotra</h3>
+                            <div class="h6 font-weight-300"><i class="ni location_pin mr-2"></i>Munich, Germany</div>
+                            <div class="h6 mt-4"><i class="ni business_briefcase-24 mr-2"></i>Chief Business Development
+                                Officer
                             </div>
-                            <div class="mt-5"><i class="ni education_hat mr-2"></i>Education: National Research Nuclear
-                                University
+                            <div class="mt-5"><i class="ni education_hat mr-2"></i>
+                                <badge type="success" rounded>PRINCE2® FCPM</badge>
+                                <badge type="info" rounded>PSM™</badge>
+                                <badge type="warning" rounded>PSPO™</badge>
+                                <badge type="danger" rounded>Lean Six Sigma</badge>
+                                <badge type="primary" rounded>ITIL</badge>
                             </div>
                         </div>
                         <div class="mt-5 py-5 border-top text-center">
@@ -74,7 +81,7 @@
                                                      class="img-fluid " style="height: 40px;">
                                             </div>
                                             <div class="col-sm-3 col-6 mt-5 mt-sm-0">
-                                                <img v-lazy="'img/theme/Qatar_National_Bank_Logo.svg.png'"
+                                                <img v-lazy="'img/theme/IBM.png'"
                                                      alt="Circle image"
                                                      class="img-fluid " style="height: 40px;">
                                             </div>
@@ -102,7 +109,7 @@
     export default {
         methods: {
             skipFooterIcons() {
-                return (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)&&this.$screen.landscape);
+                return (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && this.$screen.landscape);
             }
         }
     };

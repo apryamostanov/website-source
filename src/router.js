@@ -18,6 +18,7 @@ import Blog from "./views/Blog";
 import Traits from "./views/blog/Traits";
 import LoggingSpringBoot from "./views/blog/LoggingSpringBoot";
 import HerokuAuthentication from "./views/blog/HerokuAuthentication";
+import Rahul from "./views/Rahul";
 
 Vue.use(Router);
 
@@ -67,6 +68,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Anton,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/Rahul",
+      name: "Rahul",
+      components: {
+        header: AppHeader,
+        default: Rahul,
         footer: AppFooter
       }
     },
