@@ -23,7 +23,7 @@
                             </div>
                             <div class="col-lg-4 order-lg-3 text-lg-right align-self-lg-center">
                                 <div class="card-profile-actions py-4 mt-lg-0">
-                                    <base-button icon="fa fa-linkedin" type="primary" size="sm" class="mr-4" tag="a"
+                                    <base-button icon="fa fa-linkedin" type="primary" size="sm" class="mr-2" tag="a"
                                                  target="_blank"
                                                  href="https://www.linkedin.com/in/anton-pryamostanov-99571224/">
                                         Connect
@@ -35,7 +35,7 @@
                                     </base-button>
                                     <base-button v-if="skipFooterIcons()" icon="fa fa-telegram" type="default" size="sm"
                                                  class="float-right" tag="a" target="_blank"
-                                                 href="https://t.me/anton_pryamostanov">
+                                                 href="https://t.me/rahul_kanotra">
                                         Message
                                     </base-button>
                                 </div>
@@ -43,27 +43,28 @@
                             <div class="col-lg-4 order-lg-1">
                                 <div class="card-profile-stats d-flex justify-content-center">
                                     <div>
-                                        <span class="heading">15</span>
-                                        <span class="description">years Banking</span>
-                                    </div>
-                                    <div>
-                                        <span class="heading">10</span>
-                                        <span class="description">years FinTech</span>
-                                    </div>
-                                    <div>
-                                        <span class="heading">10</span>
-                                        <span class="description">years Payments</span>
+                                        <badge type="secondary" rounded>rahul@i-t.io</badge>
+                                        <badge type="secondary" rounded>+4917659525788</badge>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="text-center mt-5">
+                        <div class="text-center mt-lg-5 mt-sm-3">
                             <h3>Rahul Kanotra</h3>
                             <div class="h6 font-weight-300"><i class="ni location_pin mr-2"></i>Munich, Germany</div>
-                            <div class="h6 mt-4"><i class="ni business_briefcase-24 mr-2"></i>Chief Business Development
-                                Officer
+                            <div class="pt-4">
+                                <img v-lazy="'img/brand/blue.png'" alt="Circle image"
+                                     class="img-fluid " style="height: 40px;">
                             </div>
-                            <div class="mt-5"><i class="ni education_hat mr-2"></i>
+                            <div class="h6 mt-4"><i class="ni business_briefcase-24 mr-2"></i>
+                                <div class="text-uppercase">Chief Business Development
+                                    Officer
+                                </div>
+                            </div>
+                            <div class="h6 mt-4"><i class="ni business_briefcase-24 mr-2"></i>
+                                <badge type="secondary">Co-Founder</badge>
+                            </div>
+                            <div class="mt-4"><i class="ni education_hat mr-2"></i>
                                 <badge type="success" rounded>PRINCE2® FCPM</badge>
                                 <badge type="info" rounded>PSM™</badge>
                                 <badge type="warning" rounded>PSPO™</badge>
@@ -90,7 +91,7 @@
                                                      class="img-fluid " style="height: 40px;">
                                             </div>
                                             <div class="col-sm-3 col-6 mt-5 mt-sm-0">
-                                                <img v-lazy="'img/brand/blue.png'" alt="Circle image"
+                                                <img v-lazy="'img/theme/Capgemini.png'" alt="Circle image"
                                                      class="img-fluid " style="height: 40px;">
                                             </div>
                                         </div>

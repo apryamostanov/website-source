@@ -23,7 +23,8 @@
                         </div>
                         <div class="col-md-6 order-md-1">
                             <h3>Rahul Kanotra</h3>
-                            <p>CBDO, co-founder</p>
+                            <badge type="danger">CBDO</badge>
+                            <badge type="danger">Co-Founder</badge>
                             <ul class="list-unstyled mt-3">
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
@@ -55,7 +56,8 @@
                         </div>
                         <div class="col-md-6 order-md-1">
                             <h3>Anton Pryamostanov</h3>
-                            <p>CTO, co-founder</p>
+                            <badge type="danger">CTO</badge>
+                            <badge type="danger" >Co-Founder</badge>
                             <ul class="list-unstyled mt-3">
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
