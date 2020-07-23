@@ -23,13 +23,13 @@
                         </div>
                         <div class="col-md-6 order-md-1">
                             <h3>Rahul Kanotra</h3>
-                            <badge type="danger">CBDO</badge>
+                            <badge type="danger">CPO</badge>
                             <badge type="danger">Co-Founder</badge>
                             <ul class="list-unstyled mt-3">
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                                        <h6 class="mb-0 ">Products</h6>
+                                        <h6 class="mb-0 ">Banking as a Service</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
@@ -41,7 +41,7 @@
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                                        <h6 class="mb-0 ">Blockchain</h6>
+                                        <h6 class="mb-0 ">Merchant Solutions</h6>
                                     </div>
                                 </li>
                             </ul>

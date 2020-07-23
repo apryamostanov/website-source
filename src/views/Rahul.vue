@@ -23,17 +23,17 @@
                             </div>
                             <div class="col-lg-4 order-lg-3 text-lg-right align-self-lg-center">
                                 <div class="card-profile-actions py-4 mt-lg-0">
-                                    <base-button icon="fa fa-linkedin" type="primary" size="sm" class="mr-2" tag="a"
+                                    <base-button icon="fa fa-linkedin" type="default" size="sm" class="mr-2" tag="a"
                                                  target="_blank"
-                                                 href="https://www.linkedin.com/in/anton-pryamostanov-99571224/">
+                                                 href="https://www.linkedin.com/in/rahulkanotra">
                                         Connect
                                     </base-button>
-                                    <base-button v-if="!skipFooterIcons()" icon="fa fa-telegram" type="default"
+                                    <base-button v-if="!skipFooterIcons()" icon="ni ni-send" type="default"
                                                  size="sm" class="float-right" tag="a" target="_blank"
-                                                 href="https://web.telegram.org/#/im?p=@anton_pryamostanov">
+                                                 href="https://web.telegram.org/#/im?p=@rahul_kanotra">
                                         Message
                                     </base-button>
-                                    <base-button v-if="skipFooterIcons()" icon="fa fa-telegram" type="default" size="sm"
+                                    <base-button v-if="skipFooterIcons()" icon="ni ni-send" type="default" size="sm"
                                                  class="float-right" tag="a" target="_blank"
                                                  href="https://t.me/rahul_kanotra">
                                         Message
@@ -41,11 +41,17 @@
                                 </div>
                             </div>
                             <div class="col-lg-4 order-lg-1">
-                                <div class="card-profile-stats d-flex justify-content-center">
-                                    <div>
-                                        <badge type="secondary" rounded>rahul@i-t.io</badge>
-                                        <badge type="secondary" rounded>+4917659525788</badge>
-                                    </div>
+                                <div class="card-profile-stats d-flex justify-content-center py-4 mt-lg-0">
+                                    <base-button icon="ni ni-email-83" type="primary" size="sm" class="mr-2" tag="a"
+                                                 target="_blank"
+                                                 href="mailto:rahul@i-t.io">
+                                        email
+                                    </base-button>
+                                    <base-button icon="fa fa-phone" type="primary"
+                                                 size="sm" class="float-right" tag="a" target="_blank"
+                                                 href="tel:+4917659525788">
+                                        phone
+                                    </base-button>
                                 </div>
                             </div>
                         </div>
@@ -57,9 +63,7 @@
                                      class="img-fluid " style="height: 40px;">
                             </div>
                             <div class="h6 mt-4"><i class="ni business_briefcase-24 mr-2"></i>
-                                <div class="text-uppercase">Chief Business Development
-                                    Officer
-                                </div>
+                                <div class="text-uppercase">Chief Product Officer</div>
                             </div>
                             <div class="h6 mt-4"><i class="ni business_briefcase-24 mr-2"></i>
                                 <badge type="secondary">Co-Founder</badge>

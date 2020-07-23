@@ -159,7 +159,7 @@
                 <li class="nav-item d-lg-none">
                     <a class="nav-link nav-link-icon" href="https://t.me/david_it_bot"
                        target="_blank" rel="noopener" data-toggle="tooltip" title="Chat Bot">
-                        <i class="fa fa-telegram"></i>
+                        <i class="ni ni-send"></i>
                         <span class="nav-link-inner--text ">Chat Bot</span>
                     </a>
                 </li>
@@ -167,7 +167,7 @@
                     <a href="https://web.telegram.org/#/im?p=@david_it_bot" target="_blank"
                        rel="noopener" class="btn btn-neutral btn-icon">
                         <span class="btn-inner--icon">
-                          <i class="fa fa-telegram mr-2"></i>
+                          <i class="ni ni-send mr-2"></i>
                         </span>
                         <span class="nav-link-inner--text">Chat Bot</span>
                     </a>
