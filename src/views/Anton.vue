@@ -18,72 +18,77 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-3 order-lg-2">
                                 <div class="card-profile-image">
-                                    <img v-lazy="'img/theme/team-Anton-Pryamostanov.jpg'" class="rounded-circle">
+                                    <img v-lazy="'img/theme/team-Anton.jpg'" class="rounded-circle">
                                 </div>
                             </div>
                             <div class="col-lg-4 order-lg-3 text-lg-right align-self-lg-center">
                                 <div class="card-profile-actions py-4 mt-lg-0">
-                                    <base-button icon="fa fa-linkedin" type="primary" size="sm" class="mr-4" tag="a" target="_blank"
+                                    <base-button icon="fa fa-linkedin" type="white" size="sm" class="mr-2" tag="a"
+                                                 target="_blank"
                                                  href="https://www.linkedin.com/in/anton-pryamostanov-99571224/">
                                         Connect
                                     </base-button>
-                                    <base-button v-if="!skipFooterIcons()" icon="fa fa-telegram" type="default" size="sm" class="float-right" tag="a" target="_blank"
+                                    <base-button v-if="!skipFooterIcons()" icon="ni ni-send" type="white"
+                                                 size="sm" class="float-right" tag="a" target="_blank"
                                                  href="https://web.telegram.org/#/im?p=@anton_pryamostanov">
                                         Message
                                     </base-button>
-                                    <base-button v-if="skipFooterIcons()" icon="fa fa-telegram" type="default" size="sm" class="float-right" tag="a" target="_blank"
+                                    <base-button v-if="skipFooterIcons()" icon="ni ni-send" type="white" size="sm"
+                                                 class="float-right" tag="a" target="_blank"
                                                  href="https://t.me/anton_pryamostanov">
                                         Message
                                     </base-button>
                                 </div>
                             </div>
                             <div class="col-lg-4 order-lg-1">
-                                <div class="card-profile-stats d-flex justify-content-center">
-                                    <div>
-                                        <span class="heading">15</span>
-                                        <span class="description">years Banking</span>
-                                    </div>
-                                    <div>
-                                        <span class="heading">10</span>
-                                        <span class="description">years FinTech</span>
-                                    </div>
-                                    <div>
-                                        <span class="heading">10</span>
-                                        <span class="description">years Payments</span>
-                                    </div>
+                                <div class="card-profile-stats d-flex justify-content-center py-sm-5 mt-lg-0">
+                                    <base-button icon="ni ni-email-83" type="white" size="sm" class="mr-2" tag="a"
+                                                 target="_blank"
+                                                 href="mailto:anton@i-t.io">
+                                        email
+                                    </base-button>
+                                    <base-button icon="fa fa-phone" type="white"
+                                                 size="sm" class="float-right" tag="a" target="_blank"
+                                                 href="tel:+971559307088">
+                                        phone
+                                    </base-button>
                                 </div>
                             </div>
                         </div>
-                        <div class="text-center mt-5">
-                            <h3>Anton Pryamostanov
-                            </h3>
+                        <div class="text-center mt-lg-5 mt-sm-3 pb-5 border-bottom">
+                            <h3>Anton Pryamostanov</h3>
                             <div class="h6 font-weight-300"><i class="ni location_pin mr-2"></i>Dubai, UAE</div>
-                            <div class="h6 mt-4"><i class="ni business_briefcase-24 mr-2"></i>Chief Technology Officer
+                            <div class="pt-4">
+                                <img v-lazy="'img/brand/blue.png'" alt="Circle image"
+                                     class="img-fluid " style="height: 40px;">
                             </div>
-                            <div class="mt-5"><i class="ni education_hat mr-2"></i>Education: National Research Nuclear
-                                University
+                            <div class="h6 mt-4"><i class="ni business_briefcase-24 mr-2"></i>
+                                <div class="text-uppercase">Chief Technical Officer</div>
+                            </div>
+                            <div class="h6 mt-4"><i class="ni business_briefcase-24 mr-2"></i>
+                                <badge type="secondary">Co-Founder</badge>
                             </div>
                         </div>
-                        <div class="mt-5 py-5 border-top text-center">
+                        <div class="py-5 text-center">
                             <div class="row justify-content-center">
                                 <div class="col-lg-9">
                                     <div>
                                         <div class="row justify-content-center">
-                                            <div class="col-sm-3 col-6 mt-5 mt-sm-0">
+                                            <div class="col-sm-3 col-6  ">
                                                 <img v-lazy="'img/theme/TSYS_logo.svg'" alt="Circle image"
                                                      class="img-fluid " style="height: 40px;">
                                             </div>
-                                            <div class="col-sm-3 col-6 mt-5 mt-sm-0">
-                                                <img v-lazy="'img/theme/Qatar_National_Bank_Logo.svg.png'"
+                                            <div class="col-sm-3 col-6  ">
+                                                <img v-lazy="'img/theme/QNB.png'"
                                                      alt="Circle image"
                                                      class="img-fluid " style="height: 40px;">
                                             </div>
-                                            <div class="col-sm-3 col-6 mt-5 mt-sm-0">
+                                            <div class="col-sm-3 col-6   mt-5 mt-sm-0">
                                                 <img v-lazy="'img/theme/wirecard-logo-dark-seo.png'" alt="Circle image"
                                                      class="img-fluid " style="height: 40px;">
                                             </div>
-                                            <div class="col-sm-3 col-6 mt-5 mt-sm-0">
-                                                <img v-lazy="'img/brand/blue.png'" alt="Circle image"
+                                            <div class="col-sm-3 col-6  mt-5 mt-sm-0">
+                                                <img v-lazy="'img/theme/BPC.png'" alt="Circle image"
                                                      class="img-fluid " style="height: 40px;">
                                             </div>
                                         </div>
@@ -102,7 +107,7 @@
     export default {
         methods: {
             skipFooterIcons() {
-                return (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)&&this.$screen.landscape);
+                return (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && this.$screen.landscape);
             }
         }
     };

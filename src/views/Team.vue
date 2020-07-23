@@ -61,20 +61,20 @@
                             <ul class="list-unstyled mt-3">
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
-                                        <badge type="dark" circle class="mr-3  ">15</badge>
-                                        <h6 class="mb-0 ">years in Banking</h6>
+                                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
+                                        <h6 class="mb-0 ">15 years in Banking</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
-                                        <badge type="dark" color="primary" circle class="mr-3  ">10</badge>
-                                        <h6 class="mb-0 ">years in FinTech</h6>
+                                        <badge type="dark" color="primary" circle class="mr-3  " icon="ni ni-bold-right"></badge>
+                                        <h6 class="mb-0 ">Financial API</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
-                                        <badge type="dark" circle class="mr-3 ">10</badge>
-                                        <h6 class="mb-0 ">years in Payments</h6>
+                                        <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
+                                        <h6 class="mb-0 ">Security as a Service</h6>
                                     </div>
                                 </li>
                             </ul>
