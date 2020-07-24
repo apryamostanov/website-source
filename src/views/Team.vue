@@ -52,7 +52,7 @@
                 <card shadow class="shadow-lg--hover mt-5">
                     <div class="row row-grid-1 align-items-center">
                         <div class="col-md-4 order-md-2 ml-lg-auto">
-                            <img src="img/theme/team-Anton-Pryamostanov.jpg" class="rounded img-center img-fluid shadow">
+                            <img src="img/theme/team-Anton.jpg" class="rounded img-center img-fluid shadow">
                         </div>
                         <div class="col-md-6 order-md-1">
                             <h3>Anton Pryamostanov</h3>
