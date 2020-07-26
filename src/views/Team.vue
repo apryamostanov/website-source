@@ -13,7 +13,7 @@
                 <div class="row justify-content-center text-center mb-sm">
                     <div class="col-lg-8">
                         <h2 class="display-3 text-white">Team</h2>
-                        <p class="lead text-white">Experienced banking professionals.</p>
+                        <p class="lead text-white">Fintech. Banking. Payments.</p>
                     </div>
                 </div>
                 <card shadow class="shadow-lg--hover mt-5">
@@ -29,12 +29,6 @@
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                                        <h6 class="mb-0 ">Banking as a Service</h6>
-                                    </div>
-                                </li>
-                                <li class="py-2">
-                                    <div class="d-flex align-items-center">
-                                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
                                         <h6 class="mb-0 ">Open Banking</h6>
                                     </div>
                                 </li>
@@ -42,6 +36,12 @@
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
                                         <h6 class="mb-0 ">Merchant Solutions</h6>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
+                                        <h6 class="mb-0 ">Consumer Lending</h6>
                                     </div>
                                 </li>
                             </ul>
@@ -62,19 +62,19 @@
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                                        <h6 class="mb-0 ">15 years in Banking</h6>
-                                    </div>
-                                </li>
-                                <li class="py-2">
-                                    <div class="d-flex align-items-center">
-                                        <badge type="dark" color="primary" circle class="mr-3  " icon="ni ni-bold-right"></badge>
                                         <h6 class="mb-0 ">Financial API</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
-                                        <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
+                                        <badge type="dark" color="primary" circle class="mr-3  " icon="ni ni-bold-right"></badge>
                                         <h6 class="mb-0 ">Security as a Service</h6>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
+                                        <h6 class="mb-0 ">Architecture</h6>
                                     </div>
                                 </li>
                             </ul>

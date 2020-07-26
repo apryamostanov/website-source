@@ -68,16 +68,26 @@
                                 <p class="description d-none d-md-inline-block mb-0">Telegram Chat Bot.</p>
                             </div>
                         </a>
-                        <a href="/Cobol"
+                        <a href="/Rekon"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle" style=" padding: 0">
-                                <img src="img/theme/COBOL_small.png" alt="Circle image"
+                                <img src="img/theme/Rekon_small.png" alt="Circle image"
                                      class="img-fluid rounded-circle">
                             </div>
                             <div class="media-body ml-3">
-                                <h6 class="heading text-primary mb-md-1">COBOL ETL</h6>
-                                <p class="description d-none d-md-inline-block mb-0">Java COBOL Transpiler & ETL
-                                    API.</p>
+                                <h6 class="heading text-primary mb-md-1">Rekon</h6>
+                                <p class="description d-none d-md-inline-block mb-0">Financial ETL.</p>
+                            </div>
+                        </a>
+                        <a href="/RekonCOBOL"
+                           class="media d-flex align-items-center">
+                            <div class="icon icon-shape bg-transparent rounded-circle" style=" padding: 0">
+                                <img src="img/theme/Rekon_COBOL_small.png" alt="Circle image"
+                                     class="img-fluid rounded-circle">
+                            </div>
+                            <div class="media-body ml-3">
+                                <h6 class="heading text-primary mb-md-1">Rekon COBOL</h6>
+                                <p class="description d-none d-md-inline-block mb-0">COBOL ETL and data tools.</p>
                             </div>
                         </a>
                         <a href="/Orbit"

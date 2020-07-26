@@ -13,7 +13,7 @@
                 <div class="row justify-content-center text-center mb-sm">
                     <div class="col-lg-12">
                         <h2 class="display-3 text-white">Featured Partners</h2>
-                        <p class="lead text-white">Proven success delivery.</p>
+                        <p class="lead text-white">Proven success.</p>
                     </div>
                 </div>
                 <card shadow class="shadow-lg--hover mt-5">

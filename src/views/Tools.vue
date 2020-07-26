@@ -18,7 +18,7 @@
                     <h4 class="display-3 text-white mb-0">Tools</h4>
                 </div>
             </div>
-            <p class="lead text-white pl-3">Exclusive free online services.</p>
+            <p class="lead text-white pl-3">Exclusive. Free. Online.</p>
         </div>
         <div class="container pt-5">
             <div class="row row-grid-1">
