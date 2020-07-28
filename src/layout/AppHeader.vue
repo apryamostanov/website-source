@@ -137,33 +137,18 @@
             </ul>
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="https://www.facebook.com/infinitetech" target="_blank"
+                    <a class="nav-link nav-link-icon" href="mailto:sales@i-t.io" target="_blank"
                        rel="noopener"
-                       data-toggle="tooltip" title="Like us on Facebook">
-                        <i class="fa fa-facebook-square"></i>
-                        <span class="nav-link-inner--text d-lg-none">Facebook</span>
+                       data-toggle="tooltip" title="sales@i-t.io">
+                        <i class="ni ni-email-83"></i>
+                        <span class="nav-link-inner--text d-lg-none">sales@i-t.io</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="https://www.instagram.com/creativetimofficial"
-                       target="_blank" rel="noopener" data-toggle="tooltip" title="Follow us on Instagram">
-                        <i class="fa fa-linkedin"></i>
-                        <span class="nav-link-inner--text d-lg-none">Instagram</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="https://twitter.com/infinitetech" target="_blank"
-                       rel="noopener"
-                       data-toggle="tooltip" title="Follow us on Twitter">
-                        <i class="fa fa-twitter-square"></i>
-                        <span class="nav-link-inner--text d-lg-none">Twitter</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="https://github.com/INFINITE-TECHNOLOGY"
-                       target="_blank" rel="noopener" data-toggle="tooltip" title="Star us on Github">
-                        <i class="fa fa-github"></i>
-                        <span class="nav-link-inner--text d-lg-none">Github</span>
+                    <a class="nav-link nav-link-icon" href="tel:+971559307088"
+                       target="_blank" rel="noopener" data-toggle="tooltip" title="+971559307088">
+                        <i class="fa fa-phone"></i>
+                        <span class="nav-link-inner--text d-lg-none">+971559307088</span>
                     </a>
                 </li>
                 <li class="nav-item d-lg-none">
