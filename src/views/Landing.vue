@@ -5,6 +5,7 @@
         <fintech></fintech>
         <products></products>
         <tools></tools>
+        <landing-footer></landing-footer>
     </div>
 </template>
 <script>
@@ -22,6 +23,7 @@
     import Services from "./components/JavascriptComponents/Services";
     import Mission from "./components/JavascriptComponents/Mission";
     import Tools from "./Tools";
+    import LandingFooter from "./LandingFooter";
     import Fintech from "./components/Projects";
 
     export default {
@@ -41,7 +43,8 @@
             Carousel,
             Icons,
             Examples,
-            DownloadSection
+            DownloadSection,
+            LandingFooter
         }
     };
 </script>
