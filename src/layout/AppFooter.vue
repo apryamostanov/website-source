@@ -1,29 +1,42 @@
 <template>
     <footer class="footer has-cards">
         <div class="container">
-            <div class="row row-grid align-items-center ">
-                <div class="col-lg-3">
-                    <router-link to="/">
-                        <img src="img/brand/blue.png" style="width: 200px;" class="img-fluid">
-                    </router-link>
+            <div class="row   align-items-center">
+                <div class="col-md-6 order-lg-1">
+                    <div class="list-unstyled ">
+                        <div class="py-2">
+                            <div class="d-flex align-items-center">
+                                <base-button tag="a" href="mailto:contact@i-t.io" class="btn btn-white text-left  w-100 " icon="ni ni-email-83">
+                                    contact@i-t.io
+                                </base-button>
+                            </div>
+                        </div>
+                        <div class="py-2">
+                            <div class="d-flex align-items-center">
+                                <base-button tag="a" href="https://www.linkedin.com/company/infinite-technology-%E2%88%9E" class="btn btn-white text-left  w-100 " icon="fa fa-linkedin">
+                                    Linkedin
+                                </base-button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-9 text-lg-right btn-wrapper">
-                    <a href="mailto:contact@i-t.io"
-                       class="nav-link pl-0" target="_blank" rel="noopener">
-                        <base-button class="btn-1" outline type="secondary" size="sm" icon="ni ni-email-83">
-                            contact@i-t.io
-                        </base-button>
-                    </a>
-                    <a href="tel:+971559307088"
-                       class="nav-link pl-0" target="_blank" rel="noopener">
-                        <base-button class="btn-1" outline type="secondary" size="sm" icon="fa fa-phone">+971559307088
-                        </base-button>
-                    </a>
-                    <a href="https://www.linkedin.com/company/infinite-technology-%E2%88%9E"
-                       class="nav-link pl-0" target="_blank" rel="noopener">
-                        <base-button class="btn-1" outline type="secondary" size="sm" icon="fa fa-linkedin">Linkedin
-                        </base-button>
-                    </a>
+                <div class="col-md-6 order-lg-1">
+                    <div class="list-unstyled ">
+                        <div class="py-2">
+                            <div class="d-flex align-items-center">
+                                <base-button tag="a" href="mailto:contact@i-t.io" class="btn btn-white text-left  w-100 " icon="fa fa-phone">
+                                    +971559307088
+                                </base-button>
+                            </div>
+                        </div>
+                        <div class="py-2">
+                            <div class="d-flex align-items-center">
+                                <base-button tag="a" href="https://bintray.com/infinite-technology/io.i-t" class="btn btn-white text-left  w-100 " icon="fa fa-arrows-alt">
+                                    Bintray
+                                </base-button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <hr >

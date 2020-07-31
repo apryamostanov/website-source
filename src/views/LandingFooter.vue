@@ -10,19 +10,22 @@
         </div>
         <div class="container py-0 justify-content-center text-center">
             <div class="d-flex px-3 justify-content-center text-center ">
-                    <icon name="ni ni-diamond" size="lg" type="white" color="red" shadow
-                          rounded></icon>
+                <div class="icon icon-shape icon-lg bg-white shadow rounded-circle text-white"
+                     style=" padding: 0.5rem">
+                    <img src="img/brand/blueIcon.png" alt="Circle image"
+                         class="img-fluid rounded-circle ">
+                </div>
 
             </div>
             <p class="lead   ">Get it done.</p>
         </div>
         <div class="container  justify-content-center text-center">
 
-            <a href="mailto:sales@i-t.io"
-               class="nav-link " target="_blank" rel="noopener">
-                <base-button class="btn-1" outline type="default">Contact sales
+            <div class="d-flex align-items-center justify-content-center">
+                <base-button tag="a" href="mailto:sales@i-t.io" class="btn-1" outline type="default"  >
+                    Contact Sales
                 </base-button>
-            </a>
+            </div>
         </div>
     </section>
 </template>
