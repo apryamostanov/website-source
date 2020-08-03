@@ -28,85 +28,82 @@
                 </div>
             </div>
             <div class="pt-3">
-                <card class="bg-lighter">
-                    <div class="row   align-items-center">
-                        <div class="col-md-6 order-lg-1">
-                            <div class="list-unstyled ">
-                                <div class="py-2">
-                                    <div class="d-flex align-items-center">
-                                        <badge type="dark" circle class="mr-3  " icon="ni ni-mobile-button"></badge>
-                                        <base-button @click="modals.MobileBanking = true"
-                                                     class="btn btn-white text-left  w-100 ">
-                                            Mobile Banking
-                                        </base-button>
-                                    </div>
-                                </div>
-                                <div class="py-2">
-                                    <div class="d-flex align-items-center">
-                                        <badge type="dark" circle class="mr-3  " icon="fa fa-exchange"></badge>
-                                        <base-button @click="modals.FinancialApi = true"
-                                                     class="btn btn-white text-left  w-100 ">
-                                            Financial API
-                                        </base-button>
-                                    </div>
-                                </div>
-                                <div class="py-2">
-                                    <div class="d-flex align-items-center">
-                                        <badge type="dark" circle class="mr-3  " icon="fa fa-lock"></badge>
-                                        <base-button @click="modals.ApiSecurity = true"
-                                                     class="btn btn-white text-left  w-100 ">
-                                            API Security
-                                        </base-button>
-                                    </div>
-                                </div>
-                                <div class="py-2">
-                                    <div class="d-flex align-items-center">
-                                        <badge type="dark" circle class="mr-3  " icon="fa fa-database"></badge>
-                                        <base-button @click="modals.Cobol = true"
-                                                     class="btn btn-white text-left  w-100 ">
-                                            COBOL Integration
-                                        </base-button>
-                                    </div>
+                <card class="mean-fruit-gradient border-0">
+                    <div class="row   align-items-top">
+                        <div class="col-md-4 order-lg-1">
+                            <video src="img/brand/video.mp4 " autoplay loop muted style="width: inherit"></video>
+                        </div>
+                        <div class="col-md-8 order-2">
+                            <div class="py-2">
+                                <div class="d-flex align-items-center">
+                                    <base-button @click="modals.MobileBanking = true" icon="ni ni-mobile-button"
+                                                 type="default"
+                                                 class="btn text-left  w-100 ">
+                                        Mobile Banking
+                                    </base-button>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 order-lg-1">
-                            <div class="list-unstyled ">
-                                <div class="py-2">
-                                    <div class="d-flex align-items-center">
-                                        <badge type="dark" circle class="mr-3  " icon="ni ni-send"></badge>
-                                        <base-button @click="modals.ChatBots = true"
-                                                     class="btn btn-white text-left  w-100 ">
-                                            Chat Bots
-                                        </base-button>
-                                    </div>
+                            <div class="py-2">
+                                <div class="d-flex align-items-center">
+                                    <base-button @click="modals.MobileBanking = true" icon="ni ni-mobile-button"
+                                                 type="default"
+                                                 class="btn text-left  w-100 ">
+                                        Mobile Banking
+                                    </base-button>
                                 </div>
-                                <div class="py-2">
-                                    <div class="d-flex align-items-center">
-                                        <badge type="dark" circle class="mr-3  " icon="fa fa-cc-visa"></badge>
-                                        <base-button @click="modals.Processing = true"
-                                                     class="btn btn-white text-left  w-100 ">
-                                            Processing
-                                        </base-button>
-                                    </div>
+                            </div>
+                            <div class="py-2">
+                                <div class="d-flex align-items-center">
+                                    <base-button @click="modals.MobileBanking = true" icon="ni ni-mobile-button"
+                                                 type="default"
+                                                 class="btn text-left  w-100 ">
+                                        Mobile Banking
+                                    </base-button>
                                 </div>
-                                <div class="py-2">
-                                    <div class="d-flex align-items-center">
-                                        <badge type="dark" circle class="mr-3  " icon="fa fa-btc"></badge>
-                                        <base-button @click="modals.Crypto = true"
-                                                     class="btn btn-white text-left  w-100 ">
-                                            Crypto
-                                        </base-button>
-                                    </div>
+                            </div>
+                            <div class="py-2">
+                                <div class="d-flex align-items-center">
+                                    <base-button @click="modals.MobileBanking = true" icon="ni ni-mobile-button"
+                                                 type="default"
+                                                 class="btn text-left  w-100 ">
+                                        Mobile Banking
+                                    </base-button>
                                 </div>
-                                <div class="py-2">
-                                    <div class="d-flex align-items-center">
-                                        <badge type="dark" circle class="mr-3  " icon="ni ni-money-coins"></badge>
-                                        <base-button @click="modals.Swift = true"
-                                                     class="btn btn-white text-left  w-100 ">
-                                            SWIFT, ACH, RTGS
-                                        </base-button>
-                                    </div>
+                            </div>
+                            <div class="py-2">
+                                <div class="d-flex align-items-center">
+                                    <base-button @click="modals.MobileBanking = true" icon="ni ni-mobile-button"
+                                                 type="default"
+                                                 class="btn text-left  w-100 ">
+                                        Mobile Banking
+                                    </base-button>
+                                </div>
+                            </div>
+                            <div class="py-2">
+                                <div class="d-flex align-items-center">
+                                    <base-button @click="modals.MobileBanking = true" icon="ni ni-mobile-button"
+                                                 type="default"
+                                                 class="btn text-left  w-100 ">
+                                        Mobile Banking
+                                    </base-button>
+                                </div>
+                            </div>
+                            <div class="py-2">
+                                <div class="d-flex align-items-center">
+                                    <base-button @click="modals.MobileBanking = true" icon="ni ni-mobile-button"
+                                                 type="default"
+                                                 class="btn text-left  w-100 ">
+                                        Mobile Banking
+                                    </base-button>
+                                </div>
+                            </div>
+                            <div class="py-2">
+                                <div class="d-flex align-items-center">
+                                    <base-button @click="modals.MobileBanking = true" icon="ni ni-mobile-button"
+                                                 type="default"
+                                                 class="btn text-left  w-100 ">
+                                        Mobile Banking
+                                    </base-button>
                                 </div>
                             </div>
                         </div>
