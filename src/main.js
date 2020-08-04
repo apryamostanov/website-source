@@ -22,6 +22,12 @@ import Argon from "./plugins/argon-kit";
 import './registerServiceWorker'
 import VueScreen from 'vue-screen';
 import VueDisqus from 'vue-disqus'
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+
+// Install BootstrapVue
+Vue.use(BootstrapVue)
+// Optionally install the BootstrapVue icon components plugin
+Vue.use(IconsPlugin)
 
 Vue.use(VueScreen, 'bootstrap');
 Vue.use(VueDisqus, {

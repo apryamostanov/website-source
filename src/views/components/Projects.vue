@@ -28,87 +28,113 @@
                 </div>
             </div>
             <div class="pt-3">
-                <card class="mean-fruit-gradient border-0">
+                <div>
                     <div class="row   align-items-top">
                         <div class="col-md-4 order-lg-1">
                             <video src="img/brand/video.mp4 " autoplay loop muted style="width: inherit"></video>
                         </div>
                         <div class="col-md-8 order-2">
-                            <div class="py-2">
-                                <div class="d-flex align-items-center">
-                                    <base-button @click="modals.MobileBanking = true" icon="ni ni-mobile-button"
-                                                 type="default"
-                                                 class="btn text-left  w-100 ">
-                                        Mobile Banking
-                                    </base-button>
-                                </div>
-                            </div>
-                            <div class="py-2">
-                                <div class="d-flex align-items-center">
-                                    <base-button @click="modals.MobileBanking = true" icon="ni ni-mobile-button"
-                                                 type="default"
-                                                 class="btn text-left  w-100 ">
-                                        Mobile Banking
-                                    </base-button>
-                                </div>
-                            </div>
-                            <div class="py-2">
-                                <div class="d-flex align-items-center">
-                                    <base-button @click="modals.MobileBanking = true" icon="ni ni-mobile-button"
-                                                 type="default"
-                                                 class="btn text-left  w-100 ">
-                                        Mobile Banking
-                                    </base-button>
-                                </div>
-                            </div>
-                            <div class="py-2">
-                                <div class="d-flex align-items-center">
-                                    <base-button @click="modals.MobileBanking = true" icon="ni ni-mobile-button"
-                                                 type="default"
-                                                 class="btn text-left  w-100 ">
-                                        Mobile Banking
-                                    </base-button>
-                                </div>
-                            </div>
-                            <div class="py-2">
-                                <div class="d-flex align-items-center">
-                                    <base-button @click="modals.MobileBanking = true" icon="ni ni-mobile-button"
-                                                 type="default"
-                                                 class="btn text-left  w-100 ">
-                                        Mobile Banking
-                                    </base-button>
-                                </div>
-                            </div>
-                            <div class="py-2">
-                                <div class="d-flex align-items-center">
-                                    <base-button @click="modals.MobileBanking = true" icon="ni ni-mobile-button"
-                                                 type="default"
-                                                 class="btn text-left  w-100 ">
-                                        Mobile Banking
-                                    </base-button>
-                                </div>
-                            </div>
-                            <div class="py-2">
-                                <div class="d-flex align-items-center">
-                                    <base-button @click="modals.MobileBanking = true" icon="ni ni-mobile-button"
-                                                 type="default"
-                                                 class="btn text-left  w-100 ">
-                                        Mobile Banking
-                                    </base-button>
-                                </div>
-                            </div>
-                            <div class="py-2">
-                                <div class="d-flex align-items-center">
-                                    <base-button @click="modals.MobileBanking = true" icon="ni ni-mobile-button"
-                                                 type="default"
-                                                 class="btn text-left  w-100 ">
-                                        Mobile Banking
-                                    </base-button>
-                                </div>
+                            <div role="tablist">
+                                <b-card no-body class="mb-1">
+                                    <b-card-header header-tag="header" class="p-1" role="tab">
+                                        <b-button block v-b-toggle.accordion-1 variant="outline-default">Financial Chat
+                                            Bots
+                                        </b-button>
+                                    </b-card-header>
+                                    <b-collapse id="accordion-1" visible accordion="my-accordion" role="tabpanel">
+                                        <b-card-body>
+                                            <b-card-text>I start opened because <code>visible</code> is
+                                                <code>true</code></b-card-text>
+                                            <b-card-text>{{ text }}</b-card-text>
+                                        </b-card-body>
+                                    </b-collapse>
+                                </b-card>
+
+                                <b-card no-body class="mb-1">
+                                    <b-card-header header-tag="header" class="p-1" role="tab">
+                                        <b-button block v-b-toggle.accordion-2 variant="outline-default">Mobile
+                                            Banking
+                                        </b-button>
+                                    </b-card-header>
+                                    <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
+                                        <b-card-body>
+                                            <b-card-text>{{ text }}</b-card-text>
+                                        </b-card-body>
+                                    </b-collapse>
+                                </b-card>
+                                <b-card no-body class="mb-1">
+                                    <b-card-header header-tag="header" class="p-1" role="tab">
+                                        <b-button block v-b-toggle.accordion-3 variant="outline-default">Financial API
+                                        </b-button>
+                                    </b-card-header>
+                                    <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
+                                        <b-card-body>
+                                            <b-card-text>{{ text }}</b-card-text>
+                                        </b-card-body>
+                                    </b-collapse>
+                                </b-card>
+                                <b-card no-body class="mb-1">
+                                    <b-card-header header-tag="header" class="p-1" role="tab">
+                                        <b-button block v-b-toggle.accordion-4 variant="outline-default">API Security
+                                        </b-button>
+                                    </b-card-header>
+                                    <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
+                                        <b-card-body>
+                                            <b-card-text>{{ text }}</b-card-text>
+                                        </b-card-body>
+                                    </b-collapse>
+                                </b-card>
+                                <b-card no-body class="mb-1">
+                                    <b-card-header header-tag="header" class="p-1" role="tab">
+                                        <b-button block v-b-toggle.accordion-5 variant="outline-default">ETL</b-button>
+                                    </b-card-header>
+                                    <b-collapse id="accordion-5" accordion="my-accordion" role="tabpanel">
+                                        <b-card-body>
+                                            <b-card-text>{{ text }}</b-card-text>
+                                        </b-card-body>
+                                    </b-collapse>
+                                </b-card>
+                                <b-card no-body class="mb-1">
+                                    <b-card-header header-tag="header" class="p-1" role="tab">
+                                        <b-button block v-b-toggle.accordion-6 variant="outline-default">COBOL
+                                        </b-button>
+                                    </b-card-header>
+                                    <b-collapse id="accordion-6" accordion="my-accordion" role="tabpanel">
+                                        <b-card-body>
+                                            <b-card-text>{{ text }}</b-card-text>
+                                        </b-card-body>
+                                    </b-collapse>
+                                </b-card>
+                                <b-card no-body class="mb-1">
+                                    <b-card-header header-tag="header" class="p-1" role="tab">
+                                        <b-button block v-b-toggle.accordion-7 variant="outline-default">SWIFT, ACH
+                                        </b-button>
+                                    </b-card-header>
+                                    <b-collapse id="accordion-7" accordion="my-accordion" role="tabpanel">
+                                        <b-card-body>
+                                            <b-card-text>{{ text }}</b-card-text>
+                                        </b-card-body>
+                                    </b-collapse>
+                                </b-card>
+
+                                <b-card no-body class="mb-1 rare-wind-gradient border-0">
+                                    <b-card-header header-tag="header" class="p-0 rare-wind-gradient" role="tab">
+                                        <b-button block v-b-toggle.accordion-8 variant="outline-default">Processing
+                                        </b-button>
+                                    </b-card-header>
+                                    <b-collapse id="accordion-8" accordion="my-accordion" role="tabpanel"
+                                                class="bg-transparent border-0">
+                                        <div class="p-1">
+                                            <b-card-body class="bg-transparent border-0">
+                                                <b-card-text>{{ text }}</b-card-text>
+                                            </b-card-body>
+                                        </div>
+                                    </b-collapse>
+                                </b-card>
                             </div>
                         </div>
                     </div>
-                </card>
+                </div>
             </div>
         </div>
         <modal :show.sync="modals.MobileBanking">
@@ -522,7 +548,8 @@
                     Crypto: false,
                     Cobol: false,
                     Swift: false
-                }
+                },
+                text: 'test'
             };
         },
         mounted() {
