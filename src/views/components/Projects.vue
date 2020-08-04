@@ -37,98 +37,405 @@
                             <div role="tablist">
                                 <b-card no-body class="mb-1">
                                     <b-card-header header-tag="header" class="p-1" role="tab">
-                                        <b-button block v-b-toggle.accordion-1 variant="outline-default">Financial Chat
+                                        <b-button block v-b-toggle.accordion-1 variant="light" size="sm"
+                                                  href="javascript:void(0);">Financial Chat
                                             Bots
                                         </b-button>
                                     </b-card-header>
                                     <b-collapse id="accordion-1" visible accordion="my-accordion" role="tabpanel">
                                         <b-card-body>
-                                            <b-card-text>I start opened because <code>visible</code> is
-                                                <code>true</code></b-card-text>
-                                            <b-card-text>{{ text }}</b-card-text>
+                                            <b-card-text><p>Financial and Remittance Chat Bots with full functionality
+                                                of Mobile
+                                                Banking.</p>
+                                                <ul class="list-unstyled mt-3">
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Telegram, Facebook, Whatsapp</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Best in class bot UX</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Secured with Ascend™</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Used by leading Fintech companies</h6>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </b-card-text>
                                         </b-card-body>
                                     </b-collapse>
                                 </b-card>
 
                                 <b-card no-body class="mb-1">
                                     <b-card-header header-tag="header" class="p-1" role="tab">
-                                        <b-button block v-b-toggle.accordion-2 variant="outline-default">Mobile
+                                        <b-button block v-b-toggle.accordion-2 variant="light" size="sm"
+                                                  href="javascript:void(0);">Mobile
                                             Banking
                                         </b-button>
                                     </b-card-header>
                                     <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
                                         <b-card-body>
-                                            <b-card-text>{{ text }}</b-card-text>
+                                            <b-card-text><p>Secure mobile banking apps with advanced architecture.</p>
+                                                <ul class="list-unstyled mt-3">
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">iOS, Android, Web</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Supports your API</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Biometric security</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">High performance UX</h6>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </b-card-text>
                                         </b-card-body>
                                     </b-collapse>
                                 </b-card>
                                 <b-card no-body class="mb-1">
                                     <b-card-header header-tag="header" class="p-1" role="tab">
-                                        <b-button block v-b-toggle.accordion-3 variant="outline-default">Financial API
+                                        <b-button block v-b-toggle.accordion-3 variant="light" size="sm"
+                                                  href="javascript:void(0);">Financial API
                                         </b-button>
                                     </b-card-header>
                                     <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
                                         <b-card-body>
-                                            <b-card-text>{{ text }}</b-card-text>
+                                            <b-card-text><p>We will help you create a new Financial REST API
+                                                wrapping it around your legacy or proprietary APIs.</p>
+                                                <ul class="list-unstyled mt-3">
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Issuing. Acquiring. PSD2.</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">REST, SOAP, XML, HTTP APIs</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">API publishing over Internet</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">REST-SOAP transformation</h6>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </b-card-text>
                                         </b-card-body>
                                     </b-collapse>
                                 </b-card>
                                 <b-card no-body class="mb-1">
                                     <b-card-header header-tag="header" class="p-1" role="tab">
-                                        <b-button block v-b-toggle.accordion-4 variant="outline-default">API Security
+                                        <b-button block v-b-toggle.accordion-4 variant="light" size="sm"
+                                                  href="javascript:void(0);">API Security
                                         </b-button>
                                     </b-card-header>
                                     <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
                                         <b-card-body>
-                                            <b-card-text>{{ text }}</b-card-text>
+                                            <b-card-text><p>We will help you to securely publish API over Internet using
+                                                Externalized
+                                                Authorization.</p>
+                                                <ul class="list-unstyled mt-3">
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Proprietary and Legacy API</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Ascend™ SECaaS</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Biometrics and social login</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Leading IAM platforms</h6>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </b-card-text>
                                         </b-card-body>
                                     </b-collapse>
                                 </b-card>
                                 <b-card no-body class="mb-1">
                                     <b-card-header header-tag="header" class="p-1" role="tab">
-                                        <b-button block v-b-toggle.accordion-5 variant="outline-default">ETL</b-button>
+                                        <b-button block v-b-toggle.accordion-5 variant="light" size="sm"
+                                                  href="javascript:void(0);">ETL
+                                        </b-button>
                                     </b-card-header>
                                     <b-collapse id="accordion-5" accordion="my-accordion" role="tabpanel">
                                         <b-card-body>
-                                            <b-card-text>{{ text }}</b-card-text>
+                                            <b-card-text>
+                                                <p>Let our extensive ETL expertize help you to perform file-based
+                                                    integrations.</p>
+                                                <ul class="list-unstyled mt-3">
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Encoding conversion</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Format conversion</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Protocol conversion</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Securely upload and download files over
+                                                                Internet</h6>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </b-card-text>
                                         </b-card-body>
                                     </b-collapse>
                                 </b-card>
                                 <b-card no-body class="mb-1">
                                     <b-card-header header-tag="header" class="p-1" role="tab">
-                                        <b-button block v-b-toggle.accordion-6 variant="outline-default">COBOL
+                                        <b-button block v-b-toggle.accordion-6 variant="light" size="sm"
+                                                  href="javascript:void(0);">COBOL
                                         </b-button>
                                     </b-card-header>
                                     <b-collapse id="accordion-6" accordion="my-accordion" role="tabpanel">
                                         <b-card-body>
-                                            <b-card-text>{{ text }}</b-card-text>
+                                            <b-card-text><p>Exclusive COBOL ETL tools.</p>
+                                                <ul class="list-unstyled mt-3">
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Convert COBOL data files using
+                                                                copybooks</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">ETL API for variety of formats including
+                                                                XML, JSON</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Supports group <code>redefines</code>
+                                                                (explicit)</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Supports record <code>redefines</code>
+                                                                (implicit)</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Supports <code>occurs</code></h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Powered by best available COBOL source
+                                                                code parser</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Innovative COBOL transpiler, runtime and
+                                                                API</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Talend plugin</h6>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </b-card-text>
                                         </b-card-body>
                                     </b-collapse>
                                 </b-card>
                                 <b-card no-body class="mb-1">
                                     <b-card-header header-tag="header" class="p-1" role="tab">
-                                        <b-button block v-b-toggle.accordion-7 variant="outline-default">SWIFT, ACH
+                                        <b-button block v-b-toggle.accordion-7 variant="light" size="sm"
+                                                  href="javascript:void(0);">SWIFT, ACH
                                         </b-button>
                                     </b-card-header>
                                     <b-collapse id="accordion-7" accordion="my-accordion" role="tabpanel">
                                         <b-card-body>
-                                            <b-card-text>{{ text }}</b-card-text>
+                                            <b-card-text><p>Clearing and Settlement integrations.</p>
+                                                <ul class="list-unstyled mt-3">
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">ISO 20022</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">MT103, MT940, MT202</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  "
+                                                                   icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">ACH, RTGS</h6>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </b-card-text>
                                         </b-card-body>
                                     </b-collapse>
                                 </b-card>
 
-                                <b-card no-body class="mb-1 rare-wind-gradient border-0">
-                                    <b-card-header header-tag="header" class="p-0 rare-wind-gradient" role="tab">
-                                        <b-button block v-b-toggle.accordion-8 variant="outline-default">Processing
+                                <b-card no-body class="mb-1">
+                                    <b-card-header header-tag="header" class="p-1" role="tab">
+                                        <b-button block v-b-toggle.accordion-8 variant="light" size="sm"
+                                                  href="javascript:void(0);">Processing
                                         </b-button>
                                     </b-card-header>
-                                    <b-collapse id="accordion-8" accordion="my-accordion" role="tabpanel"
-                                                class="bg-transparent border-0">
-                                        <div class="p-1">
-                                            <b-card-body class="bg-transparent border-0">
-                                                <b-card-text>{{ text }}</b-card-text>
-                                            </b-card-body>
-                                        </div>
+                                    <b-collapse id="accordion-8" accordion="my-accordion" role="tabpanel">
+                                        <b-card-body>
+                                            <b-card-text>
+                                                <p>Consultation, implementation, development.</p>
+                                                <ul class="list-unstyled mt-3">
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Authorization</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Clearing</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Settlement</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Billing and Payout</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Certifications</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Single and Dual message</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">Issuing and Acquiring</h6>
+                                                        </div>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
+                                                            <h6 class="mb-0 ">TSYS, BPC SmartVista, CompassPlus</h6>
+                                                        </div>
+                                                    </li>
+                                                </ul></b-card-text>
+                                        </b-card-body>
                                     </b-collapse>
                                 </b-card>
                             </div>
@@ -137,396 +444,6 @@
                 </div>
             </div>
         </div>
-        <modal :show.sync="modals.MobileBanking">
-            <h6 slot="header" class="modal-title" id="modal-title-MobileBanking">Mobile Banking</h6>
-
-            <p>Secure mobile banking apps with advanced architecture.</p>
-            <ul class="list-unstyled mt-3">
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">iOS, Android, Web</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Supports any API</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Secure</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Cloud-native</h6>
-                    </div>
-                </li>
-            </ul>
-
-            <template slot="footer">
-                <router-link to="/Projects" class="btn btn-warning">
-                    Start Project
-                </router-link>
-                <base-button type="link" class="ml-auto" @click="modals.MobileBanking = false">Close
-                </base-button>
-            </template>
-        </modal>
-        <modal :show.sync="modals.ChatBots">
-            <h6 slot="header" class="modal-title" id="modal-title-ChatBots">Chat Bots</h6>
-
-            <p>Financial Chat Bots with full functionality of Mobile Banking.</p>
-            <ul class="list-unstyled mt-3">
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Telegram, Facebook</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Best in class bot UX</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Secure</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">A proven track of success delivery</h6>
-                    </div>
-                </li>
-            </ul>
-
-            <template slot="footer">
-                <router-link to="/Projects" class="btn btn-warning">
-                    Start Project
-                </router-link>
-                <base-button type="link" class="ml-auto" @click="modals.ChatBots = false">Close
-                </base-button>
-            </template>
-        </modal>
-        <modal :show.sync="modals.FinancialApi">
-            <h6 slot="header" class="modal-title" id="modal-title-FinancialApi">Financial API</h6>
-
-            <p>Issuing. Acquiring. PSD2.</p>
-            <ul class="list-unstyled mt-3">
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Create REST API</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Support SOAP API</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Internet API Gateways</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">REST-SOAP transformation</h6>
-                    </div>
-                </li>
-            </ul>
-
-            <template slot="footer">
-                <router-link to="/Projects" class="btn btn-warning">
-                    Start Project
-                </router-link>
-                <base-button type="link" class="ml-auto" @click="modals.FinancialApi = false">Close
-                </base-button>
-            </template>
-        </modal>
-        <modal :show.sync="modals.Processing">
-            <h6 slot="header" class="modal-title" id="modal-title-Processing">Processing</h6>
-
-            <p>Consultation, implementation, development.</p>
-            <ul class="list-unstyled mt-3">
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Authorization</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Clearing</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Settlement</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Billing and Payout</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Certifications</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Single and Dual message</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Issuing and Acquiring</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">TSYS, BPC SmartVista, CompassPlus</h6>
-                    </div>
-                </li>
-            </ul>
-
-            <template slot="footer">
-                <router-link to="/Projects" class="btn btn-warning">
-                    Start Project
-                </router-link>
-                <base-button type="link" class="ml-auto" @click="modals.Processing = false">Close
-                </base-button>
-            </template>
-        </modal>
-        <modal :show.sync="modals.ApiSecurity">
-            <h6 slot="header" class="modal-title" id="modal-title-ApiSecurity">API Security</h6>
-
-            <p>Securely publish API over Internet using Externalized Authorization.</p>
-            <ul class="list-unstyled mt-3">
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Legacy API</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Proprietary API</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">SOAP, REST</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">SECaaS</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">OAuth2 and social login</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Sidecar Architecture Pattern</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Leading IAM platforms</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Gluu, Auth0, Keycloack</h6>
-                    </div>
-                </li>
-            </ul>
-
-            <template slot="footer">
-                <router-link to="/Projects" class="btn btn-warning">
-                    Start Project
-                </router-link>
-                <base-button type="link" class="ml-auto" @click="modals.ApiSecurity = false">Close
-                </base-button>
-            </template>
-        </modal>
-        <modal :show.sync="modals.Crypto">
-            <h6 slot="header" class="modal-title" id="modal-title-Crypto">API Security</h6>
-
-            <p>With Blockchain its YOU who sets the rules.</p>
-            <ul class="list-unstyled mt-3">
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Bitcoin</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Ethereum</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Stellar</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">EOS</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Dash</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Blockchain as a service (BaaS)</h6>
-                    </div>
-                </li>
-            </ul>
-
-            <template slot="footer">
-                <router-link to="/Projects" class="btn btn-warning">
-                    Start Project
-                </router-link>
-                <base-button type="link" class="ml-auto" @click="modals.Crypto = false">Close
-                </base-button>
-            </template>
-        </modal>
-        <modal :show.sync="modals.Cobol">
-            <h6 slot="header" class="modal-title" id="modal-title-Cobol">COBOL Integration</h6>
-
-            <p>Exclusive COBOL ETL tools.</p>
-            <ul class="list-unstyled mt-3">
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Convert COBOL data files using copybooks</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">ETL API for variety of formats including XML, JSON</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Supports group <code>redefines</code> (explicit)</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Supports record <code>redefines</code> (implicit)</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Supports <code>occurs</code></h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Powered by best available COBOL source code parser</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Innovative COBOL transpiler, runtime and API</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">Talend plugin</h6>
-                    </div>
-                </li>
-            </ul>
-
-            <template slot="footer">
-                <router-link to="/Projects" class="btn btn-warning">
-                    Start Project
-                </router-link>
-                <base-button type="link" class="ml-auto" @click="modals.Cobol = false">Close
-                </base-button>
-            </template>
-        </modal>
-        <modal :show.sync="modals.Swift">
-            <h6 slot="header" class="modal-title" id="modal-title-Swift">SWIFT, ACH, RTGS</h6>
-
-            <p>Clearing and Settlement integrations.</p>
-            <ul class="list-unstyled mt-3">
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">ISO 20022</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">MT103, MT940, MT202</h6>
-                    </div>
-                </li>
-                <li class="py-2">
-                    <div class="d-flex align-items-center">
-                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
-                        <h6 class="mb-0 ">ACH, RTGS</h6>
-                    </div>
-                </li>
-            </ul>
-
-            <template slot="footer">
-                <router-link to="/Projects" class="btn btn-warning">
-                    Start Project
-                </router-link>
-                <base-button type="link" class="ml-auto" @click="modals.Swift = false">Close
-                </base-button>
-            </template>
-        </modal>
     </section>
 </template>
 <script>

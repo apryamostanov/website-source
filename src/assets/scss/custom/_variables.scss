@@ -78,6 +78,7 @@ $danger:        $red !default;
 $light:         $gray-500 !default;
 $dark:          $gray-900 !default;
 $darker:        darken($gray-900, 15%) !default;
+$telegram:      lighten($black, 50%) !default;
 $z: #A8B3F3 !default;
 $q: #1072EF !default;
 $w: #169e5f !default;
@@ -107,7 +108,8 @@ $theme-colors: map-merge((
   "darker":       $darker,
   "z":       $z,
         "q": $q,
-        "w": $w
+        "w": $w,
+        "telegram": $telegram
 ), $theme-colors);
 
 $brand-colors: () !default;
