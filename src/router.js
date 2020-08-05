@@ -19,6 +19,7 @@ import Traits from "./views/blog/Traits";
 import LoggingSpringBoot from "./views/blog/LoggingSpringBoot";
 import HerokuAuthentication from "./views/blog/HerokuAuthentication";
 import Rahul from "./views/Rahul";
+import Bobbin from "./views/products/Bobbin";
 
 Vue.use(Router);
 
@@ -86,6 +87,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Year2009,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/Bobbin",
+      name: "Bobbin",
+      components: {
+        header: AppHeader,
+        default: Bobbin,
         footer: AppFooter
       }
     },

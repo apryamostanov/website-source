@@ -31,7 +31,7 @@
                 <div>
                     <div class="row   align-items-top">
                         <div class="col-md-4 order-lg-1">
-                            <video src="img/brand/video.mp4 " autoplay loop muted style="width: inherit"></video>
+                            <video src="img/brand/video2.mp4 " autoplay loop muted style="width: inherit"></video>
                         </div>
                         <div class="col-md-8 order-2">
                             <div role="tablist">
