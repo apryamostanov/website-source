@@ -10,12 +10,42 @@
                 <span></span>
             </div>
             <div class="container pt-100 p-0">
-                <b-card class="justify-content-center text-center mb-sm" title="zz">
-                    <div class="col-lg-8">
-                        <h2 class="display-3 ">Bobbin</h2>
-                        <p class="lead  ">SLF4J Logger</p>
+                <card shadow class="shadow-lg--hover mt-5 bg-transparent">
+                    <div class="row row-grid-1 align-items-center">
+                        <div class="col-md-4 order-md-1 ml-lg-auto">
+                            <img src="img/theme/Bobbin.png" class="rounded img-center img-fluid">
+                        </div>
+                        <div class="col-md-8 order-md-2">
+                            <h3>Bobbin™</h3>
+                            <badge type="default">Java</badge>
+                            <badge type="default">Groovy</badge>
+                            <badge type="default">SLF4J</badge>
+                            <ul class="list-unstyled mt-3">
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
+                                        <h6 class="mb-0 ">High Performance</h6>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
+                                        <h6 class="mb-0 ">Simple</h6>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge type="dark" circle class="mr-3  " icon="ni ni-bold-right"></badge>
+                                        <h6 class="mb-0 ">Scripting</h6>
+                                    </div>
+                                </li>
+                            </ul>
+                            <router-link to="/Rahul" class="btn btn-warning mt-4">Documentation</router-link>
+                            <router-link to="/Rahul" class="btn btn-warning mt-4">Support</router-link>
+                            <router-link to="/Rahul" class="btn btn-warning mt-4">Download</router-link>
+                        </div>
                     </div>
-                </b-card>
+                </card>
                 <card shadow class="shadow-lg--hover mt-5">
                     <md-content/>
                 </card>

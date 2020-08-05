@@ -23,26 +23,31 @@
         <div class="container mt-5">
             <div class="row row-grid-1">
                 <div class="col-lg-6 order-lg-1">
-                    <div class="pb-5">
-                        <card class="border-0" shadow body-classes="py-4">
+                    <div class="pb-4">
+                        <b-card class="border-0 shadow" shadow body-classes="py-4" style="background-color:rgba(255, 255, 255, 0.9);">
                             <div class="d-flex align-items-center">
                                 <div class="icon icon-shape bg-transparent rounded-circle text-white"
                                      style=" padding: 0">
                                     <img src="img/theme/Bobbin_small.png" alt="Circle image"
-                                         class="img-fluid rounded-circle ">
+                                         class="img-fluid rounded-circle "/>
                                 </div>
                                 <div class="pl-2 ">
                                     <h6 class=" text-uppercase mb-0">Bobbin</h6>
                                 </div>
                             </div>
-                            <p class="description mt-3">Revolutionary SLF4J logger.</p>
-                            <router-link to="/Bobbin" class="btn btn-info btn-sm mt-2">See More</router-link>
-                        </card>
+                            <p class="mt-3">Revolutionary SLF4J logger.</p>
+                            <router-link to="/Bobbin">
+                                <base-button type="info" size="sm"
+                                             class="btn w-100 " >
+                                    See More
+                                </base-button>
+                            </router-link>
+                        </b-card>
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-1">
-                    <div class="pb-5">
-                        <card class="border-0" shadow body-classes="py-4">
+                    <div class="pb-4">
+                        <b-card class="border-0 shadow" shadow body-classes="py-4" style="background-color:rgba(255, 255, 255, 0.9);">
                             <div class="d-flex align-items-center">
                                 <div class="icon icon-shape bg-transparent rounded-circle text-white"
                                      style=" padding: 0">
@@ -50,19 +55,24 @@
                                          class="img-fluid rounded-circle ">
                                 </div>
                                 <div class="pl-2 ">
-                                    <h6 class=" text-uppercase mb-0">BlackBox</h6>
+                                    <h5 class=" text-uppercase mb-0">BlackBox</h5>
                                 </div>
                             </div>
-                            <p class="description mt-3">Groovy logging AST.</p>
-                            <router-link to="/BlackBox" class="btn btn-info btn-sm mt-2">See More</router-link>
-                        </card>
+                            <p class="mt-3">Groovy logging AST.</p>
+                            <router-link to="/BlackBox">
+                                <base-button type="info" size="sm"
+                                             class="btn w-100 " >
+                                    See More
+                                </base-button>
+                            </router-link>
+                        </b-card>
                     </div>
                 </div>
             </div>
             <div class="row row-grid-1">
                 <div class="col-lg-6 order-lg-1">
-                    <div class="pb-5">
-                        <card class="border-0" shadow body-classes="py-4">
+                    <div class="pb-4">
+                        <b-card class="border-0 shadow" shadow body-classes="py-4" style="background-color:rgba(255, 255, 255, 0.9);">
                             <div class="d-flex align-items-center">
                                 <div class="icon icon-shape bg-transparent rounded-circle text-white"
                                      style=" padding: 0">
@@ -70,17 +80,22 @@
                                          class="img-fluid rounded-circle ">
                                 </div>
                                 <div class="pl-2 ">
-                                    <h6 class=" text-uppercase mb-0">Pigeon</h6>
+                                    <h5 class=" text-uppercase mb-0">Pigeon</h5>
                                 </div>
                             </div>
-                            <p class="description mt-3">HTTP Message Broker.</p>
-                            <router-link to="/Pigeon" class="btn btn-info btn-sm mt-2">See More</router-link>
-                        </card>
+                            <p class="mt-3">HTTP Message Broker.</p>
+                            <router-link to="/Pigeon">
+                                <base-button type="info" size="sm"
+                                             class="btn w-100 " >
+                                    See More
+                                </base-button>
+                            </router-link>
+                        </b-card>
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-1">
-                    <div class="pb-5">
-                        <card class="border-0" shadow body-classes="py-4">
+                    <div class="pb-4">
+                        <b-card class="border-0 shadow" shadow body-classes="py-4" style="background-color:rgba(255, 255, 255, 0.9);">
                             <div class="d-flex align-items-center">
                                 <div class="icon icon-shape bg-transparent rounded-circle text-white"
                                      style=" padding: 0">
@@ -88,19 +103,24 @@
                                          class="img-fluid rounded-circle ">
                                 </div>
                                 <div class="pl-2 ">
-                                    <h6 class=" text-uppercase mb-0">David</h6>
+                                    <h5 class=" text-uppercase mb-0">David</h5>
                                 </div>
                             </div>
-                            <p class="description mt-3">Telegram Chat Bot.</p>
-                            <router-link to="/David" class="btn btn-info btn-sm mt-2">See More</router-link>
-                        </card>
+                            <p class="mt-3">Telegram Chat Bot.</p>
+                            <router-link to="/David">
+                                <base-button type="info" size="sm"
+                                             class="btn w-100 " >
+                                    See More
+                                </base-button>
+                            </router-link>
+                        </b-card>
                     </div>
                 </div>
             </div>
             <div class="row row-grid-1">
                 <div class="col-lg-6 order-lg-1">
-                    <div class="pb-5">
-                        <card class="border-0" shadow body-classes="py-4">
+                    <div class="pb-4">
+                        <b-card class="border-0 shadow" shadow body-classes="py-4" style="background-color:rgba(255, 255, 255, 0.9);">
                             <div class="d-flex align-items-center">
                                 <div class="icon icon-shape bg-transparent rounded-circle text-white"
                                      style=" padding: 0">
@@ -108,17 +128,22 @@
                                          class="img-fluid rounded-circle ">
                                 </div>
                                 <div class="pl-2 ">
-                                    <h6 class=" text-uppercase mb-0">Orbit</h6>
+                                    <h5 class=" text-uppercase mb-0">Orbit</h5>
                                 </div>
                             </div>
-                            <p class="description mt-3">REST API Frontend and Backoffice.</p>
-                            <router-link to="/Orbit" class="btn btn-info btn-sm mt-2">See More</router-link>
-                        </card>
+                            <p class="mt-3">REST API Frontend and Backoffice.</p>
+                            <router-link to="/Orbit">
+                                <base-button type="info" size="sm"
+                                             class="btn w-100 " >
+                                    See More
+                                </base-button>
+                            </router-link>
+                        </b-card>
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-1">
-                    <div class="pb-5">
-                        <card class="border-0" shadow body-classes="py-4">
+                    <div class="pb-4">
+                        <b-card class="border-0 shadow" shadow body-classes="py-4" style="background-color:rgba(255, 255, 255, 0.9);">
                             <div class="d-flex align-items-center">
                                 <div class="icon icon-shape bg-transparent rounded-circle text-white"
                                      style=" padding: 0">
@@ -126,19 +151,24 @@
                                          class="img-fluid rounded-circle ">
                                 </div>
                                 <div class="pl-2 ">
-                                    <h6 class=" text-uppercase mb-0">Ascend</h6>
+                                    <h5 class=" text-uppercase mb-0">Ascend</h5>
                                 </div>
                             </div>
-                            <p class="description mt-3">Identity and Access Management.</p>
-                            <router-link to="/Ascend" class="btn btn-info btn-sm mt-2">See More</router-link>
-                        </card>
+                            <p class="mt-3">Identity and Access Management.</p>
+                            <router-link to="/Ascend">
+                                <base-button type="info" size="sm"
+                                             class="btn w-100 " >
+                                    See More
+                                </base-button>
+                            </router-link>
+                        </b-card>
                     </div>
                 </div>
             </div>
             <div class="row row-grid-1">
                 <div class="col-lg-6 order-lg-1">
-                    <div class="pb-5">
-                        <card class="border-0" shadow body-classes="py-4">
+                    <div class="pb-4">
+                        <b-card class="border-0 shadow" shadow body-classes="py-4" style="background-color:rgba(255, 255, 255, 0.9);">
                             <div class="d-flex align-items-center">
                                 <div class="icon icon-shape bg-transparent rounded-circle text-white"
                                      style=" padding: 0">
@@ -146,17 +176,22 @@
                                          class="img-fluid rounded-circle ">
                                 </div>
                                 <div class="pl-2 ">
-                                    <h6 class=" text-uppercase mb-0">Rekon</h6>
+                                    <h5 class=" text-uppercase mb-0">Rekon</h5>
                                 </div>
                             </div>
-                            <p class="description mt-3">Financial ETL.</p>
-                            <router-link to="/Rekon" class="btn btn-info btn-sm mt-2">See More</router-link>
-                        </card>
+                            <p class="mt-3">Financial ETL.</p>
+                            <router-link to="/Rekon">
+                                <base-button type="info" size="sm"
+                                             class="btn w-100 " >
+                                    See More
+                                </base-button>
+                            </router-link>
+                        </b-card>
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-1">
-                    <div class="pb-5">
-                        <card class="border-0" shadow body-classes="py-4">
+                    <div class="pb-4">
+                        <b-card class="border-0 shadow" shadow body-classes="py-4" style="background-color:rgba(255, 255, 255, 0.9);">
                             <div class="d-flex align-items-center">
                                 <div class="icon icon-shape bg-transparent rounded-circle text-white"
                                      style=" padding: 0">
@@ -164,12 +199,17 @@
                                          class="img-fluid rounded-circle ">
                                 </div>
                                 <div class="pl-2 ">
-                                    <h6 class=" text-uppercase mb-0">Rekon COBOL</h6>
+                                    <h5 class=" text-uppercase mb-0">Rekon COBOL</h5>
                                 </div>
                             </div>
-                            <p class="description mt-3">COBOL ETL and data tools.</p>
-                            <router-link to="/RekonCOBOL" class="btn btn-info btn-sm mt-2">See More</router-link>
-                        </card>
+                            <p class="mt-3">COBOL ETL and data tools.</p>
+                            <router-link to="/RekonCOBOL">
+                                <base-button type="info" size="sm"
+                                             class="btn w-100 " >
+                                    See More
+                                </base-button>
+                            </router-link>
+                        </b-card>
                     </div>
                 </div>
             </div>
