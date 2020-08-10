@@ -23,7 +23,7 @@
                         <span class="nav-link-inner--text">Products</span>
                     </a>
                     <div class="dropdown-menu-inner">
-                        <a href="/Bobbin"
+                        <router-link to="/Bobbin"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle text-white" style=" padding: 0">
                                 <img src="img/theme/Bobbin_small.png" alt="Circle image"
@@ -34,7 +34,7 @@
                                 <p class="description d-none d-md-inline-block mb-0">Revolutionary SLF4J Java
                                     Logger.</p>
                             </div>
-                        </a>
+                        </router-link>
                         <a href="/BlackBox"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-transparent rounded-circle text-white" style=" padding: 0">

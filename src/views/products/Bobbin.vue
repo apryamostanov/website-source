@@ -1,7 +1,7 @@
 <template>
     <div class="section section section-shaped my-0 overflow-hidden">
         <div>
-            <div class="shape shape-style-1 peach-gradient">
+            <div class="shape shape-style-1 bg-gradient-warning">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -10,7 +10,7 @@
                 <span></span>
             </div>
             <div class="container pt-100 p-0">
-                <card shadow class="shadow-lg--hover mt-5 bg-transparent">
+                <card  class="shadow-lg--hover mt-5 bg-orange">
                     <div class="row row-grid-1 align-items-center">
                         <div class="col-md-4 order-md-1 ml-lg-auto">
                             <img src="img/theme/Bobbin.png" class="rounded img-center img-fluid">
