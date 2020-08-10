@@ -1,5 +1,7 @@
 <template>
     <component :is="tag"
+               :target="tag === 'a' ? target: ''"
+               :rel="tag === 'a' ? rel: ''"
                :type="tag === 'button' ? nativeType: ''"
                @click="handleClick"
                class="btn"
@@ -26,6 +28,16 @@ export default {
       type: String,
       default: "button",
       description: "Button tag (default -> button)"
+    },
+    target: {
+      type: String,
+      default: "_blank",
+      description: "a href target"
+    },
+    rel: {
+      type: String,
+      default: "noopener",
+      description: "a href rel"
     },
     type: {
       type: String,
