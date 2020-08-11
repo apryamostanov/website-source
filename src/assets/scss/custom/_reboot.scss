@@ -163,3 +163,13 @@ pre {
     background-image: -webkit-gradient(linear, left bottom, left top, from(#5ee7df), to(#b490ca));
     background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%)
 }
+
+/* Code blocks */
+pre[class*="language-"] {
+    border-radius: .4em;
+    border: .05em solid hsl(0, 0%, 33%); /* #282A2B */
+    box-shadow: none;
+    margin: .5em 0;
+    overflow: auto;
+    padding: 1em;
+}

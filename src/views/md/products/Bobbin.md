@@ -1,3 +1,5 @@
+## Introduction
+
 > ***...The Bobbin revolves infinitely...*** \
 ***...A revolution in Java logging...***
 
