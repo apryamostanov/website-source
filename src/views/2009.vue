@@ -17,7 +17,7 @@
                     </div>
                 </div>
                         <b-carousel id="carousel1"
-                                    controls
+                                    controls 
                                     indicators interval=15000>
                             <!-- Text slides with image -->
                             <b-carousel-slide img-src="img/theme/2009_1.jpg"></b-carousel-slide>

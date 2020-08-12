@@ -17,8 +17,8 @@
                     </div>
                 </div>
                 <b-carousel  id="carousel1"
-                            controls fade
-                            indicators interval=5000>
+                            controls
+                            indicators interval=15000>
                     <!-- Text slides with image -->
                     <b-carousel-slide img-src="img/theme/2018_1.jpg"></b-carousel-slide>
                     <b-carousel-slide img-src="img/theme/2018_2.jpg"></b-carousel-slide>

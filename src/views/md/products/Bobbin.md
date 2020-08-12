@@ -33,6 +33,9 @@
 ## Gradle
 
 ```groovy
+repositories {
+    jcenter()
+}
 dependencies {
     compile "org.codehaus.groovy:groovy-all:2.5.4"
     compile "io.i-t:bobbin:4.1.0"
@@ -43,7 +46,7 @@ dependencies {
 
 Examples of `Bobbin.yml` for different use cases.
 
-### General usage
+#### General usage
 
 ```yaml
 destinations:
@@ -57,7 +60,7 @@ destinations:
     format: dateTime + '|' + level + '|' + threadName + '|' + className + '|' + message + '\n'
 ```
 
-### Spring Boot
+#### Spring Boot
 
 > <router-link to="/Blog/LoggingSpringBoot">Logging Spring Boot HTTP with Bobbin</router-link>
 
@@ -77,7 +80,7 @@ destinations:
     fileName: ("./LOGS/SPRING_WEB/SPRING_WEB_${date}.log")
 ```
 
-### Logstash
+#### Logstash
 
 Pass named parameters to `Logstash` without using `MDC` (using positioned logging arguments indexes instead).
 
@@ -100,6 +103,38 @@ destinations:
         "URI": "${args[1]}",
         "sessionId": "${args[2]}",
         "transactionId": "${args[3]}",
-        "instanceId": "${args[4]}"
+        "instanceId": "${MDC.get('instanceUUID')}"
       }"""
+```
+
+#### MDC and log formatting
+
+Use `MDC` and change formatting of individual logging signatures - like `formatThrowable` in this case.
+
+`%format%` placeholder helps to reuse the base formatting (which itself can be also overridden using `format` parameter).
+
+```yaml
+format: dateTime + delimiter + MDC.get("instanceUUID") + delimiter + level + delimiter + threadName + delimiter + className + delimiter + message
+destinations:
+  - name: io.infinite.bobbin.config.ConsoleDestinationConfig
+    formatThrowable: "%format% + delimiter + throwable"
+    levels: [warn, error, info]
+  - name: io.infinite.bobbin.config.FileDestinationConfig
+    levels: [warn]
+    fileName: ("./LOGS/WARNINGS_${date}.log")
+  - name: io.infinite.bobbin.config.FileDestinationConfig
+    levels: [error]
+    fileName: ("./LOGS/ERRORS_${date}.log")
+  - name: io.infinite.bobbin.config.FileDestinationConfig
+    packages: [org.springframework.web]
+    fileName: ("./LOGS/SPRING_WEB/SPRING_WEB_${date}.log")
+  - name: io.infinite.bobbin.config.FileDestinationConfig
+    packages: [io.infinite]
+    fileName: ("./LOGS/THREADS/${threadGroupName}/${threadName}/${threadName}_${date}.log")
+  - name: io.infinite.bobbin.config.FileDestinationConfig
+    packages: [conf.plugins.output]
+    fileName: ("./LOGS/PLUGINS/OUTPUT/${className}/${className}_${date}.log")
+  - name: io.infinite.bobbin.config.FileDestinationConfig
+    packages: [conf.plugins.input]
+    fileName: ("./LOGS/PLUGINS/INPUT/${className}/${className}_${date}.log")
 ```
