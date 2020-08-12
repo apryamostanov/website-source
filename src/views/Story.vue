@@ -92,7 +92,7 @@
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="dark" circle class="mr-3 " icon="ni ni-bold-right"></badge>
-                                        <h6 class="mb-0 text-uppercase">Branding update</h6>
+                                        <h6 class="mb-0 text-uppercase">Branding reboot</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
