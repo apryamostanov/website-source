@@ -1,6 +1,6 @@
 <template>
   <section class="section section section-shaped my-0 overflow-hidden  ">
-    <div class="shape shape-style-1 amy-crisp-gradient">
+    <div class="shape shape-style-1 bg-gradient-indigo">
       <span></span>
       <span></span>
       <span></span>

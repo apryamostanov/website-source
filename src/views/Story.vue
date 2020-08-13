@@ -1,7 +1,7 @@
 <template>
     <div class="section section section-shaped my-0 overflow-hidden">
         <div>
-            <div class="shape shape-style-1 morpheus-den-gradient">
+            <div class="shape shape-style-1 cayman-gradient">
                 <span></span>
                 <span></span>
                 <span></span>

@@ -23,6 +23,9 @@ import './registerServiceWorker'
 import VueScreen from 'vue-screen';
 import VueDisqus from 'vue-disqus'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import Textra from 'vue-textra'
+
+Vue.use(Textra);
 
 // Install BootstrapVue
 Vue.use(BootstrapVue)
