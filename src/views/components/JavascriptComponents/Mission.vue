@@ -1,7 +1,7 @@
 <template>
     <div class="section section section-shaped my-0 pb-4 overflow-hidden">
         <div>
-            <div class="shape shape-style-1 shape-default bg-gradient-info">
+            <div class="shape shape-style-1 shape-default tempting-azure-gradient">
                 <span></span>
                 <span></span>
                 <span></span>
