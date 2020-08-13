@@ -1,6 +1,6 @@
 <template>
   <section class="section section section-shaped my-0 overflow-hidden  ">
-    <div class="shape shape-style-1 bg-gradient-warning">
+    <div class="shape shape-style-1 amy-crisp-gradient">
       <span></span>
       <span></span>
       <span></span>
@@ -23,9 +23,6 @@
           <p class="lead text-white pl-3">Leading innovation stack.</p>
           <p class="lead text-white pl-3">What's your case?</p>
         </div>
-        <div class="col-md-5 order-lg-1">
-          <img src="img/theme/blockchain.png" class="img-center img-fluid">
-        </div>
       </div>
       <div class="pt-3">
         <div>
@@ -37,7 +34,7 @@
               <div role="tablist">
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1 border-0" role="tab">
-                    <b-button block v-b-toggle.accordion-1 variant="outline-danger" size="sm" class="border-0"
+                    <b-button block v-b-toggle.accordion-1 variant="outline-default" size="sm" class="border-0"
                               href="javascript:void(0);">Financial Chat
                       Bots
                     </b-button>
@@ -84,7 +81,7 @@
 
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1 border-0" role="tab">
-                    <b-button block v-b-toggle.accordion-2 variant="outline-danger" size="sm" class="border-0"
+                    <b-button block v-b-toggle.accordion-2 variant="outline-default" size="sm" class="border-0"
                               href="javascript:void(0);">Mobile
                       Banking
                     </b-button>
@@ -128,7 +125,7 @@
                 </b-card>
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1 border-0" role="tab">
-                    <b-button block v-b-toggle.accordion-3 variant="outline-danger" size="sm" class="border-0"
+                    <b-button block v-b-toggle.accordion-3 variant="outline-default" size="sm" class="border-0"
                               href="javascript:void(0);">Financial API
                     </b-button>
                   </b-card-header>
@@ -172,7 +169,7 @@
                 </b-card>
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1 border-0" role="tab">
-                    <b-button block v-b-toggle.accordion-4 variant="outline-danger" size="sm" class="border-0"
+                    <b-button block v-b-toggle.accordion-4 variant="outline-default" size="sm" class="border-0"
                               href="javascript:void(0);">API Security
                     </b-button>
                   </b-card-header>
@@ -217,7 +214,7 @@
                 </b-card>
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1 border-0" role="tab">
-                    <b-button block v-b-toggle.accordion-5 variant="outline-danger" size="sm" class="border-0"
+                    <b-button block v-b-toggle.accordion-5 variant="outline-default" size="sm" class="border-0"
                               href="javascript:void(0);">ETL
                     </b-button>
                   </b-card-header>
@@ -263,7 +260,7 @@
                 </b-card>
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1 border-0" role="tab">
-                    <b-button block v-b-toggle.accordion-6 variant="outline-danger" size="sm" class="border-0"
+                    <b-button block v-b-toggle.accordion-6 variant="outline-default" size="sm" class="border-0"
                               href="javascript:void(0);">COBOL
                     </b-button>
                   </b-card-header>
@@ -340,7 +337,7 @@
                 </b-card>
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1 border-0" role="tab">
-                    <b-button block v-b-toggle.accordion-7 variant="outline-danger" size="sm" class="border-0"
+                    <b-button block v-b-toggle.accordion-7 variant="outline-default" size="sm" class="border-0"
                               href="javascript:void(0);">SWIFT, ACH
                     </b-button>
                   </b-card-header>
@@ -377,7 +374,7 @@
 
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1 border-0" role="tab">
-                    <b-button block v-b-toggle.accordion-8 variant="outline-danger" size="sm" class="border-0"
+                    <b-button block v-b-toggle.accordion-8 variant="outline-default" size="sm" class="border-0"
                               href="javascript:void(0);">
                       Processing
                     </b-button>

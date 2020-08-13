@@ -31,7 +31,7 @@
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="light"  circle class="mr-3 text-black-50">2</badge>
-                                        <h6 class="mb-0 text-white">Use our Open Source Products</h6>
+                                        <h6 class="mb-0 text-white">Use our products</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
