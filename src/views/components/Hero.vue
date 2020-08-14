@@ -64,7 +64,7 @@ export default {
   },
   data () {
     return {
-      words: ["Fintech task force", "Fintech projects", "Fintech products", "Fintech services"]
+      words: ["Fintech task force", "Fintech consulting", "Fintech projects", "Fintech products", "Fintech services"]
     }
   }
 };

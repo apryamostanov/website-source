@@ -1,7 +1,7 @@
 <template>
     <div class="section section section-shaped my-0 overflow-hidden">
         <div>
-            <div class="shape shape-style-1 amy-crisp-gradient">
+            <div class="shape shape-style-1 bg-gradient-info">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -70,7 +70,7 @@
                                                      class="mb-2 mb-sm-2"
                                                      style="width: 100%"
                                                      icon="ni ni-cloud-download-95"
-                                                     type="primary">Download
+                                                     type="z">Download
                                         </base-button>
                                     </div>
                                 </div>

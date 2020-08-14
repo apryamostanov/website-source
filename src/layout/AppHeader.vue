@@ -160,7 +160,7 @@
                 </li>
                 <li class="nav-item d-none d-lg-block ml-lg-4">
                     <a href="https://web.telegram.org/#/im?p=@david_it_bot" target="_blank"
-                       rel="noopener" class="btn btn-neutral btn-icon">
+                       rel="noopener" class="btn btn-outline-white btn-icon">
                         <span class="btn-inner--icon">
                           <i class="ni ni-send mr-2"></i>
                         </span>

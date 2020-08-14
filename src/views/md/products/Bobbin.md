@@ -23,6 +23,12 @@
 </repositories>
 ...
 <dependency>
+    <groupId>org.codehaus.groovy</groupId>
+    <artifactId>groovy-all</artifactId>
+    <version>2.5.4</version>
+    <type>pom</type>
+</dependency>
+<dependency>
     <groupId>io.i-t</groupId>
     <artifactId>bobbin</artifactId>
     <version>4.1.0</version>
