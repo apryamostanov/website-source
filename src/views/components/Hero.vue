@@ -21,7 +21,7 @@
             <base-button tag="a"
                          href="/Projects"
                          class="mb-3 mb-sm-3"
-                         type="primary" size="sm"
+                         type="outline-white" size="sm"
                          icon="ni ni-bold-right">
               Start new project
             </base-button>

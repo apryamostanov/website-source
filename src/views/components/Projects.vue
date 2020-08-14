@@ -13,7 +13,7 @@
         <div class="col-md-7 order-lg-1">
           <div class="d-flex px-3 align-items-center">
             <div>
-              <icon name="fa fa-btc" size="lg" type="white" color="danger" shadow
+              <icon name="fa fa-btc" size="lg" type="white"   shadow
                     rounded></icon>
             </div>
             <div class="pl-4 ">

@@ -11,7 +11,7 @@
         <div class="container py-0">
             <div class="d-flex px-3 align-items-center">
                 <div>
-                    <icon name="fa fa-cubes" size="lg" type="white" color="primary" shadow
+                    <icon name="fa fa-cubes" size="lg" type="white" shadow
                           rounded></icon>
                 </div>
                 <div class="pl-4 ">

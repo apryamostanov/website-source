@@ -42,7 +42,7 @@
                                 </li>
                             </ul>
                             <a href="/BeginModal"
-                               class="btn btn-white mt-4">Begin</a>
+                               class="btn btn-outline-white mt-4">Begin</a>
                         </div>
                     </div>
 
